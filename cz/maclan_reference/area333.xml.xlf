@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff srcLang="cs-CZ" xmlns:mtc="urn:oasis:names:tc:xliff:matches:2.0" version="2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" trgLang="en-US" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file original="C:\from_backup\multipage_books\cz\maclan_reference\transformation\maclan\area333.xml" id="1">
+    <skeleton href="C:\from_backup\multipage_books\cz\maclan_reference\transformation\maclan\area333.xml.skl"/>
+    <mda:metadata>
+      <mda:metaGroup category="format">
+        <mda:meta type="datatype">xml</mda:meta>
+      </mda:metaGroup>
+      <mda:metaGroup category="tool">
+        <mda:meta type="tool-id">OpenXLIFF</mda:meta>
+        <mda:meta type="tool-name">OpenXLIFF Filters</mda:meta>
+        <mda:meta type="tool-version">3.0.0 20230109_0743</mda:meta>
+      </mda:metaGroup>
+      <mda:metaGroup category="PI">
+        <mda:meta type="encoding">UTF-8</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <unit id="1">
+      <segment id="1-0">
+        <source xml:space="preserve"> Operátory </source>
+      </segment>
+    </unit>
+    <unit id="2">
+      <segment id="2-0">
+        <source xml:space="preserve"> Operátory seřazeny podle priority od nejvyšší po nejnižší Priorita Operátor Popis 1 . přístup ke členu objektu 2 () volání metody 3 -not unární mínusbooleovské (logické) NOT 4 * / mod násobení, dělení, modulo 5 + - sčítání, odčítání 6 &lt; &lt;=&gt; &gt;= menší než, menší nebo rovnovětší než, větší nebo rovno 7 =&lt;&gt; je rovnonení rovno 8 xor booleovské (logické) XOR 9 and booleovské (logické) AND 10 or booleovské (logické) OR </source>
+      </segment>
+    </unit>
+  </file>
+</xliff>

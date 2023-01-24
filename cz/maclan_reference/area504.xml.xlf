@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff srcLang="cs-CZ" xmlns:mtc="urn:oasis:names:tc:xliff:matches:2.0" version="2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" trgLang="en-US" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file original="C:\from_backup\multipage_books\cz\maclan_reference\transformation\maclan\area504.xml" id="1">
+    <skeleton href="C:\from_backup\multipage_books\cz\maclan_reference\transformation\maclan\area504.xml.skl"/>
+    <mda:metadata>
+      <mda:metaGroup category="format">
+        <mda:meta type="datatype">xml</mda:meta>
+      </mda:metaGroup>
+      <mda:metaGroup category="tool">
+        <mda:meta type="tool-id">OpenXLIFF</mda:meta>
+        <mda:meta type="tool-name">OpenXLIFF Filters</mda:meta>
+        <mda:meta type="tool-version">3.0.0 20230109_0743</mda:meta>
+      </mda:metaGroup>
+      <mda:metaGroup category="PI">
+        <mda:meta type="encoding">UTF-8</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <unit id="1">
+      <segment id="1-0">
+        <source xml:space="preserve"> [@RESOURCE_EXT] </source>
+      </segment>
+    </unit>
+    <unit id="2">
+      <segment id="2-0">
+        <source xml:space="preserve"> Vloží namísto značky příponu podle MIME typu internetového souboru přiřazeného dané oblasti pomocí lokálního názvu.</source>
+      </segment>
+      <segment id="2-1">
+        <source xml:space="preserve"> Není-li oblast uvedena, bere se do úvahy aktuální oblast serveru.</source>
+      </segment>
+      <ignorable id="2-2">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="3">
+      <segment id="3-0">
+        <source xml:space="preserve"> [@RESOURCE_EXT] Má následující parametry:</source>
+      </segment>
+      <ignorable id="3-1">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="4">
+      <segment id="4-0">
+        <source xml:space="preserve"> res:</source>
+      </segment>
+      <ignorable id="4-1">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="5">
+      <segment id="5-0">
+        <source xml:space="preserve"> Parametr udává lokální název internetového souboru.</source>
+      </segment>
+      <segment id="5-1">
+        <source xml:space="preserve"> Lokální název jednoznačně identifikuje internetový soubor, ve vztahu k dané oblasti.</source>
+      </segment>
+      <ignorable id="5-2">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="6">
+      <segment id="6-0">
+        <source xml:space="preserve"> Následující značka odkazuje na internetový sobor s lokálním názvem my_image obsažený v aktuální oblasti serveru.</source>
+      </segment>
+      <ignorable id="6-1">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="7">
+      <segment id="7-0">
+        <source xml:space="preserve"> [@RESOURCE_EXT res = #my_image] </source>
+      </segment>
+    </unit>
+    <unit id="8">
+      <segment id="8-0">
+        <source xml:space="preserve"> render:</source>
+      </segment>
+      <ignorable id="8-1">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="9">
+      <segment id="9-0">
+        <source xml:space="preserve"> Tento parametr je bez hodnoty.</source>
+      </segment>
+      <segment id="9-1">
+        <source xml:space="preserve"> Je-li uveden parametr render, vytvoří se při generování statických stránek soubor odpovídající danému internetovému souboru i v případě, že není odkazován na některém místě na stránkách pomocí URL, tzn. že není z internetových stránek běžně dostupný.</source>
+      </segment>
+      <ignorable id="9-2">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="10">
+      <segment id="10-0">
+        <source xml:space="preserve"> areaId:</source>
+      </segment>
+      <ignorable id="10-1">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="11">
+      <segment id="11-0">
+        <source xml:space="preserve"> Hodnota parametru areaId je číslo identifkující oblast.</source>
+      </segment>
+      <segment id="11-1">
+        <source xml:space="preserve"> Tento identifikátor je oblasti přiřazen při jejím vzniku a jednoznačně ji určuje až do doby, kdy je smazána.</source>
+      </segment>
+      <segment id="11-2">
+        <source xml:space="preserve"> Například:</source>
+      </segment>
+      <ignorable id="11-3">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="12">
+      <segment id="12-0">
+        <source xml:space="preserve"> [@RESOURCE_EXT areaId = 1, ...] </source>
+      </segment>
+    </unit>
+    <unit id="13">
+      <segment id="13-0">
+        <source xml:space="preserve"> - odkazuje na oblast s identifikátorem 1.</source>
+      </segment>
+      <ignorable id="13-1">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="14">
+      <segment id="14-0">
+        <source xml:space="preserve"> areaAlias:</source>
+      </segment>
+      <ignorable id="14-1">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="15">
+      <segment id="15-0">
+        <source xml:space="preserve"> Textová hodnota parametru areaAlias určuje zkratku identifikující oblast.</source>
+      </segment>
+      <segment id="15-1">
+        <source xml:space="preserve"> Zkratka je pro oblast v daném projektu jednoznačná podobně jako identifikátor (ten je však jednoznačný pro všechny projekty).</source>
+      </segment>
+      <segment id="15-2">
+        <source xml:space="preserve"> Nemusí však být u oblasti uvedena.</source>
+      </segment>
+      <segment id="15-3">
+        <source xml:space="preserve"> Výhodou oproti identifikátoru oblasti je, že není zvolena automaticky programem, ale volí ji programátor.</source>
+      </segment>
+      <segment id="15-4">
+        <source xml:space="preserve"> Zkratka se navíc může měnit v průběhu existence oblasti.</source>
+      </segment>
+      <segment id="15-5">
+        <source xml:space="preserve"> Například značka:</source>
+      </segment>
+      <ignorable id="15-6">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="16">
+      <segment id="16-0">
+        <source xml:space="preserve"> [@RESOURCE_EXT areaAlias = #my_area, ...] </source>
+      </segment>
+    </unit>
+    <unit id="17">
+      <segment id="17-0">
+        <source xml:space="preserve"> - odkazuje na oblast se zkratkou my_area.</source>
+      </segment>
+      <ignorable id="17-1">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="18">
+      <segment id="18-0">
+        <source xml:space="preserve"> Všimněte si znaku # před názvem zkratky.</source>
+      </segment>
+      <segment id="18-1">
+        <source xml:space="preserve"> Je zde uveden proto, že vše co je za ním je interpretováno jako textový řetězec.</source>
+      </segment>
+      <segment id="18-2">
+        <source xml:space="preserve"> Kdyby znak # nebyl před zkratkou uveden, bral by se text my_area jako pojmenování proměnné my_area, jejíž hodnota by určovala zkratku oblasti.</source>
+      </segment>
+      <ignorable id="18-3">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="19">
+      <segment id="19-0">
+        <source xml:space="preserve"> area:</source>
+      </segment>
+      <ignorable id="19-1">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="20">
+      <segment id="20-0">
+        <source xml:space="preserve"> Určuje oblast pomocí výrazu s výslednou hodnotou typu Area.</source>
+      </segment>
+      <segment id="20-1">
+        <source xml:space="preserve"> Například:</source>
+      </segment>
+      <ignorable id="20-2">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="21">
+      <segment id="21-0">
+        <source xml:space="preserve"> [@RESOURCE_EXT area=subareas().getFirst(), ...] </source>
+      </segment>
+    </unit>
+    <unit id="22">
+      <segment id="22-0">
+        <source xml:space="preserve"> V předchozím příkladu se použije první podoblast aktuální oblasti.</source>
+      </segment>
+      <segment id="22-1">
+        <source xml:space="preserve"> Uvedený výraz subareas().getFirst() vrací objekt typu Area.</source>
+      </segment>
+      <ignorable id="22-2">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="23">
+      <segment id="23-0">
+        <source xml:space="preserve"> startArea:</source>
+      </segment>
+      <ignorable id="23-1">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="24">
+      <segment id="24-0">
+        <source xml:space="preserve"> Parametr se uvádí bez hodnoty.</source>
+      </segment>
+      <segment id="24-1">
+        <source xml:space="preserve"> Určuje startovací oblast:</source>
+      </segment>
+      <ignorable id="24-2">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="25">
+      <segment id="25-0">
+        <source xml:space="preserve"> [@RESOURCE_EXT startArea, ...] </source>
+      </segment>
+    </unit>
+    <unit id="26">
+      <segment id="26-0">
+        <source xml:space="preserve"> V předchozím příkladu se bere v úvahu startovací oblast.</source>
+      </segment>
+      <segment id="26-1">
+        <source xml:space="preserve"> Startovací oblast je ta u níž byl nalezen přímý nebo zděděný zdrojový soubor.</source>
+      </segment>
+      <ignorable id="26-2">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="27">
+      <segment id="27-0">
+        <source xml:space="preserve"> homeArea:</source>
+      </segment>
+      <ignorable id="27-1">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="28">
+      <segment id="28-0">
+        <source xml:space="preserve"> Parametr se uvádí bez hodnoty.</source>
+      </segment>
+      <segment id="28-1">
+        <source xml:space="preserve"> Určuje domovskou oblast:</source>
+      </segment>
+      <ignorable id="28-2">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="29">
+      <segment id="29-0">
+        <source xml:space="preserve"> [@RESOURCE_EXT homeArea, ...] </source>
+      </segment>
+    </unit>
+    <unit id="30">
+      <segment id="30-0">
+        <source xml:space="preserve"> V předchozím příkladu se bere v úvahu domovská oblast, ketrá se renderuje jako index.xxx.</source>
+      </segment>
+      <ignorable id="30-1">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="31">
+      <segment id="31-0">
+        <source xml:space="preserve"> requestedArea:</source>
+      </segment>
+      <ignorable id="31-1">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="32">
+      <segment id="32-0">
+        <source xml:space="preserve"> Parametr se uvádí bez hodnoty.</source>
+      </segment>
+      <segment id="32-1">
+        <source xml:space="preserve"> Určuje serverem dotazovanou oblast:</source>
+      </segment>
+      <ignorable id="32-2">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="33">
+      <segment id="33-0">
+        <source xml:space="preserve"> [@RESOURCE_EXT requestedArea, ...] </source>
+      </segment>
+    </unit>
+    <unit id="34">
+      <segment id="34-0">
+        <source xml:space="preserve"> V předchozím příkladu se bere v úvahu servrem dotazovaná oblast.</source>
+      </segment>
+      <ignorable id="34-1">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="35">
+      <segment id="35-0">
+        <source xml:space="preserve"> thisArea:</source>
+      </segment>
+      <ignorable id="35-1">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="36">
+      <segment id="36-0">
+        <source xml:space="preserve"> Parametr se uvádí bez hodnoty.</source>
+      </segment>
+      <segment id="36-1">
+        <source xml:space="preserve"> Určuje aktuální oblast:</source>
+      </segment>
+      <ignorable id="36-2">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="37">
+      <segment id="37-0">
+        <source xml:space="preserve"> [@RESOURCE_EXT thisArea, ...] </source>
+      </segment>
+    </unit>
+    <unit id="38">
+      <segment id="38-0">
+        <source xml:space="preserve"> V předchozím příkladu se bere v úvahu aktuální oblast.</source>
+      </segment>
+      <ignorable id="38-1">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="39">
+      <segment id="39-0">
+        <source xml:space="preserve"> areaSlot:</source>
+      </segment>
+      <ignorable id="39-1">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="40">
+      <segment id="40-0">
+        <source xml:space="preserve"> Parametr se uvádí s názvem slotu v aktuální oblasti.</source>
+      </segment>
+      <segment id="40-1">
+        <source xml:space="preserve"> Hodnotou slotu musí být odkaz na oblast:</source>
+      </segment>
+      <ignorable id="40-2">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="41">
+      <segment id="41-0">
+        <source xml:space="preserve"> [@RESOURCE_EXT areaSlot=#odkazNaOblast1, ...] </source>
+      </segment>
+    </unit>
+    <unit id="42">
+      <segment id="42-0">
+        <source xml:space="preserve"> V předchozím příkladu se načte hodnota slotu s názvem "odkazNaOblast1".</source>
+      </segment>
+      <segment id="42-1">
+        <source xml:space="preserve"> Pokud je tato hodnota typu "Area", použije se v tomto příkazu.</source>
+      </segment>
+      <segment id="42-2">
+        <source xml:space="preserve"> Není-li hodnota slotu "odkazNaOblast1" typu Area, vypíše se chybové hlášení.</source>
+      </segment>
+      <ignorable id="42-3">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+  </file>
+</xliff>

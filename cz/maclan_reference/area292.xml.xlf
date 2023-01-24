@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff srcLang="cs-CZ" xmlns:mtc="urn:oasis:names:tc:xliff:matches:2.0" version="2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" trgLang="en-US" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file original="C:\from_backup\multipage_books\cz\maclan_reference\transformation\maclan\area292.xml" id="1">
+    <skeleton href="C:\from_backup\multipage_books\cz\maclan_reference\transformation\maclan\area292.xml.skl"/>
+    <mda:metadata>
+      <mda:metaGroup category="format">
+        <mda:meta type="datatype">xml</mda:meta>
+      </mda:metaGroup>
+      <mda:metaGroup category="tool">
+        <mda:meta type="tool-id">OpenXLIFF</mda:meta>
+        <mda:meta type="tool-name">OpenXLIFF Filters</mda:meta>
+        <mda:meta type="tool-version">3.0.0 20230109_0743</mda:meta>
+      </mda:metaGroup>
+      <mda:metaGroup category="PI">
+        <mda:meta type="encoding">UTF-8</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <unit id="1">
+      <segment id="1-0">
+        <source xml:space="preserve"> [@SUPERAREAS] </source>
+      </segment>
+    </unit>
+    <unit id="2">
+      <segment id="2-0">
+        <source xml:space="preserve"> Jednoduchá značka [@SUPERAREAS] je nahrazena prázdným řetězcem (nevypisuje se nic).</source>
+      </segment>
+      <segment id="2-1">
+        <source xml:space="preserve"> Pomocí této značky ale máte možnost definovat lokální proměnnou, jejíž hodnotou je seznam nadoblastí aktuální nebo zvolené oblasti (viz. následující seznam parametrů).</source>
+      </segment>
+      <ignorable id="2-2">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="3">
+      <segment id="3-0">
+        <source xml:space="preserve"> [@SUPERAREAS] Má následující parametry:</source>
+      </segment>
+      <ignorable id="3-1">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="4">
+      <segment id="4-0">
+        <source xml:space="preserve"> list:</source>
+      </segment>
+      <ignorable id="4-1">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="5">
+      <segment id="5-0">
+        <source xml:space="preserve"> Parametr list pojmenovává novou proměnnou typu LinkedList, které bude přiřazen odpovídající seznam oblastí.</source>
+      </segment>
+      <segment id="5-1">
+        <source xml:space="preserve"> Například:</source>
+      </segment>
+      <ignorable id="5-2">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="6">
+      <segment id="6-0">
+        <source xml:space="preserve"> [@SUPERAREAS list = my_list] </source>
+      </segment>
+    </unit>
+    <unit id="7">
+      <segment id="7-0">
+        <source xml:space="preserve"> vytvoří lokální proměnnou s názvem my_list, jejíž hodnotou je seznam typu LinkedList obsahující odpovídající seznam oblastí.</source>
+      </segment>
+      <segment id="7-1">
+        <source xml:space="preserve"> Tuto proměnnou lze pak používat v dalších příkazech.</source>
+      </segment>
+      <ignorable id="7-2">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="8">
+      <segment id="8-0">
+        <source xml:space="preserve"> first:</source>
+      </segment>
+      <ignorable id="8-1">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="9">
+      <segment id="9-0">
+        <source xml:space="preserve"> Parametr vytvoří proměnnou typu Area, která odkazuje na první prvek daného seznamu oblastí.</source>
+      </segment>
+      <segment id="9-1">
+        <source xml:space="preserve"> Například:</source>
+      </segment>
+      <ignorable id="9-2">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="10">
+      <segment id="10-0">
+        <source xml:space="preserve"> [@SUPERAREAS first=my_area] </source>
+      </segment>
+    </unit>
+    <unit id="11">
+      <segment id="11-0">
+        <source xml:space="preserve"> vytvoří proměnnou my_area jejíž hodnotou je první oblast z daného seznamu oblastí.</source>
+      </segment>
+      <ignorable id="11-1">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="12">
+      <segment id="12-0">
+        <source xml:space="preserve"> last:</source>
+      </segment>
+      <ignorable id="12-1">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="13">
+      <segment id="13-0">
+        <source xml:space="preserve"> Parametr vytvoří proměnnou typu Area, která odkazuje na poslední prvek daného seznamu oblastí.</source>
+      </segment>
+      <ignorable id="13-1">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="14">
+      <segment id="14-0">
+        <source xml:space="preserve"> [@SUPERAREAS last=my_area] </source>
+      </segment>
+    </unit>
+    <unit id="15">
+      <segment id="15-0">
+        <source xml:space="preserve"> vytvoří proměnnou my_area jejíž hodnotou je poslední oblast z daného seznamu oblastí.</source>
+      </segment>
+      <ignorable id="15-1">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="16">
+      <segment id="16-0">
+        <source xml:space="preserve"> cond:</source>
+      </segment>
+      <ignorable id="16-1">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="17">
+      <segment id="17-0">
+        <source xml:space="preserve"> Parametr cond slouží k filtraci výběru oblastí.</source>
+      </segment>
+      <segment id="17-1">
+        <source xml:space="preserve"> Jeho hodnotou je výraz, který musí povinně vracet booleovskou hodnotu (true nebo false).</source>
+      </segment>
+      <segment id="17-2">
+        <source xml:space="preserve"> Oblast je zařazena do výsledného seznamu značky [@SUPERAREAS], je-li hodnota výrazu cond rovna hodnotě true.</source>
+      </segment>
+      <segment id="17-3">
+        <source xml:space="preserve"> V opačném případě je oblast vynechána.</source>
+      </segment>
+      <segment id="17-4">
+        <source xml:space="preserve"> Například:</source>
+      </segment>
+      <ignorable id="17-5">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="18">
+      <segment id="18-0">
+        <source xml:space="preserve"> [@SUPERAREAS cond = "this.name.startsWith('my_')", ...</source>
+      </segment>
+      <segment id="18-1">
+        <source xml:space="preserve"> ] </source>
+      </segment>
+    </unit>
+    <unit id="19">
+      <segment id="19-0">
+        <source xml:space="preserve"> vybere pouze oblasti jejichž jméno začíná písmeny my_.</source>
+      </segment>
+      <ignorable id="19-1">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="20">
+      <segment id="20-0">
+        <source xml:space="preserve"> V parametru cond je vhodné použít objekt this, který odkazuje na aktuální oblast zpracovávanou značkou [@SUPERAREAS].</source>
+      </segment>
+      <segment id="20-1">
+        <source xml:space="preserve"> Pomocí this lze filtrovat oblasti definované pomocí [@SUPERAREAS].</source>
+      </segment>
+      <segment id="20-2">
+        <source xml:space="preserve"> Dalšími objekty, které lze použít pro filtrování oblastí jsou thisRel, thisIndex a thisSize.</source>
+      </segment>
+      <segment id="20-3">
+        <source xml:space="preserve"> Hodnotou thisRel je objekt relace mezi oblastmi, který je typu AreaRelation.</source>
+      </segment>
+      <segment id="20-4">
+        <source xml:space="preserve"> Například:</source>
+      </segment>
+      <ignorable id="20-5">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="21">
+      <segment id="21-0">
+        <source xml:space="preserve"> [@SUPERAREAS cond = "thisRel.getSubName() = 'property'", ...</source>
+      </segment>
+      <segment id="21-1">
+        <source xml:space="preserve"> ] </source>
+      </segment>
+    </unit>
+    <unit id="22">
+      <segment id="22-0">
+        <source xml:space="preserve"> vybere pouze oblasti, k nímž vede relace pojmenovaná názvem property.</source>
+      </segment>
+      <ignorable id="22-1">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="23">
+      <segment id="23-0">
+        <source xml:space="preserve"> Hodnotou thisIndex je pořadí oblasti od 0 do N-1, kde N je počet oblastí a hodnotou thisSize je počet oblastí (N).</source>
+      </segment>
+      <segment id="23-1">
+        <source xml:space="preserve"> Hodnota thisSize je konstantní.</source>
+      </segment>
+      <ignorable id="23-2">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="24">
+      <segment id="24-0">
+        <source xml:space="preserve"> reversed:</source>
+      </segment>
+      <ignorable id="24-1">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="25">
+      <segment id="25-0">
+        <source xml:space="preserve"> Parametr reversed zajistí na konci zpracování otočení pořadí oblastí v seznamu.</source>
+      </segment>
+      <ignorable id="25-1">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="26">
+      <segment id="26-0">
+        <source xml:space="preserve"> areaId:</source>
+      </segment>
+      <ignorable id="26-1">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="27">
+      <segment id="27-0">
+        <source xml:space="preserve"> Hodnota parametru areaId je číslo identifkující oblast.</source>
+      </segment>
+      <segment id="27-1">
+        <source xml:space="preserve"> Tento identifikátor je oblasti přiřazen při jejím vzniku a jednoznačně ji určuje až do doby, kdy je smazána.</source>
+      </segment>
+      <segment id="27-2">
+        <source xml:space="preserve"> Například:</source>
+      </segment>
+      <ignorable id="27-3">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="28">
+      <segment id="28-0">
+        <source xml:space="preserve"> [@SUPERAREAS areaId = 1, ...] </source>
+      </segment>
+    </unit>
+    <unit id="29">
+      <segment id="29-0">
+        <source xml:space="preserve"> - odkazuje na oblast s identifikátorem 1.</source>
+      </segment>
+      <ignorable id="29-1">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="30">
+      <segment id="30-0">
+        <source xml:space="preserve"> areaAlias:</source>
+      </segment>
+      <ignorable id="30-1">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="31">
+      <segment id="31-0">
+        <source xml:space="preserve"> Textová hodnota parametru areaAlias určuje zkratku identifikující oblast.</source>
+      </segment>
+      <segment id="31-1">
+        <source xml:space="preserve"> Zkratka je pro oblast v daném projektu jednoznačná podobně jako identifikátor (ten je však jednoznačný pro všechny projekty).</source>
+      </segment>
+      <segment id="31-2">
+        <source xml:space="preserve"> Nemusí však být u oblasti uvedena.</source>
+      </segment>
+      <segment id="31-3">
+        <source xml:space="preserve"> Výhodou oproti identifikátoru oblasti je, že není zvolena automaticky programem, ale volí ji programátor.</source>
+      </segment>
+      <segment id="31-4">
+        <source xml:space="preserve"> Zkratka se navíc může měnit v průběhu existence oblasti.</source>
+      </segment>
+      <segment id="31-5">
+        <source xml:space="preserve"> Například značka:</source>
+      </segment>
+      <ignorable id="31-6">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="32">
+      <segment id="32-0">
+        <source xml:space="preserve"> [@SUPERAREAS areaAlias = #my_area, ...] </source>
+      </segment>
+    </unit>
+    <unit id="33">
+      <segment id="33-0">
+        <source xml:space="preserve"> - odkazuje na oblast se zkratkou my_area.</source>
+      </segment>
+      <ignorable id="33-1">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="34">
+      <segment id="34-0">
+        <source xml:space="preserve"> Všimněte si znaku # před názvem zkratky.</source>
+      </segment>
+      <segment id="34-1">
+        <source xml:space="preserve"> Je zde uveden proto, že vše co je za ním je interpretováno jako textový řetězec.</source>
+      </segment>
+      <segment id="34-2">
+        <source xml:space="preserve"> Kdyby znak # nebyl před zkratkou uveden, bral by se text my_area jako pojmenování proměnné my_area, jejíž hodnota by určovala zkratku oblasti.</source>
+      </segment>
+      <ignorable id="34-3">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="35">
+      <segment id="35-0">
+        <source xml:space="preserve"> area:</source>
+      </segment>
+      <ignorable id="35-1">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="36">
+      <segment id="36-0">
+        <source xml:space="preserve"> Určuje oblast pomocí výrazu s výslednou hodnotou typu Area.</source>
+      </segment>
+      <segment id="36-1">
+        <source xml:space="preserve"> Například:</source>
+      </segment>
+      <ignorable id="36-2">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="37">
+      <segment id="37-0">
+        <source xml:space="preserve"> [@SUPERAREAS area=subareas().getFirst(), ...] </source>
+      </segment>
+    </unit>
+    <unit id="38">
+      <segment id="38-0">
+        <source xml:space="preserve"> V předchozím příkladu se použije první podoblast aktuální oblasti.</source>
+      </segment>
+      <segment id="38-1">
+        <source xml:space="preserve"> Uvedený výraz subareas().getFirst() vrací objekt typu Area.</source>
+      </segment>
+      <ignorable id="38-2">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="39">
+      <segment id="39-0">
+        <source xml:space="preserve"> startArea:</source>
+      </segment>
+      <ignorable id="39-1">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="40">
+      <segment id="40-0">
+        <source xml:space="preserve"> Parametr se uvádí bez hodnoty.</source>
+      </segment>
+      <segment id="40-1">
+        <source xml:space="preserve"> Určuje startovací oblast:</source>
+      </segment>
+      <ignorable id="40-2">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="41">
+      <segment id="41-0">
+        <source xml:space="preserve"> [@SUPERAREAS startArea, ...] </source>
+      </segment>
+    </unit>
+    <unit id="42">
+      <segment id="42-0">
+        <source xml:space="preserve"> V předchozím příkladu se bere v úvahu startovací oblast.</source>
+      </segment>
+      <segment id="42-1">
+        <source xml:space="preserve"> Startovací oblast je ta u níž byl nalezen přímý nebo zděděný zdrojový soubor.</source>
+      </segment>
+      <ignorable id="42-2">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="43">
+      <segment id="43-0">
+        <source xml:space="preserve"> homeArea:</source>
+      </segment>
+      <ignorable id="43-1">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="44">
+      <segment id="44-0">
+        <source xml:space="preserve"> Parametr se uvádí bez hodnoty.</source>
+      </segment>
+      <segment id="44-1">
+        <source xml:space="preserve"> Určuje domovskou oblast:</source>
+      </segment>
+      <ignorable id="44-2">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="45">
+      <segment id="45-0">
+        <source xml:space="preserve"> [@SUPERAREAS homeArea, ...] </source>
+      </segment>
+    </unit>
+    <unit id="46">
+      <segment id="46-0">
+        <source xml:space="preserve"> V předchozím příkladu se bere v úvahu domovská oblast, ketrá se renderuje jako index.xxx.</source>
+      </segment>
+      <ignorable id="46-1">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="47">
+      <segment id="47-0">
+        <source xml:space="preserve"> requestedArea:</source>
+      </segment>
+      <ignorable id="47-1">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="48">
+      <segment id="48-0">
+        <source xml:space="preserve"> Parametr se uvádí bez hodnoty.</source>
+      </segment>
+      <segment id="48-1">
+        <source xml:space="preserve"> Určuje serverem dotazovanou oblast:</source>
+      </segment>
+      <ignorable id="48-2">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="49">
+      <segment id="49-0">
+        <source xml:space="preserve"> [@SUPERAREAS requestedArea, ...] </source>
+      </segment>
+    </unit>
+    <unit id="50">
+      <segment id="50-0">
+        <source xml:space="preserve"> V předchozím příkladu se bere v úvahu servrem dotazovaná oblast.</source>
+      </segment>
+      <ignorable id="50-1">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="51">
+      <segment id="51-0">
+        <source xml:space="preserve"> thisArea:</source>
+      </segment>
+      <ignorable id="51-1">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="52">
+      <segment id="52-0">
+        <source xml:space="preserve"> Parametr se uvádí bez hodnoty.</source>
+      </segment>
+      <segment id="52-1">
+        <source xml:space="preserve"> Určuje aktuální oblast:</source>
+      </segment>
+      <ignorable id="52-2">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="53">
+      <segment id="53-0">
+        <source xml:space="preserve"> [@SUPERAREAS thisArea, ...] </source>
+      </segment>
+    </unit>
+    <unit id="54">
+      <segment id="54-0">
+        <source xml:space="preserve"> V předchozím příkladu se bere v úvahu aktuální oblast.</source>
+      </segment>
+      <ignorable id="54-1">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="55">
+      <segment id="55-0">
+        <source xml:space="preserve"> areaSlot:</source>
+      </segment>
+      <ignorable id="55-1">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="56">
+      <segment id="56-0">
+        <source xml:space="preserve"> Parametr se uvádí s názvem slotu v aktuální oblasti.</source>
+      </segment>
+      <segment id="56-1">
+        <source xml:space="preserve"> Hodnotou slotu musí být odkaz na oblast:</source>
+      </segment>
+      <ignorable id="56-2">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="57">
+      <segment id="57-0">
+        <source xml:space="preserve"> [@SUPERAREAS areaSlot=#odkazNaOblast1, ...] </source>
+      </segment>
+    </unit>
+    <unit id="58">
+      <segment id="58-0">
+        <source xml:space="preserve"> V předchozím příkladu se načte hodnota slotu s názvem "odkazNaOblast1".</source>
+      </segment>
+      <segment id="58-1">
+        <source xml:space="preserve"> Pokud je tato hodnota typu "Area", použije se v tomto příkazu.</source>
+      </segment>
+      <segment id="58-2">
+        <source xml:space="preserve"> Není-li hodnota slotu "odkazNaOblast1" typu Area, vypíše se chybové hlášení.</source>
+      </segment>
+      <ignorable id="58-3">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+  </file>
+</xliff>

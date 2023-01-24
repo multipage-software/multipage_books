@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff srcLang="cs-CZ" xmlns:mtc="urn:oasis:names:tc:xliff:matches:2.0" version="2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" trgLang="en-US" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file original="C:\from_backup\multipage_books\cz\maclan_reference\transformation\maclan\area309.xml" id="1">
+    <skeleton href="C:\from_backup\multipage_books\cz\maclan_reference\transformation\maclan\area309.xml.skl"/>
+    <mda:metadata>
+      <mda:metaGroup category="format">
+        <mda:meta type="datatype">xml</mda:meta>
+      </mda:metaGroup>
+      <mda:metaGroup category="tool">
+        <mda:meta type="tool-id">OpenXLIFF</mda:meta>
+        <mda:meta type="tool-name">OpenXLIFF Filters</mda:meta>
+        <mda:meta type="tool-version">3.0.0 20230109_0743</mda:meta>
+      </mda:metaGroup>
+      <mda:metaGroup category="PI">
+        <mda:meta type="encoding">UTF-8</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <unit id="1">
+      <segment id="1-0">
+        <source xml:space="preserve"> [@LIST] ...</source>
+      </segment>
+      <segment id="1-1">
+        <source xml:space="preserve"> [/@LIST] </source>
+      </segment>
+    </unit>
+    <unit id="2">
+      <segment id="2-0">
+        <source xml:space="preserve"> Tato složená značka prochází prvky vstupního seznamu a sestavuje výsledný text postupným připojováním zpracovaného vnitřního textu značky po každé iteraci.</source>
+      </segment>
+      <segment id="2-1">
+        <source xml:space="preserve"> Výsledný text je pak vložen na stránku namísto této značky.</source>
+      </segment>
+      <segment id="2-2">
+        <source xml:space="preserve"> Použitý vstupní seznam typu LinkedList nebo Map určuje parametr s názvem list.</source>
+      </segment>
+      <segment id="2-3">
+        <source xml:space="preserve"> Značka se používá zejména pro seznamy jejichž prvky jsou oblasti typu Area.</source>
+      </segment>
+      <segment id="2-4">
+        <source xml:space="preserve"> Například následující program prochází všechny podoblasti domovské oblasti:</source>
+      </segment>
+      <segment id="2-5">
+        <source xml:space="preserve"> [@LIST list=subareas(server.homeArea), local] {[@AREA_NAME]} [/@LIST] - vypíše na místo původní složené značky následující text:</source>
+      </segment>
+      <segment id="2-6">
+        <source xml:space="preserve"> {URL adresy} {Značky metajazyka} {Výrazy, funkce a knihovny} {Objekty a funkce, typy} {Poznámka k renderování} </source>
+      </segment>
+    </unit>
+    <unit id="3">
+      <segment id="3-0">
+        <source xml:space="preserve"> [@LIST] ...</source>
+      </segment>
+      <segment id="3-1">
+        <source xml:space="preserve"> [/@LIST] Má následující parametry:</source>
+      </segment>
+      <ignorable id="3-2">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="4">
+      <segment id="4-0">
+        <source xml:space="preserve"> list:</source>
+      </segment>
+      <ignorable id="4-1">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="5">
+      <segment id="5-0">
+        <source xml:space="preserve"> Parametr odkazuje na hodnotu typu LinkedList nebo Map, která představuje vstupní seznam pro značku [@LIST].</source>
+      </segment>
+      <segment id="5-1">
+        <source xml:space="preserve"> Tato hodnota může být určena také výrazem jehož výsledek je typu LinkedList nebo Map.</source>
+      </segment>
+      <ignorable id="5-2">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="6">
+      <segment id="6-0">
+        <source xml:space="preserve"> Následující příklad použije pro seznam hodnotu proměnné myAreas:</source>
+      </segment>
+      <ignorable id="6-1">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="7">
+      <segment id="7-0">
+        <source xml:space="preserve"> [@LIST list=myAreas] ...</source>
+      </segment>
+      <segment id="7-1">
+        <source xml:space="preserve"> [/@LIST] </source>
+      </segment>
+    </unit>
+    <unit id="8">
+      <segment id="8-0">
+        <source xml:space="preserve"> Použije-li se proměnná typu Map, jsou položky seznamu typu Entry.</source>
+      </segment>
+      <segment id="8-1">
+        <source xml:space="preserve"> Například:</source>
+      </segment>
+      <ignorable id="8-2">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="9">
+      <originalData>
+        <data id="ph0">&amp;amp;nbsp;</data>
+        <data id="ph1">&amp;amp;nbsp;</data>
+      </originalData>
+      <segment id="9-0">
+        <source xml:space="preserve"> [@LIST list=myMap, item=entry] <ph id="ph0"/> [@GET entry.key] [@GET entry.value] <ph id="ph1"/> [/@LIST] </source>
+      </segment>
+    </unit>
+    <unit id="10">
+      <segment id="10-0">
+        <source xml:space="preserve"> iterator:</source>
+      </segment>
+      <ignorable id="10-1">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="11">
+      <segment id="11-0">
+        <source xml:space="preserve"> Tento parametr definuje název proměnné, kterou značka [@LIST] vytvoří a jejíž hodnotou je objekt představující aktuální iteraci.</source>
+      </segment>
+      <segment id="11-1">
+        <source xml:space="preserve"> Proměnná je typu ListBlockDescriptor a umožňuje přistupovat k aktuální položce seznamu a k aktuálnímu indexu iterace.</source>
+      </segment>
+      <ignorable id="11-2">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="12">
+      <segment id="12-0">
+        <source xml:space="preserve"> Například následující program postupně vypíše indexy jednotlivých položek seznamu:</source>
+      </segment>
+      <ignorable id="12-1">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="13">
+      <segment id="13-0">
+        <source xml:space="preserve"> [@LIST list=myAreas, iterator=myIter] [@GET myIter.index] [/@LIST] </source>
+      </segment>
+    </unit>
+    <unit id="14">
+      <segment id="14-0">
+        <source xml:space="preserve"> item:</source>
+      </segment>
+      <ignorable id="14-1">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="15">
+      <segment id="15-0">
+        <source xml:space="preserve"> Určuje název proměnné, kterou vytváří značka [@LIST], a která obsahuje jako hodnotu aktuální položku seznamu při dané iteraci.</source>
+      </segment>
+      <segment id="15-1">
+        <source xml:space="preserve"> Následující příklad vypisuje názvy všech oblastí typu Area, které jsou uloženy v seznamu v proměnné myAreas:</source>
+      </segment>
+      <ignorable id="15-2">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="16">
+      <segment id="16-0">
+        <source xml:space="preserve"> [@LIST list=myAreas, item=area] [@GET area.name] [/@LIST] </source>
+      </segment>
+    </unit>
+    <unit id="17">
+      <segment id="17-0">
+        <source xml:space="preserve"> divider:</source>
+      </segment>
+      <ignorable id="17-1">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="18">
+      <segment id="18-0">
+        <source xml:space="preserve"> Tento parametr určuje řetězec, kterým budou odděleny jednotlivé části textu sestavovaného pomocí příkazu [@LIST].</source>
+      </segment>
+      <segment id="18-1">
+        <source xml:space="preserve"> Například:</source>
+      </segment>
+      <ignorable id="18-2">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="19">
+      <segment id="19-0">
+        <source xml:space="preserve"> [@LIST ..., divider = "# - "] TEXT [/@LIST] </source>
+      </segment>
+    </unit>
+    <unit id="20">
+      <segment id="20-0">
+        <source xml:space="preserve"> bude pro tři cykly nahrazen textem:</source>
+      </segment>
+      <segment id="20-1">
+        <source xml:space="preserve"> TEXT - TEXT - TEXT.</source>
+      </segment>
+      <ignorable id="20-2">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="21">
+      <segment id="21-0">
+        <source xml:space="preserve"> local:</source>
+      </segment>
+      <ignorable id="21-1">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="22">
+      <segment id="22-0">
+        <source xml:space="preserve"> Tento parametr se uvádí bez hodnoty.</source>
+      </segment>
+      <segment id="22-1">
+        <source xml:space="preserve"> Je-li uveden, je text uvnitř značky zpracován klonem serveru s aktuální oblastí nastavenou na aktuální položku seznamu, která musí být typu Area.</source>
+      </segment>
+      <segment id="22-2">
+        <source xml:space="preserve"> Pokud není aktuální položka seznamu typu Area, pak se tento parametr nebere v úvahu.</source>
+      </segment>
+      <segment id="22-3">
+        <source xml:space="preserve"> Například následující program vypíše názvy podoblastí domovské oblasti uzavřené v hranatých závorkách:</source>
+      </segment>
+      <ignorable id="22-4">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="23">
+      <segment id="23-0">
+        <source xml:space="preserve"> [@LIST list=subareas(server.homeArea), local] [ [@AREA_NAME] ] [/@LIST] </source>
+      </segment>
+    </unit>
+    <unit id="24">
+      <segment id="24-0">
+        <source xml:space="preserve"> - výsledný text předchozích příkazů je:</source>
+      </segment>
+      <ignorable id="24-1">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="25">
+      <segment id="25-0">
+        <source xml:space="preserve"> [ URL adresy ] [ Značky metajazyka ] [ Výrazy, funkce a knihovny ] [ Objekty a funkce, typy ] [ Poznámka k renderování ] </source>
+      </segment>
+    </unit>
+    <unit id="26">
+      <segment id="26-0">
+        <source xml:space="preserve"> break:</source>
+      </segment>
+      <ignorable id="26-1">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="27">
+      <segment id="27-0">
+        <source xml:space="preserve"> Tento parametr určuje název proměnné, kterou vytvoří značka [@LIST] za účelem ukončování smyčky.</source>
+      </segment>
+      <segment id="27-1">
+        <source xml:space="preserve"> Vytvořená proměnná je typu Boolean a její počáteční hodnota je nastavena na false.</source>
+      </segment>
+      <segment id="27-2">
+        <source xml:space="preserve"> Ukončení smyčky, tj. poslední iterace příkazu [@LIST], se provede nastavením této proměnné na hodnotu true.</source>
+      </segment>
+      <segment id="27-3">
+        <source xml:space="preserve"> Například následující příkaz se provede pouze pro prvních deset položek seznamu a pak je ukončen:</source>
+      </segment>
+      <ignorable id="27-4">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="28">
+      <segment id="28-0">
+        <source xml:space="preserve"> [@LIST list=myAreas, iterator=iter, break=breakLoop] [@IF cond=iter.index=10] [@SET breakLoop=true] [/@IF] ...</source>
+      </segment>
+      <segment id="28-1">
+        <source xml:space="preserve"> [/@LIST] </source>
+      </segment>
+    </unit>
+    <unit id="29">
+      <segment id="29-0">
+        <source xml:space="preserve"> Všimněte si, že nastavení breakLoop na hodnotu true pouze oznámí příkazu [@LIST], že má provést poslední iteraci, vypsat složený text a skončit.</source>
+      </segment>
+      <segment id="29-1">
+        <source xml:space="preserve"> Vnitřní příkazy za značkou [@IF] se samozřejmě vždy provedou.</source>
+      </segment>
+      <segment id="29-2">
+        <source xml:space="preserve"> Pokud je ale nechcete provést, stačí použít další podmínku [@IF].</source>
+      </segment>
+      <ignorable id="29-3">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="30">
+      <segment id="30-0">
+        <source xml:space="preserve"> discard:</source>
+      </segment>
+      <ignorable id="30-1">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="31">
+      <segment id="31-0">
+        <source xml:space="preserve"> Tento parametr určuje proměnnou typu Boolean, která se vytvoří za účelem skartování poslední iterace při ukončování smyčky.</source>
+      </segment>
+      <segment id="31-1">
+        <source xml:space="preserve"> Počáteční hodnota proměnné je nastavena na hodnotu false.</source>
+      </segment>
+      <segment id="31-2">
+        <source xml:space="preserve"> Skartování poslední iterace při ukončení smyčky se provede nastavením této proměnné na hodnotu true.</source>
+      </segment>
+      <segment id="31-3">
+        <source xml:space="preserve"> Například následující program se provede pouze pro prvních devět položek:</source>
+      </segment>
+      <ignorable id="31-4">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="32">
+      <segment id="32-0">
+        <source xml:space="preserve"> [@LIST list=myAreas, iterator=iter, break=breakLoop, discard=discardLast] [@IF cond=iter.index=10] [@SET breakLoop=true, discardLast=true] [/@IF] ...</source>
+      </segment>
+      <segment id="32-1">
+        <source xml:space="preserve"> [/@LIST] </source>
+      </segment>
+    </unit>
+    <unit id="33">
+      <segment id="33-0">
+        <source xml:space="preserve"> transparent:</source>
+      </segment>
+      <ignorable id="33-1">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="34">
+      <segment id="34-0">
+        <source xml:space="preserve"> Je-li nastavený parametr transparent, pak všechny procedury nadefinované v tomto příkazu jsou viditelné v makro příkazech.</source>
+      </segment>
+      <ignorable id="34-1">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+  </file>
+</xliff>

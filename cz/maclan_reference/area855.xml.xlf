@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff srcLang="cs-CZ" xmlns:mtc="urn:oasis:names:tc:xliff:matches:2.0" version="2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" trgLang="en-US" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file original="C:\from_backup\multipage_books\cz\maclan_reference\transformation\maclan\area855.xml" id="1">
+    <skeleton href="C:\from_backup\multipage_books\cz\maclan_reference\transformation\maclan\area855.xml.skl"/>
+    <mda:metadata>
+      <mda:metaGroup category="format">
+        <mda:meta type="datatype">xml</mda:meta>
+      </mda:metaGroup>
+      <mda:metaGroup category="tool">
+        <mda:meta type="tool-id">OpenXLIFF</mda:meta>
+        <mda:meta type="tool-name">OpenXLIFF Filters</mda:meta>
+        <mda:meta type="tool-version">3.0.0 20230109_0743</mda:meta>
+      </mda:metaGroup>
+      <mda:metaGroup category="PI">
+        <mda:meta type="encoding">UTF-8</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <unit id="1">
+      <segment id="1-0">
+        <source xml:space="preserve"> [@JAVASCRIPT] </source>
+      </segment>
+    </unit>
+    <unit id="2">
+      <segment id="2-0">
+        <source xml:space="preserve">(function(){kód})()</source>
+      </segment>
+    </unit>
+    <unit id="3">
+      <segment id="3-0">
+        <source xml:space="preserve">global</source>
+      </segment>
+    </unit>
+    <unit id="4">
+      <segment id="4-0">
+        <source xml:space="preserve">$global</source>
+      </segment>
+    </unit>
+    <unit id="5">
+      <segment id="5-0">
+        <source xml:space="preserve">pitext</source>
+      </segment>
+    </unit>
+    <unit id="6">
+      <segment id="6-0">
+        <source xml:space="preserve">$pitext</source>
+      </segment>
+    </unit>
+    <unit id="7">
+      <segment id="7-0">
+        <source xml:space="preserve"> [@JAVASCRIPT] var subAreas = subareas(server.homeArea); for (index in subAreas) { println(subAreas[index].name + "&lt;br&gt;"); } [/@JAVASCRIPT] </source>
+      </segment>
+    </unit>
+  </file>
+</xliff>

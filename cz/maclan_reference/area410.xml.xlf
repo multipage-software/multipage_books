@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff srcLang="cs-CZ" xmlns:mtc="urn:oasis:names:tc:xliff:matches:2.0" version="2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" trgLang="en-US" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file original="C:\from_backup\multipage_books\cz\maclan_reference\transformation\maclan\area410.xml" id="1">
+    <skeleton href="C:\from_backup\multipage_books\cz\maclan_reference\transformation\maclan\area410.xml.skl"/>
+    <mda:metadata>
+      <mda:metaGroup category="format">
+        <mda:meta type="datatype">xml</mda:meta>
+      </mda:metaGroup>
+      <mda:metaGroup category="tool">
+        <mda:meta type="tool-id">OpenXLIFF</mda:meta>
+        <mda:meta type="tool-name">OpenXLIFF Filters</mda:meta>
+        <mda:meta type="tool-version">3.0.0 20230109_0743</mda:meta>
+      </mda:metaGroup>
+      <mda:metaGroup category="PI">
+        <mda:meta type="encoding">UTF-8</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <unit id="1">
+      <segment id="1-0">
+        <source xml:space="preserve"> Operátor is </source>
+      </segment>
+    </unit>
+    <unit id="2">
+      <segment id="2-0">
+        <source xml:space="preserve"> Operátor is vrací hodnotu true, je-li levá strana typu uvedeného na pravé straně.</source>
+      </segment>
+      <segment id="2-1">
+        <source xml:space="preserve"> V opačném případě vrací hodnotu false.</source>
+      </segment>
+      <segment id="2-2">
+        <source xml:space="preserve"> Typy mohou být:</source>
+      </segment>
+      <segment id="2-3">
+        <source xml:space="preserve"> Boolean, Text, Long a Double.</source>
+      </segment>
+      <segment id="2-4">
+        <source xml:space="preserve"> Následující výraz vrací hodnotu false, protože hodnota π je typu Double nikoliv Long:</source>
+      </segment>
+      <segment id="2-5">
+        <source xml:space="preserve"> math.PI is Long Další příklad vrací hodnotu true, protože řetězec 'dobrý den' je typu Text:</source>
+      </segment>
+      <segment id="2-6">
+        <source xml:space="preserve"> 'dobrý den' is Text Následující příklad vrací hodnotu true v případě, že proměnná x je typu Boolean:</source>
+      </segment>
+      <segment id="2-7">
+        <source xml:space="preserve"> x is Boolean Předposlední příklad vrací vždy hodnotu true, protože hodnota proměnné y je nejprve převedena na text:</source>
+      </segment>
+      <segment id="2-8">
+        <source xml:space="preserve"> (y as Text) is Text Poslední výraz vrací vždy hodnotu false, protože proměnná z je nejprve převedena na typ Text:</source>
+      </segment>
+      <segment id="2-9">
+        <source xml:space="preserve"> (z as Text) is Double </source>
+      </segment>
+    </unit>
+  </file>
+</xliff>

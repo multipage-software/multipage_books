@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff srcLang="cs-CZ" xmlns:mtc="urn:oasis:names:tc:xliff:matches:2.0" version="2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" trgLang="en-US" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file original="C:\from_backup\multipage_books\cz\maclan_reference\transformation\maclan\area417.xml" id="1">
+    <skeleton href="C:\from_backup\multipage_books\cz\maclan_reference\transformation\maclan\area417.xml.skl"/>
+    <mda:metadata>
+      <mda:metaGroup category="format">
+        <mda:meta type="datatype">xml</mda:meta>
+      </mda:metaGroup>
+      <mda:metaGroup category="tool">
+        <mda:meta type="tool-id">OpenXLIFF</mda:meta>
+        <mda:meta type="tool-name">OpenXLIFF Filters</mda:meta>
+        <mda:meta type="tool-version">3.0.0 20230109_0743</mda:meta>
+      </mda:metaGroup>
+      <mda:metaGroup category="PI">
+        <mda:meta type="encoding">UTF-8</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <unit id="1">
+      <segment id="1-0">
+        <source xml:space="preserve"> Typ Area </source>
+      </segment>
+    </unit>
+    <unit id="2">
+      <segment id="2-0">
+        <source xml:space="preserve"> Typ Area představuje oblast.</source>
+      </segment>
+      <segment id="2-1">
+        <source xml:space="preserve"> Vlastosti typu:</source>
+      </segment>
+      <segment id="2-2">
+        <source xml:space="preserve"> name - Název oblasti. id - Identifikátor oblasti. alias - Zkratka oblasti. inherits() - Vrací hodnotu true, dědí-li oblast z dané oblasti. getSubRelation() - Vrací objekt relace typu AreaRelation.</source>
+      </segment>
+      <segment id="2-3">
+        <source xml:space="preserve"> Parametrem je podoblast typu Area. getSuperRelation() - Vrací objekt relace typu AreaRelation.</source>
+      </segment>
+      <segment id="2-4">
+        <source xml:space="preserve"> Parametrem je nadoblast typu Area. getPureName() - Název oblasti bez ID pro překlad. isCurrent() - Vrací true, jde-li o zpracovávanou oblast. isHome() - Vrací true, jde-li o domovskou oblast. isVisible() - Vrací true, je-li oblast viditelná. isRequested() - Vrací true, jde-li o požadovanou oblast. isConstructor() - Vrací true, jde-li o oblast konstruktoru. isStartArea() - Vrací true, má-li oblast připojen start soubor. getFileName() - Vrací název souboru pro danou oblast. getRelatedArea() - Vrací odkazovanou oblast. getSlots() - Vrací sloty oblasti. getConstructorArea() - Vrací konstruktor oblasti typu Area. getFirstVisibleSuperArea() - Vrací první visitelnou nadoblast. getVersionUrl() - Vrací URL oblasti v dané verzi.</source>
+      </segment>
+      <ignorable id="2-5">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+  </file>
+</xliff>

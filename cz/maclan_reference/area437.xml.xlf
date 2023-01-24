@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff srcLang="cs-CZ" xmlns:mtc="urn:oasis:names:tc:xliff:matches:2.0" version="2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0" trgLang="en-US" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file original="C:\from_backup\multipage_books\cz\maclan_reference\transformation\maclan\area437.xml" id="1">
+    <skeleton href="C:\from_backup\multipage_books\cz\maclan_reference\transformation\maclan\area437.xml.skl"/>
+    <mda:metadata>
+      <mda:metaGroup category="format">
+        <mda:meta type="datatype">xml</mda:meta>
+      </mda:metaGroup>
+      <mda:metaGroup category="tool">
+        <mda:meta type="tool-id">OpenXLIFF</mda:meta>
+        <mda:meta type="tool-name">OpenXLIFF Filters</mda:meta>
+        <mda:meta type="tool-version">3.0.0 20230109_0743</mda:meta>
+      </mda:metaGroup>
+      <mda:metaGroup category="PI">
+        <mda:meta type="encoding">UTF-8</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <unit id="1">
+      <segment id="1-0">
+        <source xml:space="preserve"> [@PACK]...[/@PACK] </source>
+      </segment>
+    </unit>
+    <unit id="2">
+      <segment id="2-0">
+        <source xml:space="preserve"> Tato složená značka odstraňuje prázdné znaky z textu uvnitř značky a výsledek vkládá do stránky.</source>
+      </segment>
+      <segment id="2-1">
+        <source xml:space="preserve"> Není-li uveden žádný parametr, jsou souvislé oblasti s prázdnými znaky nahrazeny vždy jedinou mezerou.</source>
+      </segment>
+      <segment id="2-2">
+        <source xml:space="preserve"> V případě, že je uveden parametr strong, jsou z textu odstraněny všechny prázdné znaky.</source>
+      </segment>
+      <segment id="2-3">
+        <source xml:space="preserve"> Následující příklad odstraní souvislé oblasti s prázdnými znaky z textu:</source>
+      </segment>
+      <segment id="2-4">
+        <source xml:space="preserve"> [@PACK] 1 2 3 4 5 [/@PACK] - výsledkem je text:</source>
+      </segment>
+      <segment id="2-5">
+        <source xml:space="preserve"> 1 2 3 4 5 </source>
+      </segment>
+    </unit>
+    <unit id="3">
+      <segment id="3-0">
+        <source xml:space="preserve"> [@PACK]...[/@PACK] Má následující parametry:</source>
+      </segment>
+      <ignorable id="3-1">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="4">
+      <segment id="4-0">
+        <source xml:space="preserve"> strong:</source>
+      </segment>
+      <ignorable id="4-1">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="5">
+      <segment id="5-0">
+        <source xml:space="preserve"> Je-li ve značce použitý parametr strong, odstraní se všechny prázdné znaky z textu uvnitř značky.</source>
+      </segment>
+      <segment id="5-1">
+        <source xml:space="preserve"> Například následující program:</source>
+      </segment>
+      <ignorable id="5-2">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="6">
+      <segment id="6-0">
+        <source xml:space="preserve"> [@PACK strong] A B C D E [/@PACK] </source>
+      </segment>
+    </unit>
+    <unit id="7">
+      <segment id="7-0">
+        <source xml:space="preserve"> - vloží do stránky text:</source>
+      </segment>
+      <segment id="7-1">
+        <source xml:space="preserve"> ABCDE </source>
+      </segment>
+    </unit>
+    <unit id="8">
+      <segment id="8-0">
+        <source xml:space="preserve"> trim:</source>
+      </segment>
+      <ignorable id="8-1">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="9">
+      <segment id="9-0">
+        <source xml:space="preserve"> Je-li použitý parametr trim, odstraní se všechny prázdné znaky ze začátku a konce textu a výsledek je opět vložen do stránky.</source>
+      </segment>
+      <segment id="9-1">
+        <source xml:space="preserve"> Například následující program </source>
+      </segment>
+    </unit>
+    <unit id="10">
+      <segment id="10-0">
+        <source xml:space="preserve"> |[@PACK trim] Dobrý den!</source>
+      </segment>
+      <segment id="10-1">
+        <source xml:space="preserve"> [/@PACK]| </source>
+      </segment>
+    </unit>
+    <unit id="11">
+      <segment id="11-0">
+        <source xml:space="preserve"> - vloží do stránky text:</source>
+      </segment>
+      <segment id="11-1">
+        <source xml:space="preserve"> |Dobrý den!| </source>
+      </segment>
+    </unit>
+    <unit id="12">
+      <segment id="12-0">
+        <source xml:space="preserve"> trimBegin:</source>
+      </segment>
+      <ignorable id="12-1">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="13">
+      <segment id="13-0">
+        <source xml:space="preserve"> Je-li použitý parametr trimBegin, odstraní se všechny prázdné znaky ze začátku textu a výsledek je vložen do stránky.</source>
+      </segment>
+      <segment id="13-1">
+        <source xml:space="preserve"> Například následující program:</source>
+      </segment>
+      <ignorable id="13-2">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="14">
+      <segment id="14-0">
+        <source xml:space="preserve"> |[@PACK trimBegin] Dobý den!</source>
+      </segment>
+      <segment id="14-1">
+        <source xml:space="preserve"> [/@PACK]| </source>
+      </segment>
+    </unit>
+    <unit id="15">
+      <originalData>
+        <data id="ph0">&amp;amp;nbsp;</data>
+        <data id="ph1">&amp;amp;nbsp;</data>
+        <data id="ph2">&amp;amp;nbsp;</data>
+        <data id="ph3">&amp;amp;nbsp;</data>
+        <data id="ph4">&amp;amp;nbsp;</data>
+      </originalData>
+      <segment id="15-0">
+        <source xml:space="preserve"> - vloží do stránky text:</source>
+      </segment>
+      <segment id="15-1">
+        <source xml:space="preserve"> |Dobý den!<ph id="ph0"/><ph id="ph1"/><ph id="ph2"/><ph id="ph3"/><ph id="ph4"/>| </source>
+      </segment>
+    </unit>
+    <unit id="16">
+      <segment id="16-0">
+        <source xml:space="preserve"> trimEnd:</source>
+      </segment>
+      <ignorable id="16-1">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="17">
+      <segment id="17-0">
+        <source xml:space="preserve"> Je-li použitý parametr trimEnd, odstraní se všechny prázdné znaky z konce textu a výsledek je vložen do stránky.</source>
+      </segment>
+      <segment id="17-1">
+        <source xml:space="preserve"> Například následující program:</source>
+      </segment>
+      <ignorable id="17-2">
+        <source xml:space="preserve"> </source>
+      </ignorable>
+    </unit>
+    <unit id="18">
+      <segment id="18-0">
+        <source xml:space="preserve"> |[@PACK trimEnd] Dobý den!</source>
+      </segment>
+      <segment id="18-1">
+        <source xml:space="preserve"> [/@PACK]| </source>
+      </segment>
+    </unit>
+    <unit id="19">
+      <originalData>
+        <data id="ph0">&amp;amp;nbsp;</data>
+        <data id="ph1">&amp;amp;nbsp;</data>
+        <data id="ph2">&amp;amp;nbsp;</data>
+        <data id="ph3">&amp;amp;nbsp;</data>
+        <data id="ph4">&amp;amp;nbsp;</data>
+      </originalData>
+      <segment id="19-0">
+        <source xml:space="preserve"> - vloží do stránky text:</source>
+      </segment>
+      <segment id="19-1">
+        <source xml:space="preserve"> |<ph id="ph0"/><ph id="ph1"/><ph id="ph2"/><ph id="ph3"/><ph id="ph4"/>Dobý den!</source>
+      </segment>
+      <segment id="19-2">
+        <source xml:space="preserve"> | </source>
+      </segment>
+    </unit>
+  </file>
+</xliff>
