@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+<file datatype="xml" original="C:\from_backup\multipage_books\cz\maclan_reference\transformation\maclan\area280.xml" source-language="cs-CZ" target-language="en-US" tool-id="OpenXLIFF">
+<header>
+   <skl>
+      <external-file href="C:\from_backup\multipage_books\cz\maclan_reference\transformation\maclan\area280.xml.skl"/>
+   </skl>
+   <tool tool-id="OpenXLIFF" tool-name="OpenXLIFF Filters" tool-version="3.0.0 20230109_0743"/>
+</header>
+<?encoding UTF-8?>
+<body>
+   <trans-unit approved="no" id="1" xml:space="preserve">
+      <source> URL adresy </source><target state="translated">URL addresses</target>
+   </trans-unit>
+   <trans-unit approved="no" id="2" xml:space="preserve">
+      <source> Vývojové prostředí Multipage IDE v sobě obsahuje webový server, který generuje HTML, CSS a JavaScript obsah, jenž je možné zobrazit v internetovém prohlížeči.</source><target state="translated">The Multipage IDE development environment contains a web server that generates content that can be viewed in an internet browser.</target>
+   </trans-unit>
+   <trans-unit approved="no" id="3" xml:space="preserve">
+      <source> Přístup k domovské stránce serveru aplikace Multipage IDE je pomocí odkazu:</source><target state="translated">Access to the Multipage IDE server home area is via the link:</target>
+   </trans-unit>
+   <trans-unit approved="no" id="4" xml:space="preserve">
+      <source> http://localhost:8080 (kde localhost určuje, že se jedná o lokální server a číslo 8080 je port tohoto serveru) V předchozím případě se automaticky použije domovská stránka a výchozí jazyk.</source><target state="translated">http://localhost:8080 (where localhost specifies that it is a local server and the number 8080 is the port of that server) In the previous case, the home area and default language are automatically used.</target>
+   </trans-unit>
+   <trans-unit approved="no" id="5" xml:space="preserve">
+      <source> Příklad jediného parametru je v následujícím odkazu:</source><target state="translated">An example of a single parameter is in the following link:</target>
+   </trans-unit>
+   <trans-unit approved="no" id="6" xml:space="preserve">
+      <source> http://localhost:8080/?area_id=1 V tomto případě jde o jediný parametr nazvaný area_id s honotou 1.</source><target state="translated">http://localhost:8080/?area_id=1 In this case it is a single parameter called area_id with value 1.</target>
+   </trans-unit>
+   <trans-unit approved="no" id="7" xml:space="preserve">
+      <source> Další parametry se uvádějí stejným způsobem a jsou oddělovány znakem &amp;.</source><target state="translated">Other parameters are specified in the same way and are separated by the character &amp;.</target>
+   </trans-unit>
+   <trans-unit approved="no" id="8" xml:space="preserve">
+      <source> Například v následující adrese jsou zadány dva parametry.</source><target state="translated">For example, two parameters are specified in the following address.</target>
+   </trans-unit>
+   <trans-unit approved="no" id="9" xml:space="preserve">
+      <source> První parametr s názvem area_id a hodnotou 1 a druhý parametr s názvem lang_id a s hodnotou 8. http://localhost:8080/?area_id=1&amp;lang_id=8 </source><target state="translated">The first parameter named area_id with value 1 and the second parameter named lang_id with value 8. http://localhost:8080/?area_id=1&amp;lang_id=8</target>
+   </trans-unit>
+</body>
+</file>
+</xliff>

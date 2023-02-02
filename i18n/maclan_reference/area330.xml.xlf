@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+<file original="C:\from_backup\multipage_books\cz\maclan_reference\transformation\maclan\area330.xml" source-language="cs-CZ" target-language="en-US" datatype="xml" tool-id="OpenXLIFF">
+<header>
+   <skl>
+      <external-file href="C:\from_backup\multipage_books\cz\maclan_reference\transformation\maclan\area330.xml.skl"/>
+   </skl>
+   <tool tool-version="3.0.0 20230109_0743" tool-id="OpenXLIFF" tool-name="OpenXLIFF Filters"/>
+</header>
+<?encoding UTF-8?>
+<body>
+   <trans-unit id="1" xml:space="preserve" approved="no" >
+      <source> [@CALL] nebo [@MojeProcedura] </source>
+   </trans-unit>
+   <trans-unit id="2" xml:space="preserve" approved="no" >
+      <source> Značky [@CALL name=#MojeProcedura] nebo zkráceně [@MojeProcedura] provedou proceduru pojmenovanou názvem MojeProcedura, která byla v předchozím textu uložena do paměti pomocí příkazu [@PROCEDURE name=#MojeProcedura].</source>
+   </trans-unit>
+   <trans-unit id="3" xml:space="preserve" approved="no" >
+      <source> Výsledný text, který může záviset na parametrech volání potom uvedené značky vkládají do textu stránky.</source>
+   </trans-unit>
+   <trans-unit id="4" xml:space="preserve" approved="no" >
+      <source> Například následující program:</source>
+   </trans-unit>
+   <trans-unit id="5" xml:space="preserve" approved="no" >
+      <source> [@PROCEDURE name=#Hello, firstName] Dobrý den [@GET firstName]!</source>
+   </trans-unit>
+<trans-unit approved="no" id="6" xml:space="preserve">
+      <source> [/@PROCEDURE] <ph id="0">&amp;amp;nbsp;</ph> [@CALL name=#Hello, firstName=#Margaret] [@Hello firstName=#Robert] - vypíše na stránku text:</source>
+   </trans-unit>   <trans-unit id="7" xml:space="preserve" approved="no" >
+      <source> Dobrý den Margaret!</source>
+   </trans-unit>
+   <trans-unit id="8" xml:space="preserve" approved="no" >
+      <source> Dobrý den Robert!</source>
+   </trans-unit>
+   <trans-unit id="9" xml:space="preserve" approved="no" >
+      <source> Před voláním procedury musí být její definice uvedena v aktuálním bloku nebo jeho nadblocích nebo musí být vytvořena jako globální.</source>
+   </trans-unit>
+   <trans-unit id="10" xml:space="preserve" approved="no" >
+      <source> Například následující program je chybný:</source>
+   </trans-unit>
+<trans-unit approved="no" id="11" xml:space="preserve">
+      <source> [@BLOCK] [@PROCEDURE name=#DoSomething] Something to do... [/@PROCEDURE] [/@BLOCK] <ph id="0">&amp;amp;nbsp;</ph> [@DoSomething] - předchozí program vypíše na stránku chybové hlášení:</source>
+   </trans-unit>   <trans-unit id="12" xml:space="preserve" approved="no" >
+      <source> #ERROR:Procedure "DoSomething" doesn't exist.# kdežto následující program použije v definici procedury parametr $global.</source>
+   </trans-unit>
+   <trans-unit id="13" xml:space="preserve" approved="no" >
+      <source> Tím určí, že tato procedura bude uložena jako globální, tj. do globálního bloku celé stránky.</source>
+   </trans-unit>
+   <trans-unit id="14" xml:space="preserve" approved="no" >
+      <source> Například:</source>
+   </trans-unit>
+<trans-unit approved="no" id="15" xml:space="preserve">
+      <source> [@BLOCK] [@PROCEDURE name=#DoSomethingElse, $global] Something else to do... [/@PROCEDURE] [/@BLOCK] <ph id="0">&amp;amp;nbsp;</ph> [@DoSomethingElse] - předchozí program vypíše na stránku text:</source>
+   </trans-unit>   <trans-unit id="16" xml:space="preserve" approved="no" >
+      <source> Something else to do...</source>
+   </trans-unit>
+   <trans-unit id="17" xml:space="preserve" approved="no" >
+      <source> Pokud se v příkazu [@CALL ...] nebo [@MojeProcedura] neuvedou některé ze vstupních parametrů, pak jsou jim při zpracování přiřazeny hodnoty null.</source>
+   </trans-unit>
+   <trans-unit id="18" xml:space="preserve" approved="no" >
+      <source> Například v následujícím programu je při volání procedury zapomenutý parametr text2:</source>
+   </trans-unit>
+<trans-unit approved="no" id="19" xml:space="preserve">
+      <source> [@PROCEDURE name=#PrintShopping, text1, text2] V košíku je [@GET text1] a [@GET text2] [/@PROCEDURE] <ph id="0">&amp;amp;nbsp;</ph> [@PrintShopping text1=#jablko] - předchozí příklad vypíše na stránku text:</source>
+   </trans-unit>   <trans-unit id="20" xml:space="preserve" approved="no" >
+      <source> V košíku je jablko a null Pokud značka [@PROCEDURE] uvede v definici výstupní parametr označený jako out nebo txt, pak musí příkaz [@CALL] nebo [@MojeProcedura] uvést u tohoto parametru název výstupní proměnné, jinak skončí tento příkaz s chybou.</source>
+   </trans-unit>
+   <trans-unit id="21" xml:space="preserve" approved="no" >
+      <source> Například následující program:</source>
+   </trans-unit>
+<trans-unit approved="no" id="22" xml:space="preserve">
+      <source> [@PROCEDURE name=#GetAddress, address=out] [@SET address="#Václavské náměstí, Praha"] [/@PROCEDURE] <ph id="0">&amp;amp;nbsp;</ph> [@GetAddress address=1.25] - skončí chybovým hlášením:</source>
+   </trans-unit>   <trans-unit id="23" xml:space="preserve" approved="no" >
+      <source> #ERROR:Cannot create parameter "address".</source>
+   </trans-unit>
+   <trans-unit id="24" xml:space="preserve" approved="no" >
+      <source> Referenced variable "1.25" doesn't exist.# Naproti tomu následující program definuje proměnnou myAddress a uvádí jí v parametru volání:</source>
+   </trans-unit>
+<trans-unit approved="no" id="25" xml:space="preserve">
+      <source> [@PROCEDURE name=#GetAddress, address=out] [@SET address="#Piccadilly Circus, London"] [/@PROCEDURE] <ph id="0">&amp;amp;nbsp;</ph> [@VAR myAddress] [@GetAddress address=myAddress] [@GET myAdress] - vypíše na stránku text:</source>
+   </trans-unit>   <trans-unit id="26" xml:space="preserve" approved="no" >
+      <source> Piccadilly Circus, London Ve volání [@CALL] nebo [@MojeProcedura] je také možné uvést oblast.</source>
+   </trans-unit>
+   <trans-unit id="27" xml:space="preserve" approved="no" >
+      <source> Odpovídající parametr musí mít na začátku znak $ (tj. $areaId, $areaAlias, $area, $startArea, $homeArea, $requestedArea nebo $thisArea).</source>
+   </trans-unit>
+   <trans-unit id="28" xml:space="preserve" approved="no" >
+      <source> Je-li ve značce nastavená oblast, nemusí být definice procedury uložená předchozím programem do paměti.</source>
+   </trans-unit>
+   <trans-unit id="29" xml:space="preserve" approved="no" >
+      <source> Vytvoří se dočasný programový blok, do něj se vloží obsah slotu s definicí procedury (např. MojeProcedura) a provede se volání [@MojeProcedura ...].</source>
+   </trans-unit>
+   <trans-unit id="30" xml:space="preserve" approved="no" >
+      <source> Pokud není oblast uvedena vůbec a není také uveden ani název slotu, hledá se definice procedury ve slotu s názvem MojeProcedura jenž se nachází v oblasti thisArea.</source>
+   </trans-unit>
+   <trans-unit id="31" xml:space="preserve" approved="no" >
+      <source> Nasledující dva příklady volání jsou ekvivalentní:</source>
+   </trans-unit>
+   <trans-unit id="32" xml:space="preserve" approved="no" >
+      <source> A) [@MojeProcedura $area=myArea, firstName=#Mary] B) [@BLOCK] [@TAG area=myArea, slot=#MojeProcedura] [@MojeProcedura firstName=#Mary] [/@BLOCK] Jak bylo uvedeno v předchozí tučné poznámce, v případě kdy není procedura uložena v paměti, provede se následující přepis volání (následující volání jsou opět ekvivalentní):</source>
+   </trans-unit>
+   <trans-unit id="33" xml:space="preserve" approved="no" >
+      <source> A) [@MojeProcedura firstName=#Mary] B) [@BLOCK] [@TAG thisArea, slot=#MojeProcedura] [@MojeProcedura firstName=#Mary] [/@BLOCK] - není-li v předchozím příkladu ve slotu MojeProcedura v oblasti myArea uložena definice procedury, ukončí se program s chybou:</source>
+   </trans-unit>
+   <trans-unit id="34" xml:space="preserve" approved="no" >
+      <source> #ERROR:Procedure "MojeProcedura" doesn't exist.# </source>
+   </trans-unit>
+   <trans-unit id="35" xml:space="preserve" approved="no" >
+      <source> [@CALL] nebo [@MojeProcedura] Má následující parametry:</source>
+   </trans-unit>
+   <trans-unit id="36" xml:space="preserve" approved="no" >
+      <source> name nebo $name:</source>
+   </trans-unit>
+   <trans-unit id="37" xml:space="preserve" approved="no" >
+      <source> Parametr určuje název volané procedury ve volání [@CALL].</source>
+   </trans-unit>
+   <trans-unit id="38" xml:space="preserve" approved="no" >
+      <source> Následující příklad volá proceduru s názvem WriteText:</source>
+   </trans-unit>
+   <trans-unit id="39" xml:space="preserve" approved="no" >
+      <source> [@CALL name=#WriteText, ...] </source>
+   </trans-unit>
+   <trans-unit id="40" xml:space="preserve" approved="no" >
+      <source> Pokud procedura používá parametr name, lze při volání použít pro název procedury parametr $name:</source>
+   </trans-unit>
+   <trans-unit id="41" xml:space="preserve" approved="no" >
+      <source> [@CALL $name=#WriteText, name=hodnota] </source>
+   </trans-unit>
+   <trans-unit id="42" xml:space="preserve" approved="no" >
+      <source> Hodnota parametru name nebo $name nemusí být pouze neměnný text, ale může ji určovat výraz s proměnnou hodnotou.</source>
+   </trans-unit>
+   <trans-unit id="43" xml:space="preserve" approved="no" >
+      <source> Například následující program:</source>
+   </trans-unit>
+<trans-unit approved="no" id="44" xml:space="preserve">
+      <source> [@PROCEDURE name=#PrintHello1] Good morning [/@PROCEDURE] <ph id="0">&amp;amp;nbsp;</ph> [@PROCEDURE name=#PrintHello2] Hello [/@PROCEDURE] <ph id="1">&amp;amp;nbsp;</ph> [@PROCEDURE name=#PrintHello3] Hi [/@PROCEDURE] <ph id="2">&amp;amp;nbsp;</ph> [@LOOP from=1, to=3, index=myIndex, divider=#-] [@CALL name="'PrintHello' + myIndex as Text"] [/@LOOP] </source>
+   </trans-unit>   <trans-unit id="45" xml:space="preserve" approved="no" >
+      <source> - vypíše na stránku text:</source>
+   </trans-unit>
+   <trans-unit id="46" xml:space="preserve" approved="no" >
+      <source> Good morning - Hello - Hi </source>
+   </trans-unit>
+   <trans-unit id="47" xml:space="preserve" approved="no" >
+      <source> $areaId, ..., $thisArea:</source>
+   </trans-unit>
+   <trans-unit id="48" xml:space="preserve" approved="no" >
+      <source> U volání procedury lze určit oblast tak, jak bylo zmíněno v předchozím textu.</source>
+   </trans-unit>
+   <trans-unit id="49" xml:space="preserve" approved="no" >
+      <source> Použít lze jeden z následujících parametrů:</source>
+   </trans-unit>
+   <trans-unit id="50" xml:space="preserve" approved="no" >
+      <source> $areaId, $areaAlias, $area, $startArea, $homeArea, $requestedArea nebo $thisArea.</source>
+   </trans-unit>
+   <trans-unit id="51" xml:space="preserve" approved="no" >
+      <source> Tyto parametry odpovídají stejným parametrům uvedeným např. u značky [@AREA_NAME], ale se znakem $ před jejich názvem.</source>
+   </trans-unit>
+   <trans-unit id="52" xml:space="preserve" approved="no" >
+      <source> Znak $ odlišuje určení oblasti od běžných parametrů volané procedury.</source>
+   </trans-unit>
+   <trans-unit id="53" xml:space="preserve" approved="no" >
+      <source> $parent:</source>
+   </trans-unit>
+   <trans-unit id="54" xml:space="preserve" approved="no" >
+      <source> Tento parametr je bez hodnoty a určuje, že se bude volat procedura ze slotu zděděného z některé rodičovské oblasti určené jedním z předchozích parametrů $areaId, ..., $thisArea.</source>
+   </trans-unit>
+   <trans-unit id="55" xml:space="preserve" approved="no" >
+      <source> Při vkládání definice procedury se tedy použije pouze zděděný slot.</source>
+   </trans-unit>
+   <trans-unit id="56" xml:space="preserve" approved="no" >
+      <source> Dva následující programy jsou ekvivalentní:</source>
+   </trans-unit>
+   <trans-unit id="57" xml:space="preserve" approved="no" >
+      <source> A) [@MojeProcedura $areaAlias=#moje_oblast, $parent] B) [@BLOCK] [@TAG areaAlias=#moje_oblast, slot=#MojeProcedura, $parent] [@MojeProcedura] [/@BLOCK] </source>
+   </trans-unit>
+   <trans-unit id="58" xml:space="preserve" approved="no" >
+      <source> - v předchozím příkladu se hledá definice procedury MojeProcedura ve slotech, které lze zdědit z rodičovských oblastí oblasti se zkratkou moje_oblast.</source>
+   </trans-unit>
+   <trans-unit id="59" xml:space="preserve" approved="no" >
+      <source> $inner:</source>
+   </trans-unit>
+   <trans-unit id="60" xml:space="preserve" approved="no" >
+      <source> Je-li uveden parametr $inner, pak při volání této procedury se musí použít složená značka s vnitřním textem a příkazy.</source>
+   </trans-unit>
+   <trans-unit id="61" xml:space="preserve" approved="no" >
+      <source> Vnitřní text a příkazy jsou uloženy jako hodnota do parametru $inner.</source>
+   </trans-unit>
+   <trans-unit id="62" xml:space="preserve" approved="no" >
+      <source> Pro vypsání hodnoty $inner je možné použít také značku [@INNER].</source>
+   </trans-unit>
+   <trans-unit id="63" xml:space="preserve" approved="no" >
+      <source> Napíklad:</source>
+   </trans-unit>
+   <trans-unit id="64" xml:space="preserve" approved="no" >
+      <source> [@PROCEDURE name=#DoSomething, $inner] Something...</source>
+   </trans-unit>
+   <trans-unit id="65" xml:space="preserve" approved="no" >
+      <source> [@GET $inner] or [@INNER] Somthing else...</source>
+   </trans-unit>
+<trans-unit approved="no" id="66" xml:space="preserve">
+      <source> [/@PROCEDURE] <ph id="0">&amp;amp;nbsp;</ph> [@CALL name=#DoSomething] Inner text...</source>
+   </trans-unit><trans-unit approved="no" id="67" xml:space="preserve">
+      <source> [/@CALL] <ph id="0">&amp;amp;nbsp;</ph> [@DoSomething] Inner text...</source>
+   </trans-unit>   <trans-unit id="68" xml:space="preserve" approved="no" >
+      <source> [/@DoSomething] </source>
+   </trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+<file original="C:\from_backup\multipage_books\cz\maclan_reference\transformation\maclan\area314.xml" source-language="cs-CZ" target-language="en-US" datatype="xml" tool-id="OpenXLIFF">
+<header>
+   <skl>
+      <external-file href="C:\from_backup\multipage_books\cz\maclan_reference\transformation\maclan\area314.xml.skl"/>
+   </skl>
+   <tool tool-version="3.0.0 20230109_0743" tool-id="OpenXLIFF" tool-name="OpenXLIFF Filters"/>
+</header>
+<?encoding UTF-8?>
+<body>
+   <trans-unit id="1" xml:space="preserve" approved="no" >
+      <source> [@LOOP] ...</source>
+   </trans-unit>
+   <trans-unit id="2" xml:space="preserve" approved="no" >
+      <source> [/@LOOP] </source>
+   </trans-unit>
+   <trans-unit id="3" xml:space="preserve" approved="no" >
+      <source> Tato složená značka vkládá místo sebe na stránku odpovídající počet za sebou jdoucích vnitřních textů značky.</source>
+   </trans-unit>
+   <trans-unit id="4" xml:space="preserve" approved="no" >
+      <source> Vnitřní text se nachází mezi počáteční a koncovou značkou.</source>
+   </trans-unit>
+   <trans-unit id="5" xml:space="preserve" approved="no" >
+      <source> Uvnitř cyklu lze také použít příkaz [@LAST] pro jeho předčasné ukončení.</source>
+   </trans-unit>
+   <trans-unit id="6" xml:space="preserve" approved="no" >
+      <source> Pokud je značka bez parametrů určujících počet cyklů, neprovede se žádný cyklus.</source>
+   </trans-unit>
+   <trans-unit id="7" xml:space="preserve" approved="no" >
+      <source> [@LOOP] ...</source>
+   </trans-unit>
+   <trans-unit id="8" xml:space="preserve" approved="no" >
+      <source> [/@LOOP] Má následující parametry:</source>
+   </trans-unit>
+   <trans-unit id="9" xml:space="preserve" approved="no" >
+      <source> count:</source>
+   </trans-unit>
+   <trans-unit id="10" xml:space="preserve" approved="no" >
+      <source> Tento parametr udává počet cyklů.</source>
+   </trans-unit>
+   <trans-unit id="11" xml:space="preserve" approved="no" >
+      <source> Je-li hodnota parametru -1, provádí se nekonečná smyčka, která musí být ukončena nastavením přerušovací proměnné (viz. níže parametr break).</source>
+   </trans-unit>
+   <trans-unit id="12" xml:space="preserve" approved="no" >
+      <source> Následující příklad vypíše 5 krát daný text:</source>
+   </trans-unit>
+   <trans-unit id="13" xml:space="preserve" approved="no" >
+      <source> [@LOOP count=5]TEXT[/@LOOP] </source>
+   </trans-unit>
+   <trans-unit id="14" xml:space="preserve" approved="no" >
+      <source> výsledek je:</source>
+   </trans-unit>
+   <trans-unit id="15" xml:space="preserve" approved="no" >
+      <source> TEXTTEXTTEXTTEXTTEXT </source>
+   </trans-unit>
+   <trans-unit id="16" xml:space="preserve" approved="no" >
+      <source> divider:</source>
+   </trans-unit>
+   <trans-unit id="17" xml:space="preserve" approved="no" >
+      <source> Tento parametr určuje řetězec, kterým budou odděleny jednotlivé části textu sestavovaného pomocí příkazu [@LOOP].</source>
+   </trans-unit>
+   <trans-unit id="18" xml:space="preserve" approved="no" >
+      <source> Například:</source>
+   </trans-unit>
+   <trans-unit id="19" xml:space="preserve" approved="no" >
+      <source> [@LOOP ..., divider = "# - "] TEXT [/@LOOP] </source>
+   </trans-unit>
+   <trans-unit id="20" xml:space="preserve" approved="no" >
+      <source> bude pro tři cykly nahrazen textem:</source>
+   </trans-unit>
+   <trans-unit id="21" xml:space="preserve" approved="no" >
+      <source> TEXT - TEXT - TEXT.</source>
+   </trans-unit>
+   <trans-unit id="22" xml:space="preserve" approved="no" >
+      <source> index:</source>
+   </trans-unit>
+   <trans-unit id="23" xml:space="preserve" approved="no" >
+      <source> Parametr vytvoří proměnnou typu Long, která má hodnotu aktuálního indexu.</source>
+   </trans-unit>
+   <trans-unit id="24" xml:space="preserve" approved="no" >
+      <source> Index je od nuly po počet cyklů smyčky mínus jedna.</source>
+   </trans-unit>
+   <trans-unit id="25" xml:space="preserve" approved="no" >
+      <source> Následující příklad vypíše pět indexů při průchodu smyčkou, které jsou oddělené pomlčkou a mezerami:</source>
+   </trans-unit>
+   <trans-unit id="26" xml:space="preserve" approved="no" >
+      <source> [@LOOP count=5, divider="# - ", index=myIndex] [@GET myIndex] [/@LOOP] </source>
+   </trans-unit>
+   <trans-unit id="27" xml:space="preserve" approved="no" >
+      <source> výsledek je:</source>
+   </trans-unit>
+   <trans-unit id="28" xml:space="preserve" approved="no" >
+      <source> 0 - 1 - 2 - 3 - 4 </source>
+   </trans-unit>
+   <trans-unit id="29" xml:space="preserve" approved="no" >
+      <source> break:</source>
+   </trans-unit>
+   <trans-unit id="30" xml:space="preserve" approved="no" >
+      <source> Tento parametr vytvoří proměnnou typu Boolean pro ukončení smyčky.</source>
+   </trans-unit>
+   <trans-unit id="31" xml:space="preserve" approved="no" >
+      <source> Počáteční hodnota proměnné je nastavena na hodnotu false.</source>
+   </trans-unit>
+   <trans-unit id="32" xml:space="preserve" approved="no" >
+      <source> Ukončení smyčky se provede nastavením této proměnné na hodnotu true.</source>
+   </trans-unit>
+   <trans-unit id="33" xml:space="preserve" approved="no" >
+      <source> Například následující smyčka se provede pouze třikrát a pak je ukončena:</source>
+   </trans-unit>
+   <trans-unit id="34" xml:space="preserve" approved="no" >
+      <source> [@LOOP count=5, index=myIndex, break=myBreak] [@IF cond=myIndex=2] [@SET myBreak=true] [/@IF] ...</source>
+   </trans-unit>
+   <trans-unit id="35" xml:space="preserve" approved="no" >
+      <source> [/@LOOP] </source>
+   </trans-unit>
+   <trans-unit id="36" xml:space="preserve" approved="no" >
+      <source> discard:</source>
+   </trans-unit>
+   <trans-unit id="37" xml:space="preserve" approved="no" >
+      <source> Tento parametr určuje proměnnou typu Boolean, která se vytvoří za účelem skartování poslední iterace při ukončování smyčky.</source>
+   </trans-unit>
+   <trans-unit id="38" xml:space="preserve" approved="no" >
+      <source> Počáteční hodnota proměnné je nastavena na hodnotu false.</source>
+   </trans-unit>
+   <trans-unit id="39" xml:space="preserve" approved="no" >
+      <source> Skartování poslední iterace při ukončení smyčky se provede nastavením této proměnné na hodnotu true.</source>
+   </trans-unit>
+   <trans-unit id="40" xml:space="preserve" approved="no" >
+      <source> Například následující program se provede pouze pro prvních devět položek:</source>
+   </trans-unit>
+   <trans-unit id="41" xml:space="preserve" approved="no" >
+      <source> [@LOOP count=20, index=myIndex, break=breakLoop, discard=discardLast] [@IF cond=myIndex=9] [@SET breakLoop=true, discardLast=true] [/@IF] ...</source>
+   </trans-unit>
+   <trans-unit id="42" xml:space="preserve" approved="no" >
+      <source> [/@LOOP] </source>
+   </trans-unit>
+   <trans-unit id="43" xml:space="preserve" approved="no" >
+      <source> Je potřeba zdůraznit, že index myIndex zde začíná číslem 0, nikoliv číslem 1 jako v případě iterátoru značky [@LIST].</source>
+   </trans-unit>
+   <trans-unit id="44" xml:space="preserve" approved="no" >
+      <source> from:</source>
+   </trans-unit>
+   <trans-unit id="45" xml:space="preserve" approved="no" >
+      <source> Tento parametr určuje počáteční číselnou hodnotu indexu cyklu.</source>
+   </trans-unit>
+   <trans-unit id="46" xml:space="preserve" approved="no" >
+      <source> Napřiklad následující program:</source>
+   </trans-unit>
+   <trans-unit id="47" xml:space="preserve" approved="no" >
+      <source> [@LOOP from=3, count=5, index=myIndex] [@GET myIndex] [/@LOOP] </source>
+   </trans-unit>
+   <trans-unit id="48" xml:space="preserve" approved="no" >
+      <source> - vypíše text:</source>
+   </trans-unit>
+   <trans-unit id="49" xml:space="preserve" approved="no" >
+      <source> 3 4 5 6 7 </source>
+   </trans-unit>
+   <trans-unit id="50" xml:space="preserve" approved="no" >
+      <source> to:</source>
+   </trans-unit>
+   <trans-unit id="51" xml:space="preserve" approved="no" >
+      <source> Tento parametr určuje maximální nebo minimální, v závislosti na parametru step, hodnotu indexu cyklu [@LOOP].</source>
+   </trans-unit>
+   <trans-unit id="52" xml:space="preserve" approved="no" >
+      <source> Například následující program:</source>
+   </trans-unit>
+   <trans-unit id="53" xml:space="preserve" approved="no" >
+      <source> [@LOOP from=1, to=7, step=2, index=myIndex] [@GET myIndex] [/@LOOP] </source>
+   </trans-unit>
+   <trans-unit id="54" xml:space="preserve" approved="no" >
+      <source> - vypíše text:</source>
+   </trans-unit>
+   <trans-unit id="55" xml:space="preserve" approved="no" >
+      <source> 1 3 5 7 </source>
+   </trans-unit>
+   <trans-unit id="56" xml:space="preserve" approved="no" >
+      <source> step:</source>
+   </trans-unit>
+   <trans-unit id="57" xml:space="preserve" approved="no" >
+      <source> Tento parametr určuje krok indexu pro cyklus [@LOOP].</source>
+   </trans-unit>
+   <trans-unit id="58" xml:space="preserve" approved="no" >
+      <source> Například následující program:</source>
+   </trans-unit>
+   <trans-unit id="59" xml:space="preserve" approved="no" >
+      <source> [@LOOP step=10, count=5, index=myIndex] [@GET myIndex] [/@LOOP] </source>
+   </trans-unit>
+   <trans-unit id="60" xml:space="preserve" approved="no" >
+      <source> - vypíše text:</source>
+   </trans-unit>
+   <trans-unit id="61" xml:space="preserve" approved="no" >
+      <source> 0 10 20 30 40 </source>
+   </trans-unit>
+   <trans-unit id="62" xml:space="preserve" approved="no" >
+      <source> transparent:</source>
+   </trans-unit>
+   <trans-unit id="63" xml:space="preserve" approved="no" >
+      <source> Je-li nastavený parametr transparent, pak všechny procedury nadefinované v tomto příkazu jsou viditelné v makro příkazech.</source>
+   </trans-unit>
+</body>
+</file>
+</xliff>

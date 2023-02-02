@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+<file original="C:\from_backup\multipage_books\cz\maclan_reference\transformation\maclan\area437.xml" source-language="cs-CZ" target-language="en-US" datatype="xml" tool-id="OpenXLIFF">
+<header>
+   <skl>
+      <external-file href="C:\from_backup\multipage_books\cz\maclan_reference\transformation\maclan\area437.xml.skl"/>
+   </skl>
+   <tool tool-version="3.0.0 20230109_0743" tool-id="OpenXLIFF" tool-name="OpenXLIFF Filters"/>
+</header>
+<?encoding UTF-8?>
+<body>
+   <trans-unit id="1" xml:space="preserve" approved="no" >
+      <source> [@PACK]...[/@PACK] </source>
+   </trans-unit>
+   <trans-unit id="2" xml:space="preserve" approved="no" >
+      <source> Tato složená značka odstraňuje prázdné znaky z textu uvnitř značky a výsledek vkládá do stránky.</source>
+   </trans-unit>
+   <trans-unit id="3" xml:space="preserve" approved="no" >
+      <source> Není-li uveden žádný parametr, jsou souvislé oblasti s prázdnými znaky nahrazeny vždy jedinou mezerou.</source>
+   </trans-unit>
+   <trans-unit id="4" xml:space="preserve" approved="no" >
+      <source> V případě, že je uveden parametr strong, jsou z textu odstraněny všechny prázdné znaky.</source>
+   </trans-unit>
+   <trans-unit id="5" xml:space="preserve" approved="no" >
+      <source> Následující příklad odstraní souvislé oblasti s prázdnými znaky z textu:</source>
+   </trans-unit>
+   <trans-unit id="6" xml:space="preserve" approved="no" >
+      <source> [@PACK] 1 2 3 4 5 [/@PACK] - výsledkem je text:</source>
+   </trans-unit>
+   <trans-unit id="7" xml:space="preserve" approved="no" >
+      <source> 1 2 3 4 5 </source>
+   </trans-unit>
+   <trans-unit id="8" xml:space="preserve" approved="no" >
+      <source> [@PACK]...[/@PACK] Má následující parametry:</source>
+   </trans-unit>
+   <trans-unit id="9" xml:space="preserve" approved="no" >
+      <source> strong:</source>
+   </trans-unit>
+   <trans-unit id="10" xml:space="preserve" approved="no" >
+      <source> Je-li ve značce použitý parametr strong, odstraní se všechny prázdné znaky z textu uvnitř značky.</source>
+   </trans-unit>
+   <trans-unit id="11" xml:space="preserve" approved="no" >
+      <source> Například následující program:</source>
+   </trans-unit>
+   <trans-unit id="12" xml:space="preserve" approved="no" >
+      <source> [@PACK strong] A B C D E [/@PACK] </source>
+   </trans-unit>
+   <trans-unit id="13" xml:space="preserve" approved="no" >
+      <source> - vloží do stránky text:</source>
+   </trans-unit>
+   <trans-unit id="14" xml:space="preserve" approved="no" >
+      <source> ABCDE </source>
+   </trans-unit>
+   <trans-unit id="15" xml:space="preserve" approved="no" >
+      <source> trim:</source>
+   </trans-unit>
+   <trans-unit id="16" xml:space="preserve" approved="no" >
+      <source> Je-li použitý parametr trim, odstraní se všechny prázdné znaky ze začátku a konce textu a výsledek je opět vložen do stránky.</source>
+   </trans-unit>
+   <trans-unit id="17" xml:space="preserve" approved="no" >
+      <source> Například následující program </source>
+   </trans-unit>
+   <trans-unit id="18" xml:space="preserve" approved="no" >
+      <source> |[@PACK trim] Dobrý den!</source>
+   </trans-unit>
+   <trans-unit id="19" xml:space="preserve" approved="no" >
+      <source> [/@PACK]| </source>
+   </trans-unit>
+   <trans-unit id="20" xml:space="preserve" approved="no" >
+      <source> - vloží do stránky text:</source>
+   </trans-unit>
+   <trans-unit id="21" xml:space="preserve" approved="no" >
+      <source> |Dobrý den!| </source>
+   </trans-unit>
+   <trans-unit id="22" xml:space="preserve" approved="no" >
+      <source> trimBegin:</source>
+   </trans-unit>
+   <trans-unit id="23" xml:space="preserve" approved="no" >
+      <source> Je-li použitý parametr trimBegin, odstraní se všechny prázdné znaky ze začátku textu a výsledek je vložen do stránky.</source>
+   </trans-unit>
+   <trans-unit id="24" xml:space="preserve" approved="no" >
+      <source> Například následující program:</source>
+   </trans-unit>
+   <trans-unit id="25" xml:space="preserve" approved="no" >
+      <source> |[@PACK trimBegin] Dobý den!</source>
+   </trans-unit>
+   <trans-unit id="26" xml:space="preserve" approved="no" >
+      <source> [/@PACK]| </source>
+   </trans-unit>
+   <trans-unit id="27" xml:space="preserve" approved="no" >
+      <source> - vloží do stránky text:</source>
+   </trans-unit>
+<trans-unit approved="no" id="28" xml:space="preserve">
+      <source> |Dobý den!<ph id="0">&amp;amp;nbsp;</ph><ph id="1">&amp;amp;nbsp;</ph><ph id="2">&amp;amp;nbsp;</ph><ph id="3">&amp;amp;nbsp;</ph><ph id="4">&amp;amp;nbsp;</ph>| </source>
+   </trans-unit>   <trans-unit id="29" xml:space="preserve" approved="no" >
+      <source> trimEnd:</source>
+   </trans-unit>
+   <trans-unit id="30" xml:space="preserve" approved="no" >
+      <source> Je-li použitý parametr trimEnd, odstraní se všechny prázdné znaky z konce textu a výsledek je vložen do stránky.</source>
+   </trans-unit>
+   <trans-unit id="31" xml:space="preserve" approved="no" >
+      <source> Například následující program:</source>
+   </trans-unit>
+   <trans-unit id="32" xml:space="preserve" approved="no" >
+      <source> |[@PACK trimEnd] Dobý den!</source>
+   </trans-unit>
+   <trans-unit id="33" xml:space="preserve" approved="no" >
+      <source> [/@PACK]| </source>
+   </trans-unit>
+   <trans-unit id="34" xml:space="preserve" approved="no" >
+      <source> - vloží do stránky text:</source>
+   </trans-unit>
+<trans-unit approved="no" id="35" xml:space="preserve">
+      <source> |<ph id="0">&amp;amp;nbsp;</ph><ph id="1">&amp;amp;nbsp;</ph><ph id="2">&amp;amp;nbsp;</ph><ph id="3">&amp;amp;nbsp;</ph><ph id="4">&amp;amp;nbsp;</ph>Dobý den!</source>
+   </trans-unit>   <trans-unit id="36" xml:space="preserve" approved="no" >
+      <source> | </source>
+   </trans-unit>
+</body>
+</file>
+</xliff>

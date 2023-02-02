@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+<file original="C:\from_backup\multipage_books\cz\maclan_reference\transformation\maclan\area873.xml" source-language="cs-CZ" target-language="en-US" datatype="xml" tool-id="OpenXLIFF">
+<header>
+   <skl>
+      <external-file href="C:\from_backup\multipage_books\cz\maclan_reference\transformation\maclan\area873.xml.skl"/>
+   </skl>
+   <tool tool-version="3.0.0 20230109_0743" tool-id="OpenXLIFF" tool-name="OpenXLIFF Filters"/>
+</header>
+<?encoding UTF-8?>
+<body>
+   <trans-unit id="1" xml:space="preserve" approved="no" >
+      <source> [@NOINDENT] ...</source>
+   </trans-unit>
+   <trans-unit id="2" xml:space="preserve" approved="no" >
+      <source> [/@NOINDENT] </source>
+   </trans-unit>
+   <trans-unit id="3" xml:space="preserve" approved="no" >
+      <source> Tato složená značka zpracuje svůj obsah a odstraní odsazení bloku.</source>
+   </trans-unit>
+   <trans-unit id="4" xml:space="preserve" approved="no" >
+      <source> Zrušení odsazení je důležité například při definování HEREDOC řetězce v jazyku PHP.</source>
+   </trans-unit>
+   <trans-unit id="5" xml:space="preserve" approved="no" >
+      <source> Například následující program:</source>
+   </trans-unit>
+<trans-unit approved="no" id="6" xml:space="preserve">
+      <source> &lt;div&gt; &lt;?php <ph id="0">&amp;amp;nbsp;</ph> $a = 1; <ph id="1">&amp;amp;nbsp;</ph> [@NOINDENT] $text = &lt;&lt;&lt;TEXT Good morning.</source>
+   </trans-unit>   <trans-unit id="7" xml:space="preserve" approved="no" >
+      <source> Would you like a coffee?</source>
+   </trans-unit>
+<trans-unit approved="no" id="8" xml:space="preserve">
+      <source> TEXT; [/@NOINDENT] <ph id="0">&amp;amp;nbsp;</ph> $b = 5; <ph id="1">&amp;amp;nbsp;</ph> ?&gt; &lt;/div&gt; - vypíše do zdrojového textu stránky kód:</source>
+   </trans-unit><trans-unit approved="no" id="9" xml:space="preserve">
+      <source> &lt;div&gt; &lt;?php <ph id="0">&amp;amp;nbsp;</ph> $a = 1; <ph id="1">&amp;amp;nbsp;</ph> $text = &lt;&lt;&lt;TEXT Good morning.</source>
+   </trans-unit>   <trans-unit id="10" xml:space="preserve" approved="no" >
+      <source> Would you like a coffee?</source>
+   </trans-unit>
+<trans-unit approved="no" id="11" xml:space="preserve">
+      <source> TEXT; <ph id="0">&amp;amp;nbsp;</ph> $b = 5; <ph id="1">&amp;amp;nbsp;</ph> ?&gt; &lt;/div&gt; </source>
+   </trans-unit></body>
+</file>
+</xliff>

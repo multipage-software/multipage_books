@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+<file original="C:\from_backup\multipage_books\cz\maclan_reference\transformation\maclan\area802.xml" source-language="cs-CZ" target-language="en-US" datatype="xml" tool-id="OpenXLIFF">
+<header>
+   <skl>
+      <external-file href="C:\from_backup\multipage_books\cz\maclan_reference\transformation\maclan\area802.xml.skl"/>
+   </skl>
+   <tool tool-version="3.0.0 20230109_0743" tool-id="OpenXLIFF" tool-name="OpenXLIFF Filters"/>
+</header>
+<?encoding UTF-8?>
+<body>
+   <trans-unit id="1" xml:space="preserve" approved="no" >
+      <source> [@BOOKMARK] </source>
+   </trans-unit>
+   <trans-unit id="2" xml:space="preserve" approved="no" >
+      <source> Značka definuje místo, kde bude vložen text vytvořený v jiné části programu pomocí [@REPLACE_BOOKMARK].</source>
+   </trans-unit>
+   <trans-unit id="3" xml:space="preserve" approved="no" >
+      <source> Parametr name nebo název prvního parametru učuje název této záložky.</source>
+   </trans-unit>
+   <trans-unit id="4" xml:space="preserve" approved="no" >
+      <source> Následující příklad ilustruje použití značek [@BOOKMARK] a [@REPLACE_BOOKMARK]:</source>
+   </trans-unit>
+   <trans-unit id="5" xml:space="preserve" approved="no" >
+      <source> Toto je [@BOOKMARK muj_text].</source>
+   </trans-unit>
+   <trans-unit id="6" xml:space="preserve" approved="no" >
+      <source> --- [@REPLACE_BOOKMARK muj_text] oblast "[@AREA_NAME homeArea]" [/@REPLACE_BOOKMARK] - vypíše na stránku text:</source>
+   </trans-unit>
+   <trans-unit id="7" xml:space="preserve" approved="no" >
+      <source> Toto je oblast "Dokumentace k jazyku Maclan" .</source>
+   </trans-unit>
+   <trans-unit id="8" xml:space="preserve" approved="no" >
+      <source> --- Jak je vidět v předchozím příkladu, lze text vkládat do již provedené části stránky.</source>
+   </trans-unit>
+   <trans-unit id="9" xml:space="preserve" approved="no" >
+      <source> Použije-li se parametr name, pak bude předchozí příklad vypadat takto:</source>
+   </trans-unit>
+   <trans-unit id="10" xml:space="preserve" approved="no" >
+      <source> Toto je [@BOOKMARK name=#muj_text].</source>
+   </trans-unit>
+   <trans-unit id="11" xml:space="preserve" approved="no" >
+      <source> --- [@REPLACE_BOOKMARK name=#muj_text] oblast "[@AREA_NAME homeArea]" [/@REPLACE_BOOKMARK] - vypíše na stránku opět text:</source>
+   </trans-unit>
+   <trans-unit id="12" xml:space="preserve" approved="no" >
+      <source> Toto je oblast "Dokumentace k jazyku Maclan" .</source>
+   </trans-unit>
+   <trans-unit id="13" xml:space="preserve" approved="no" >
+      <source> --- </source>
+   </trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+<file original="C:\from_backup\multipage_books\cz\maclan_reference\transformation\maclan\area407.xml" source-language="cs-CZ" target-language="en-US" datatype="xml" tool-id="OpenXLIFF">
+<header>
+   <skl>
+      <external-file href="C:\from_backup\multipage_books\cz\maclan_reference\transformation\maclan\area407.xml.skl"/>
+   </skl>
+   <tool tool-version="3.0.0 20230109_0743" tool-id="OpenXLIFF" tool-name="OpenXLIFF Filters"/>
+</header>
+<?encoding UTF-8?>
+<body>
+   <trans-unit id="1" xml:space="preserve" approved="no" >
+      <source> parse() </source>
+   </trans-unit>
+   <trans-unit id="2" xml:space="preserve" approved="no" >
+      <source> Funkce parse(t) má jediný parametr t typu Text.</source>
+   </trans-unit>
+   <trans-unit id="3" xml:space="preserve" approved="no" >
+      <source> Převádí text na celočíselnou hodnotu, desetinnou hodnotu nebo na booleovskou hodnotu.</source>
+   </trans-unit>
+   <trans-unit id="4" xml:space="preserve" approved="no" >
+      <source> Nelze-li text převést, vrací funkce textovou hodnotu t.</source>
+   </trans-unit>
+   <trans-unit id="5" xml:space="preserve" approved="no" >
+      <source> Textová hodnota ve formě celého čísla je převedena na číslo typu Long.</source>
+   </trans-unit>
+   <trans-unit id="6" xml:space="preserve" approved="no" >
+      <source> Textová hodnota ve formě desetinného čísla je převedena na desetinné číslo typu Double.</source>
+   </trans-unit>
+   <trans-unit id="7" xml:space="preserve" approved="no" >
+      <source> Text "true" je převeden na hodnotu true typu Boolean.</source>
+   </trans-unit>
+   <trans-unit id="8" xml:space="preserve" approved="no" >
+      <source> Text "false" je převeden nahodnotu false typu Boolean.</source>
+   </trans-unit>
+   <trans-unit id="9" xml:space="preserve" approved="no" >
+      <source> Následující příklad převede text na celé číslo a určí, zda je výsledek typu Long:</source>
+   </trans-unit>
+   <trans-unit id="10" xml:space="preserve" approved="no" >
+      <source> [@GET exp="parse('21') is Long"] Výsledkem předchozího příkazu je text:</source>
+   </trans-unit>
+   <trans-unit id="11" xml:space="preserve" approved="no" >
+      <source> true Následující příklad převede text na desetinné číslo a určí, zda je výsledek typu Double:</source>
+   </trans-unit>
+   <trans-unit id="12" xml:space="preserve" approved="no" >
+      <source> [@GET exp="parse('3.14') is Double"] Výsledkem předchozího příkazu je text:</source>
+   </trans-unit>
+   <trans-unit id="13" xml:space="preserve" approved="no" >
+      <source> true Následující příklad převede text na booleovskou hodnotu a určí, zda je výsledek typu Boolean:</source>
+   </trans-unit>
+   <trans-unit id="14" xml:space="preserve" approved="no" >
+      <source> @lb@GET exp="parse('true') is Boolean"] Výsledkem předchozího příkazu je text:</source>
+   </trans-unit>
+   <trans-unit id="15" xml:space="preserve" approved="no" >
+      <source> true Následující příklad převede text na booleovskou hodnotu a určí, zda je výsledek typu Boolean:</source>
+   </trans-unit>
+   <trans-unit id="16" xml:space="preserve" approved="no" >
+      <source> [@GET exp="parse('false') is Boolean"] Výsledkem předchozího příkazu je text:</source>
+   </trans-unit>
+   <trans-unit id="17" xml:space="preserve" approved="no" >
+      <source> true Následující příklad neprovede převod a vrátí textovou hodnotu, pak určí, zda je výsledek typu Text:</source>
+   </trans-unit>
+   <trans-unit id="18" xml:space="preserve" approved="no" >
+      <source> [@GET exp="parse('ahoj') is Text"] Výsledkem předchozího příkazu je text:</source>
+   </trans-unit>
+   <trans-unit id="19" xml:space="preserve" approved="no" >
+      <source> true </source>
+   </trans-unit>
+</body>
+</file>
+</xliff>

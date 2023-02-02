@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+<file original="C:\from_backup\multipage_books\cz\maclan_reference\transformation\maclan\area291.xml" source-language="cs-CZ" target-language="en-US" datatype="xml" tool-id="OpenXLIFF">
+<header>
+   <skl>
+      <external-file href="C:\from_backup\multipage_books\cz\maclan_reference\transformation\maclan\area291.xml.skl"/>
+   </skl>
+   <tool tool-version="3.0.0 20230109_0743" tool-id="OpenXLIFF" tool-name="OpenXLIFF Filters"/>
+</header>
+<?encoding UTF-8?>
+<body>
+   <trans-unit id="1" xml:space="preserve" approved="no" >
+      <source> [@SUBAREAS] </source>
+   </trans-unit>
+   <trans-unit id="2" xml:space="preserve" approved="no" >
+      <source> Jednoduchá značka [@SUBAREAS] je nahrazena v textu stránky prázdným řetězcem (nevypisuje se nic).</source>
+   </trans-unit>
+   <trans-unit id="3" xml:space="preserve" approved="no" >
+      <source> Pomocí této značky ale máte možnost definovat lokální proměnnou, jejíž hodnotou je pak seznam podoblastí aktuální nebo zvolené oblasti (viz. následující seznam parametrů).</source>
+   </trans-unit>
+   <trans-unit id="4" xml:space="preserve" approved="no" >
+      <source> [@SUBAREAS] Má následující parametry:</source>
+   </trans-unit>
+   <trans-unit id="5" xml:space="preserve" approved="no" >
+      <source> list:</source>
+   </trans-unit>
+   <trans-unit id="6" xml:space="preserve" approved="no" >
+      <source> Parametr list pojmenovává novou proměnnou typu LinkedList, které bude přiřazen odpovídající seznam oblastí.</source>
+   </trans-unit>
+   <trans-unit id="7" xml:space="preserve" approved="no" >
+      <source> Například:</source>
+   </trans-unit>
+   <trans-unit id="8" xml:space="preserve" approved="no" >
+      <source> [@SUBAREAS list = my_list] </source>
+   </trans-unit>
+   <trans-unit id="9" xml:space="preserve" approved="no" >
+      <source> vytvoří lokální proměnnou s názvem my_list, jejíž hodnotou je seznam typu LinkedList obsahující odpovídající seznam oblastí.</source>
+   </trans-unit>
+   <trans-unit id="10" xml:space="preserve" approved="no" >
+      <source> Tuto proměnnou lze pak používat v dalších příkazech.</source>
+   </trans-unit>
+   <trans-unit id="11" xml:space="preserve" approved="no" >
+      <source> first:</source>
+   </trans-unit>
+   <trans-unit id="12" xml:space="preserve" approved="no" >
+      <source> Parametr vytvoří proměnnou typu Area, která odkazuje na první prvek daného seznamu oblastí.</source>
+   </trans-unit>
+   <trans-unit id="13" xml:space="preserve" approved="no" >
+      <source> Například:</source>
+   </trans-unit>
+   <trans-unit id="14" xml:space="preserve" approved="no" >
+      <source> [@SUBAREAS first=my_area] </source>
+   </trans-unit>
+   <trans-unit id="15" xml:space="preserve" approved="no" >
+      <source> vytvoří proměnnou my_area jejíž hodnotou je první oblast z daného seznamu oblastí.</source>
+   </trans-unit>
+   <trans-unit id="16" xml:space="preserve" approved="no" >
+      <source> last:</source>
+   </trans-unit>
+   <trans-unit id="17" xml:space="preserve" approved="no" >
+      <source> Parametr vytvoří proměnnou typu Area, která odkazuje na poslední prvek daného seznamu oblastí.</source>
+   </trans-unit>
+   <trans-unit id="18" xml:space="preserve" approved="no" >
+      <source> [@SUBAREAS last=my_area] </source>
+   </trans-unit>
+   <trans-unit id="19" xml:space="preserve" approved="no" >
+      <source> vytvoří proměnnou my_area jejíž hodnotou je poslední oblast z daného seznamu oblastí.</source>
+   </trans-unit>
+   <trans-unit id="20" xml:space="preserve" approved="no" >
+      <source> cond:</source>
+   </trans-unit>
+   <trans-unit id="21" xml:space="preserve" approved="no" >
+      <source> Parametr cond slouží k filtraci výběru oblastí.</source>
+   </trans-unit>
+   <trans-unit id="22" xml:space="preserve" approved="no" >
+      <source> Jeho hodnotou je výraz, který musí povinně vracet booleovskou hodnotu (true nebo false).</source>
+   </trans-unit>
+   <trans-unit id="23" xml:space="preserve" approved="no" >
+      <source> Oblast je zařazena do výsledného seznamu značky [@SUBAREAS], je-li hodnota výrazu cond rovna hodnotě true.</source>
+   </trans-unit>
+   <trans-unit id="24" xml:space="preserve" approved="no" >
+      <source> V opačném případě je oblast vynechána.</source>
+   </trans-unit>
+   <trans-unit id="25" xml:space="preserve" approved="no" >
+      <source> Například:</source>
+   </trans-unit>
+   <trans-unit id="26" xml:space="preserve" approved="no" >
+      <source> [@SUBAREAS cond = "this.name.startsWith('my_')", ...</source>
+   </trans-unit>
+   <trans-unit id="27" xml:space="preserve" approved="no" >
+      <source> vybere pouze oblasti jejichž jméno začíná písmeny my_.</source>
+   </trans-unit>
+   <trans-unit id="28" xml:space="preserve" approved="no" >
+      <source> V parametru cond je vhodné použít objekt this, který odkazuje na aktuální oblast zpracovávanou značkou [@SUBAREAS].</source>
+   </trans-unit>
+   <trans-unit id="29" xml:space="preserve" approved="no" >
+      <source> Pomocí this lze filtrovat oblasti definované pomocí [@SUBAREAS].</source>
+   </trans-unit>
+   <trans-unit id="30" xml:space="preserve" approved="no" >
+      <source> Dalšími objekty, které lze použít pro filtrování oblastí jsou thisRel, thisIndex a thisSize.</source>
+   </trans-unit>
+   <trans-unit id="31" xml:space="preserve" approved="no" >
+      <source> Hodnotou thisRel je objekt relace mezi oblastmi, který je typu AreaRelation.</source>
+   </trans-unit>
+   <trans-unit id="32" xml:space="preserve" approved="no" >
+      <source> Například:</source>
+   </trans-unit>
+   <trans-unit id="33" xml:space="preserve" approved="no" >
+      <source> [@SUBAREAS cond = "thisRel.getSubName() = 'property'", ...</source>
+   </trans-unit>
+   <trans-unit id="34" xml:space="preserve" approved="no" >
+      <source> vybere pouze oblasti, k nímž vede relace pojmenovaná názvem property.</source>
+   </trans-unit>
+   <trans-unit id="35" xml:space="preserve" approved="no" >
+      <source> Hodnotou thisIndex je pořadí oblasti od 0 do N-1, kde N je počet oblastí a hodnotou thisSize je počet oblastí (N).</source>
+   </trans-unit>
+   <trans-unit id="36" xml:space="preserve" approved="no" >
+      <source> Hodnota thisSize je konstantní.</source>
+   </trans-unit>
+   <trans-unit id="37" xml:space="preserve" approved="no" >
+      <source> reversed:</source>
+   </trans-unit>
+   <trans-unit id="38" xml:space="preserve" approved="no" >
+      <source> Parametr reversed zajistí na konci zpracování otočení pořadí oblastí v seznamu.</source>
+   </trans-unit>
+   <trans-unit id="39" xml:space="preserve" approved="no" >
+      <source> areaId:</source>
+   </trans-unit>
+   <trans-unit id="40" xml:space="preserve" approved="no" >
+      <source> Hodnota parametru areaId je číslo identifkující oblast.</source>
+   </trans-unit>
+   <trans-unit id="41" xml:space="preserve" approved="no" >
+      <source> Tento identifikátor je oblasti přiřazen při jejím vzniku a jednoznačně ji určuje až do doby, kdy je smazána.</source>
+   </trans-unit>
+   <trans-unit id="42" xml:space="preserve" approved="no" >
+      <source> Například:</source>
+   </trans-unit>
+   <trans-unit id="43" xml:space="preserve" approved="no" >
+      <source> [@SUBAREAS areaId = 1, ...] </source>
+   </trans-unit>
+   <trans-unit id="44" xml:space="preserve" approved="no" >
+      <source> - odkazuje na oblast s identifikátorem 1.</source>
+   </trans-unit>
+   <trans-unit id="45" xml:space="preserve" approved="no" >
+      <source> areaAlias:</source>
+   </trans-unit>
+   <trans-unit id="46" xml:space="preserve" approved="no" >
+      <source> Textová hodnota parametru areaAlias určuje zkratku identifikující oblast.</source>
+   </trans-unit>
+   <trans-unit id="47" xml:space="preserve" approved="no" >
+      <source> Zkratka je pro oblast v daném projektu jednoznačná podobně jako identifikátor (ten je však jednoznačný pro všechny projekty).</source>
+   </trans-unit>
+   <trans-unit id="48" xml:space="preserve" approved="no" >
+      <source> Nemusí však být u oblasti uvedena.</source>
+   </trans-unit>
+   <trans-unit id="49" xml:space="preserve" approved="no" >
+      <source> Výhodou oproti identifikátoru oblasti je, že není zvolena automaticky programem, ale volí ji programátor.</source>
+   </trans-unit>
+   <trans-unit id="50" xml:space="preserve" approved="no" >
+      <source> Zkratka se navíc může měnit v průběhu existence oblasti.</source>
+   </trans-unit>
+   <trans-unit id="51" xml:space="preserve" approved="no" >
+      <source> Například značka:</source>
+   </trans-unit>
+   <trans-unit id="52" xml:space="preserve" approved="no" >
+      <source> [@SUBAREAS areaAlias = #my_area, ...] </source>
+   </trans-unit>
+   <trans-unit id="53" xml:space="preserve" approved="no" >
+      <source> - odkazuje na oblast se zkratkou my_area.</source>
+   </trans-unit>
+   <trans-unit id="54" xml:space="preserve" approved="no" >
+      <source> Všimněte si znaku # před názvem zkratky.</source>
+   </trans-unit>
+   <trans-unit id="55" xml:space="preserve" approved="no" >
+      <source> Je zde uveden proto, že vše co je za ním je interpretováno jako textový řetězec.</source>
+   </trans-unit>
+   <trans-unit id="56" xml:space="preserve" approved="no" >
+      <source> Kdyby znak # nebyl před zkratkou uveden, bral by se text my_area jako pojmenování proměnné my_area, jejíž hodnota by určovala zkratku oblasti.</source>
+   </trans-unit>
+   <trans-unit id="57" xml:space="preserve" approved="no" >
+      <source> area:</source>
+   </trans-unit>
+   <trans-unit id="58" xml:space="preserve" approved="no" >
+      <source> Určuje oblast pomocí výrazu s výslednou hodnotou typu Area.</source>
+   </trans-unit>
+   <trans-unit id="59" xml:space="preserve" approved="no" >
+      <source> Například:</source>
+   </trans-unit>
+   <trans-unit id="60" xml:space="preserve" approved="no" >
+      <source> [@SUBAREAS area=subareas().getFirst(), ...] </source>
+   </trans-unit>
+   <trans-unit id="61" xml:space="preserve" approved="no" >
+      <source> V předchozím příkladu se použije první podoblast aktuální oblasti.</source>
+   </trans-unit>
+   <trans-unit id="62" xml:space="preserve" approved="no" >
+      <source> Uvedený výraz subareas().getFirst() vrací objekt typu Area.</source>
+   </trans-unit>
+   <trans-unit id="63" xml:space="preserve" approved="no" >
+      <source> startArea:</source>
+   </trans-unit>
+   <trans-unit id="64" xml:space="preserve" approved="no" >
+      <source> Parametr se uvádí bez hodnoty.</source>
+   </trans-unit>
+   <trans-unit id="65" xml:space="preserve" approved="no" >
+      <source> Určuje startovací oblast:</source>
+   </trans-unit>
+   <trans-unit id="66" xml:space="preserve" approved="no" >
+      <source> [@SUBAREAS startArea, ...] </source>
+   </trans-unit>
+   <trans-unit id="67" xml:space="preserve" approved="no" >
+      <source> V předchozím příkladu se bere v úvahu startovací oblast.</source>
+   </trans-unit>
+   <trans-unit id="68" xml:space="preserve" approved="no" >
+      <source> Startovací oblast je ta u níž byl nalezen přímý nebo zděděný zdrojový soubor.</source>
+   </trans-unit>
+   <trans-unit id="69" xml:space="preserve" approved="no" >
+      <source> homeArea:</source>
+   </trans-unit>
+   <trans-unit id="70" xml:space="preserve" approved="no" >
+      <source> Parametr se uvádí bez hodnoty.</source>
+   </trans-unit>
+   <trans-unit id="71" xml:space="preserve" approved="no" >
+      <source> Určuje domovskou oblast:</source>
+   </trans-unit>
+   <trans-unit id="72" xml:space="preserve" approved="no" >
+      <source> [@SUBAREAS homeArea, ...] </source>
+   </trans-unit>
+   <trans-unit id="73" xml:space="preserve" approved="no" >
+      <source> V předchozím příkladu se bere v úvahu domovská oblast, ketrá se renderuje jako index.xxx.</source>
+   </trans-unit>
+   <trans-unit id="74" xml:space="preserve" approved="no" >
+      <source> requestedArea:</source>
+   </trans-unit>
+   <trans-unit id="75" xml:space="preserve" approved="no" >
+      <source> Parametr se uvádí bez hodnoty.</source>
+   </trans-unit>
+   <trans-unit id="76" xml:space="preserve" approved="no" >
+      <source> Určuje serverem dotazovanou oblast:</source>
+   </trans-unit>
+   <trans-unit id="77" xml:space="preserve" approved="no" >
+      <source> [@SUBAREAS requestedArea, ...] </source>
+   </trans-unit>
+   <trans-unit id="78" xml:space="preserve" approved="no" >
+      <source> V předchozím příkladu se bere v úvahu servrem dotazovaná oblast.</source>
+   </trans-unit>
+   <trans-unit id="79" xml:space="preserve" approved="no" >
+      <source> thisArea:</source>
+   </trans-unit>
+   <trans-unit id="80" xml:space="preserve" approved="no" >
+      <source> Parametr se uvádí bez hodnoty.</source>
+   </trans-unit>
+   <trans-unit id="81" xml:space="preserve" approved="no" >
+      <source> Určuje aktuální oblast:</source>
+   </trans-unit>
+   <trans-unit id="82" xml:space="preserve" approved="no" >
+      <source> [@SUBAREAS thisArea, ...] </source>
+   </trans-unit>
+   <trans-unit id="83" xml:space="preserve" approved="no" >
+      <source> V předchozím příkladu se bere v úvahu aktuální oblast.</source>
+   </trans-unit>
+   <trans-unit id="84" xml:space="preserve" approved="no" >
+      <source> areaSlot:</source>
+   </trans-unit>
+   <trans-unit id="85" xml:space="preserve" approved="no" >
+      <source> Parametr se uvádí s názvem slotu v aktuální oblasti.</source>
+   </trans-unit>
+   <trans-unit id="86" xml:space="preserve" approved="no" >
+      <source> Hodnotou slotu musí být odkaz na oblast:</source>
+   </trans-unit>
+   <trans-unit id="87" xml:space="preserve" approved="no" >
+      <source> [@SUBAREAS areaSlot=#odkazNaOblast1, ...] </source>
+   </trans-unit>
+   <trans-unit id="88" xml:space="preserve" approved="no" >
+      <source> V předchozím příkladu se načte hodnota slotu s názvem "odkazNaOblast1".</source>
+   </trans-unit>
+   <trans-unit id="89" xml:space="preserve" approved="no" >
+      <source> Pokud je tato hodnota typu "Area", použije se v tomto příkazu.</source>
+   </trans-unit>
+   <trans-unit id="90" xml:space="preserve" approved="no" >
+      <source> Není-li hodnota slotu "odkazNaOblast1" typu Area, vypíše se chybové hlášení.</source>
+   </trans-unit>
+</body>
+</file>
+</xliff>

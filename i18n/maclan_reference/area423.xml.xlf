@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+<file original="C:\from_backup\multipage_books\cz\maclan_reference\transformation\maclan\area423.xml" source-language="cs-CZ" target-language="en-US" datatype="xml" tool-id="OpenXLIFF">
+<header>
+   <skl>
+      <external-file href="C:\from_backup\multipage_books\cz\maclan_reference\transformation\maclan\area423.xml.skl"/>
+   </skl>
+   <tool tool-version="3.0.0 20230109_0743" tool-id="OpenXLIFF" tool-name="OpenXLIFF Filters"/>
+</header>
+<?encoding UTF-8?>
+<body>
+   <trans-unit id="1" xml:space="preserve" approved="no" >
+      <source> Typ LinkedList </source>
+   </trans-unit>
+   <trans-unit id="2" xml:space="preserve" approved="no" >
+      <source> Není definováno v JavaScriptu.</source>
+   </trans-unit>
+   <trans-unit id="3" xml:space="preserve" approved="no" >
+      <source> Typ LinkedList představuje seznam objektů.</source>
+   </trans-unit>
+   <trans-unit id="4" xml:space="preserve" approved="no" >
+      <source> Vlastosti typu:</source>
+   </trans-unit>
+   <trans-unit id="5" xml:space="preserve" approved="no" >
+      <source> size() - Počet prvků seznamu. isEmpty() - Vrací true, je-li seznam prázdný. isNotEmpty() - Vrací true, není-li seznam prázdný. add() - Přidá objekt na konec seznamu. addFirst() - Přidá objekt na začátek seznamu. get() - Vrací položku seznamu na pozici indexu.</source>
+   </trans-unit>
+   <trans-unit id="6" xml:space="preserve" approved="no" >
+      <source> Index je od nuly. getFirst() - Vrací první položku seznamu. getLast() - Vrací poslední položku seznamu. sort() - Setřídí seznam. contains() - remove() - Vymaže prvek ze seznamu. removeIndex() - Vymaže prvek ze seznamu. removeFirst() - Vymaže prvek ze seznamu. removeLast() - Vymaže prvek ze seznamu. indexOf() - addAll() - </source>
+   </trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+<file datatype="xml" original="C:\from_backup\multipage_books\cz\maclan_reference\transformation\maclan\area284.xml" source-language="cs-CZ" target-language="en-US" tool-id="OpenXLIFF">
+<header>
+   <skl>
+      <external-file href="C:\from_backup\multipage_books\cz\maclan_reference\transformation\maclan\area284.xml.skl"/>
+   </skl>
+   <tool tool-id="OpenXLIFF" tool-name="OpenXLIFF Filters" tool-version="3.0.0 20230109_0743"/>
+</header>
+<?encoding UTF-8?>
+<body>
+   <trans-unit approved="no" id="1" xml:space="preserve">
+      <source> Adresa vlajky jazyka </source><target state="translated">URL of language icon</target>
+   </trans-unit>
+   <trans-unit approved="no" id="2" xml:space="preserve">
+      <source> Vlajku jazyka lze získat pomocí parametru s názvem flag_id, jehož hodnotou je číslo identifikující daný jazyk.</source><target state="translated">The icon of a language can be obtained by a parameter named flag_id, whose value is the number identifying the language.</target>
+   </trans-unit>
+   <trans-unit approved="no" id="3" xml:space="preserve">
+      <source> Následující adresa vrací vlajku jazyka s identifikátorem 5 ve formě obrázku:</source><target state="translated">The following address returns the icon of a language with identifier 5:</target>
+   </trans-unit>
+   <trans-unit approved="no" id="4" xml:space="preserve">
+      <source> http://localhost:8080/?flag_id=5 </source><target state="translated">http://localhost:8080/?flag_id=5</target>
+   </trans-unit>
+</body>
+</file>
+</xliff>

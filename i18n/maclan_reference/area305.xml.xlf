@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+<file original="C:\from_backup\multipage_books\cz\maclan_reference\transformation\maclan\area305.xml" source-language="cs-CZ" target-language="en-US" datatype="xml" tool-id="OpenXLIFF">
+<header>
+   <skl>
+      <external-file href="C:\from_backup\multipage_books\cz\maclan_reference\transformation\maclan\area305.xml.skl"/>
+   </skl>
+   <tool tool-version="3.0.0 20230109_0743" tool-id="OpenXLIFF" tool-name="OpenXLIFF Filters"/>
+</header>
+<?encoding UTF-8?>
+<body>
+   <trans-unit id="1" xml:space="preserve" approved="no" >
+      <source> [@LANGUAGES] ...</source>
+   </trans-unit>
+   <trans-unit id="2" xml:space="preserve" approved="no" >
+      <source> [/@LANGUAGES] </source>
+   </trans-unit>
+   <trans-unit id="3" xml:space="preserve" approved="no" >
+      <source> Jedná se o složenou značku.</source>
+   </trans-unit>
+   <trans-unit id="4" xml:space="preserve" approved="no" >
+      <source> Značka [@LANGUAGES] provádí výčet přes všechny dostupné jazyky internetových stránek.</source>
+   </trans-unit>
+   <trans-unit id="5" xml:space="preserve" approved="no" >
+      <source> Na stránku bude vložen text, který se nachází uvnitř značky přesně tolikrát, kolik existuje jazyků.</source>
+   </trans-unit>
+   <trans-unit id="6" xml:space="preserve" approved="no" >
+      <source> Ve vnitřním textu této značky se mohou nacházet značky [@LANG_FLAG], [@LANG_DESCRIPTION], [@LANG_ALIAS] a [@LANG_ID], které vkládají údaje o aktuálním jazyku zvoleném značkou [@LANGUAGES].</source>
+   </trans-unit>
+   <trans-unit id="7" xml:space="preserve" approved="no" >
+      <source> Například následující program vloží na stránku seznam vlajek jazyků ve složených závorkách:</source>
+   </trans-unit>
+   <trans-unit id="8" xml:space="preserve" approved="no" >
+      <source> [@LANGUAGES] { [@LANG_FLAG] } [/@LANGUAGES] Výsledek předchozích příkazů je následující:</source>
+   </trans-unit>
+   <trans-unit id="9" xml:space="preserve" approved="no" >
+      <source> [@LANGUAGES] ...</source>
+   </trans-unit>
+   <trans-unit id="10" xml:space="preserve" approved="no" >
+      <source> [/@LANGUAGES] Má následující parametry:</source>
+   </trans-unit>
+   <trans-unit id="11" xml:space="preserve" approved="no" >
+      <source> divider:</source>
+   </trans-unit>
+   <trans-unit id="12" xml:space="preserve" approved="no" >
+      <source> Tento parametr určuje řetězec, kterým budou odděleny jednotlivé části textu sestavovaného pomocí příkazu [@LANGUAGES].</source>
+   </trans-unit>
+   <trans-unit id="13" xml:space="preserve" approved="no" >
+      <source> Například:</source>
+   </trans-unit>
+   <trans-unit id="14" xml:space="preserve" approved="no" >
+      <source> [@LANGUAGES ..., divider = "# - "] TEXT [/@LANGUAGES] </source>
+   </trans-unit>
+   <trans-unit id="15" xml:space="preserve" approved="no" >
+      <source> bude pro tři cykly nahrazen textem:</source>
+   </trans-unit>
+   <trans-unit id="16" xml:space="preserve" approved="no" >
+      <source> TEXT - TEXT - TEXT.</source>
+   </trans-unit>
+   <trans-unit id="17" xml:space="preserve" approved="no" >
+      <source> transparent:</source>
+   </trans-unit>
+   <trans-unit id="18" xml:space="preserve" approved="no" >
+      <source> Je-li nastavený parametr transparent, pak všechny procedury nadefinované v tomto příkazu jsou viditelné v makro příkazech.</source>
+   </trans-unit>
+</body>
+</file>
+</xliff>

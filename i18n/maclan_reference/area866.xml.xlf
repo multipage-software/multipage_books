@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+<file original="C:\from_backup\multipage_books\cz\maclan_reference\transformation\maclan\area866.xml" source-language="cs-CZ" target-language="en-US" datatype="xml" tool-id="OpenXLIFF">
+<header>
+   <skl>
+      <external-file href="C:\from_backup\multipage_books\cz\maclan_reference\transformation\maclan\area866.xml.skl"/>
+   </skl>
+   <tool tool-version="3.0.0 20230109_0743" tool-id="OpenXLIFF" tool-name="OpenXLIFF Filters"/>
+</header>
+<?encoding UTF-8?>
+<body>
+   <trans-unit id="1" xml:space="preserve" approved="no" >
+      <source> [@CSS_LOOKUP_TABLE] </source>
+   </trans-unit>
+   <trans-unit id="2" xml:space="preserve" approved="no" >
+      <source> Tato složená značka definuje tabulku pro CSS oblast se sloty.</source>
+   </trans-unit>
+   <trans-unit id="3" xml:space="preserve" approved="no" >
+      <source> Značka se používá pro zrychlení programu při velkém počtu oblastí s CSS sloty, protože tyto oblasti obsahují stovky slotů ke zpracování.</source>
+   </trans-unit>
+   <trans-unit id="4" xml:space="preserve" approved="no" >
+      <source> Značka se používá spolu s funkcemi insertGlobalCss a getGlobalCss.</source>
+   </trans-unit>
+   <trans-unit id="5" xml:space="preserve" approved="no" >
+      <source> Funkce insertGlobalCss používá tuto tabulku ke zjištění, které sloty jsou v CSS oblasti přítomny.</source>
+   </trans-unit>
+   <trans-unit id="6" xml:space="preserve" approved="no" >
+      <source> (Funkce getGlobalCss setstavuje konečný seznam vytvořených CSS pravidel.)</source>
+   </trans-unit>
+   <trans-unit id="7" xml:space="preserve" approved="no" >
+      <source> Formát tabulky je následující:</source>
+   </trans-unit>
+   <trans-unit id="8" xml:space="preserve" approved="no" >
+      <source> [@CSS_LOOKUP_TABLE] slot_name1 = css_property_name1[, !important][, pptext]; slot_name2 = css_property_name2[, !important][, pptext]; slot_name3 = css_property_name3[, !important][, pptext]; ...</source>
+   </trans-unit>
+   <trans-unit id="9" xml:space="preserve" approved="no" >
+      <source> [/@CSS_LOOKUP_TABLE] kde:</source>
+   </trans-unit>
+   <trans-unit id="10" xml:space="preserve" approved="no" >
+      <source> slot_nameN - je název slotu css_property_nameN - je název CSS vlastnosti !important - je-li přítomen na řádku, použije se v hodnotě nakonci jako !important pptext - je-li přítomen na řádku, provede se zpracování hodnoty slotu (může tedy obsahovat lokální příkazy) </source>
+   </trans-unit>
+</body>
+</file>
+</xliff>

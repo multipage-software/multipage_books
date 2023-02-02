@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+<file original="C:\from_backup\multipage_books\cz\maclan_reference\transformation\maclan\area496.xml" source-language="cs-CZ" target-language="en-US" datatype="xml" tool-id="OpenXLIFF">
+<header>
+   <skl>
+      <external-file href="C:\from_backup\multipage_books\cz\maclan_reference\transformation\maclan\area496.xml.skl"/>
+   </skl>
+   <tool tool-version="3.0.0 20230109_0743" tool-id="OpenXLIFF" tool-name="OpenXLIFF Filters"/>
+</header>
+<?encoding UTF-8?>
+<body>
+   <trans-unit id="1" xml:space="preserve" approved="no" >
+      <source> [@URL] </source>
+   </trans-unit>
+   <trans-unit id="2" xml:space="preserve" approved="no" >
+      <source>langAlias</source>
+   </trans-unit>
+   <trans-unit id="3" xml:space="preserve" approved="no" >
+      <source>versionAlias</source>
+   </trans-unit>
+   <trans-unit id="4" xml:space="preserve" approved="no" >
+      <source>res</source>
+   </trans-unit>
+   <trans-unit id="5" xml:space="preserve" approved="no" >
+      <source> [@URL homeArea] </source>
+   </trans-unit>
+   <trans-unit id="6" xml:space="preserve" approved="no" >
+      <source>cz</source>
+   </trans-unit>
+   <trans-unit id="7" xml:space="preserve" approved="no" >
+      <source> [@URL thisArea, langAlias=#cz] </source>
+   </trans-unit>
+   <trans-unit id="8" xml:space="preserve" approved="no" >
+      <source> - vypíše do stránky text:</source>
+   </trans-unit>
+   <trans-unit id="9" xml:space="preserve" approved="no" >
+      <source> area496_6.htm </source>
+   </trans-unit>
+   <trans-unit id="10" xml:space="preserve" approved="no" >
+      <source> Značka může také poskytovat URL internetového souboru připojeného k oblasti.</source>
+   </trans-unit>
+   <trans-unit id="11" xml:space="preserve" approved="no" >
+      <source> Například následující příklad odkazuje na obrázek v oblastí se zkratkou "documentation" a s názvem obrázku "image1.png".</source>
+   </trans-unit>
+   <trans-unit id="12" xml:space="preserve" approved="no" >
+      <source> Název obrázku určuje parametr res:</source>
+   </trans-unit>
+   <trans-unit id="13" xml:space="preserve" approved="no" >
+      <source> [@URL areaAlias=#documentation, res=#image1.png] </source>
+   </trans-unit>
+   <trans-unit id="14" xml:space="preserve" approved="no" >
+      <source> - výsledkem je následující odkaz:</source>
+   </trans-unit>
+   <trans-unit id="15" xml:space="preserve" approved="no" >
+      <source> res135.png </source>
+   </trans-unit>
+   <trans-unit id="16" xml:space="preserve" approved="no" >
+      <source> [@URL] Má následující parametry:</source>
+   </trans-unit>
+   <trans-unit id="17" xml:space="preserve" approved="no" >
+      <source> areaId:</source>
+   </trans-unit>
+   <trans-unit id="18" xml:space="preserve" approved="no" >
+      <source> Hodnota parametru areaId je číslo identifkující oblast.</source>
+   </trans-unit>
+   <trans-unit id="19" xml:space="preserve" approved="no" >
+      <source> Tento identifikátor je oblasti přiřazen při jejím vzniku a jednoznačně ji určuje až do doby, kdy je smazána.</source>
+   </trans-unit>
+   <trans-unit id="20" xml:space="preserve" approved="no" >
+      <source> Například:</source>
+   </trans-unit>
+   <trans-unit id="21" xml:space="preserve" approved="no" >
+      <source> [@URL areaId = 1, ...] </source>
+   </trans-unit>
+   <trans-unit id="22" xml:space="preserve" approved="no" >
+      <source> - odkazuje na oblast s identifikátorem 1.</source>
+   </trans-unit>
+   <trans-unit id="23" xml:space="preserve" approved="no" >
+      <source> areaAlias:</source>
+   </trans-unit>
+   <trans-unit id="24" xml:space="preserve" approved="no" >
+      <source> Textová hodnota parametru areaAlias určuje zkratku identifikující oblast.</source>
+   </trans-unit>
+   <trans-unit id="25" xml:space="preserve" approved="no" >
+      <source> Zkratka je pro oblast v daném projektu jednoznačná podobně jako identifikátor (ten je však jednoznačný pro všechny projekty).</source>
+   </trans-unit>
+   <trans-unit id="26" xml:space="preserve" approved="no" >
+      <source> Nemusí však být u oblasti uvedena.</source>
+   </trans-unit>
+   <trans-unit id="27" xml:space="preserve" approved="no" >
+      <source> Výhodou oproti identifikátoru oblasti je, že není zvolena automaticky programem, ale volí ji programátor.</source>
+   </trans-unit>
+   <trans-unit id="28" xml:space="preserve" approved="no" >
+      <source> Zkratka se navíc může měnit v průběhu existence oblasti.</source>
+   </trans-unit>
+   <trans-unit id="29" xml:space="preserve" approved="no" >
+      <source> Například značka:</source>
+   </trans-unit>
+   <trans-unit id="30" xml:space="preserve" approved="no" >
+      <source> [@URL areaAlias = #my_area, ...] </source>
+   </trans-unit>
+   <trans-unit id="31" xml:space="preserve" approved="no" >
+      <source> - odkazuje na oblast se zkratkou my_area.</source>
+   </trans-unit>
+   <trans-unit id="32" xml:space="preserve" approved="no" >
+      <source> Všimněte si znaku # před názvem zkratky.</source>
+   </trans-unit>
+   <trans-unit id="33" xml:space="preserve" approved="no" >
+      <source> Je zde uveden proto, že vše co je za ním je interpretováno jako textový řetězec.</source>
+   </trans-unit>
+   <trans-unit id="34" xml:space="preserve" approved="no" >
+      <source> Kdyby znak # nebyl před zkratkou uveden, bral by se text my_area jako pojmenování proměnné my_area, jejíž hodnota by určovala zkratku oblasti.</source>
+   </trans-unit>
+   <trans-unit id="35" xml:space="preserve" approved="no" >
+      <source> area:</source>
+   </trans-unit>
+   <trans-unit id="36" xml:space="preserve" approved="no" >
+      <source> Určuje oblast pomocí výrazu s výslednou hodnotou typu Area.</source>
+   </trans-unit>
+   <trans-unit id="37" xml:space="preserve" approved="no" >
+      <source> Například:</source>
+   </trans-unit>
+   <trans-unit id="38" xml:space="preserve" approved="no" >
+      <source> [@URL area=subareas().getFirst(), ...] </source>
+   </trans-unit>
+   <trans-unit id="39" xml:space="preserve" approved="no" >
+      <source> V předchozím příkladu se použije první podoblast aktuální oblasti.</source>
+   </trans-unit>
+   <trans-unit id="40" xml:space="preserve" approved="no" >
+      <source> Uvedený výraz subareas().getFirst() vrací objekt typu Area.</source>
+   </trans-unit>
+   <trans-unit id="41" xml:space="preserve" approved="no" >
+      <source> startArea:</source>
+   </trans-unit>
+   <trans-unit id="42" xml:space="preserve" approved="no" >
+      <source> Parametr se uvádí bez hodnoty.</source>
+   </trans-unit>
+   <trans-unit id="43" xml:space="preserve" approved="no" >
+      <source> Určuje startovací oblast:</source>
+   </trans-unit>
+   <trans-unit id="44" xml:space="preserve" approved="no" >
+      <source> [@URL startArea, ...] </source>
+   </trans-unit>
+   <trans-unit id="45" xml:space="preserve" approved="no" >
+      <source> V předchozím příkladu se bere v úvahu startovací oblast.</source>
+   </trans-unit>
+   <trans-unit id="46" xml:space="preserve" approved="no" >
+      <source> Startovací oblast je ta u níž byl nalezen přímý nebo zděděný zdrojový soubor.</source>
+   </trans-unit>
+   <trans-unit id="47" xml:space="preserve" approved="no" >
+      <source> homeArea:</source>
+   </trans-unit>
+   <trans-unit id="48" xml:space="preserve" approved="no" >
+      <source> Parametr se uvádí bez hodnoty.</source>
+   </trans-unit>
+   <trans-unit id="49" xml:space="preserve" approved="no" >
+      <source> Určuje domovskou oblast:</source>
+   </trans-unit>
+   <trans-unit id="50" xml:space="preserve" approved="no" >
+      <source> [@URL homeArea, ...] </source>
+   </trans-unit>
+   <trans-unit id="51" xml:space="preserve" approved="no" >
+      <source> V předchozím příkladu se bere v úvahu domovská oblast, ketrá se renderuje jako index.xxx.</source>
+   </trans-unit>
+   <trans-unit id="52" xml:space="preserve" approved="no" >
+      <source> requestedArea:</source>
+   </trans-unit>
+   <trans-unit id="53" xml:space="preserve" approved="no" >
+      <source> Parametr se uvádí bez hodnoty.</source>
+   </trans-unit>
+   <trans-unit id="54" xml:space="preserve" approved="no" >
+      <source> Určuje serverem dotazovanou oblast:</source>
+   </trans-unit>
+   <trans-unit id="55" xml:space="preserve" approved="no" >
+      <source> [@URL requestedArea, ...] </source>
+   </trans-unit>
+   <trans-unit id="56" xml:space="preserve" approved="no" >
+      <source> V předchozím příkladu se bere v úvahu servrem dotazovaná oblast.</source>
+   </trans-unit>
+   <trans-unit id="57" xml:space="preserve" approved="no" >
+      <source> thisArea:</source>
+   </trans-unit>
+   <trans-unit id="58" xml:space="preserve" approved="no" >
+      <source> Parametr se uvádí bez hodnoty.</source>
+   </trans-unit>
+   <trans-unit id="59" xml:space="preserve" approved="no" >
+      <source> Určuje aktuální oblast:</source>
+   </trans-unit>
+   <trans-unit id="60" xml:space="preserve" approved="no" >
+      <source> [@URL thisArea, ...] </source>
+   </trans-unit>
+   <trans-unit id="61" xml:space="preserve" approved="no" >
+      <source> V předchozím příkladu se bere v úvahu aktuální oblast.</source>
+   </trans-unit>
+   <trans-unit id="62" xml:space="preserve" approved="no" >
+      <source> areaSlot:</source>
+   </trans-unit>
+   <trans-unit id="63" xml:space="preserve" approved="no" >
+      <source> Parametr se uvádí s názvem slotu v aktuální oblasti.</source>
+   </trans-unit>
+   <trans-unit id="64" xml:space="preserve" approved="no" >
+      <source> Hodnotou slotu musí být odkaz na oblast:</source>
+   </trans-unit>
+   <trans-unit id="65" xml:space="preserve" approved="no" >
+      <source> [@URL areaSlot=#odkazNaOblast1, ...] </source>
+   </trans-unit>
+   <trans-unit id="66" xml:space="preserve" approved="no" >
+      <source> V předchozím příkladu se načte hodnota slotu s názvem "odkazNaOblast1".</source>
+   </trans-unit>
+   <trans-unit id="67" xml:space="preserve" approved="no" >
+      <source> Pokud je tato hodnota typu "Area", použije se v tomto příkazu.</source>
+   </trans-unit>
+   <trans-unit id="68" xml:space="preserve" approved="no" >
+      <source> Není-li hodnota slotu "odkazNaOblast1" typu Area, vypíše se chybové hlášení.</source>
+   </trans-unit>
+   <trans-unit id="69" xml:space="preserve" approved="no" >
+      <source> res:</source>
+   </trans-unit>
+   <trans-unit id="70" xml:space="preserve" approved="no" >
+      <source> Parametr res uvádí název internetového souboru, který je připojen k oblasti.</source>
+   </trans-unit>
+   <trans-unit id="71" xml:space="preserve" approved="no" >
+      <source> Například následující příkaz:</source>
+   </trans-unit>
+   <trans-unit id="72" xml:space="preserve" approved="no" >
+      <source> [@URL areaAlias=#documentation, res=#image1.png] </source>
+   </trans-unit>
+   <trans-unit id="73" xml:space="preserve" approved="no" >
+      <source> - vloží na stránku text:</source>
+   </trans-unit>
+   <trans-unit id="74" xml:space="preserve" approved="no" >
+      <source> res135.png </source>
+   </trans-unit>
+   <trans-unit id="75" xml:space="preserve" approved="no" >
+      <source> localhost:</source>
+   </trans-unit>
+   <trans-unit id="76" xml:space="preserve" approved="no" >
+      <source> Přepínač platí pouze pro online mód, nikoliv pro renderované oblasti.</source>
+   </trans-unit>
+   <trans-unit id="77" xml:space="preserve" approved="no" >
+      <source> Je-li uveden parametr localhost, přídá se před url název serveru localhost s odpovídajícím portem.</source>
+   </trans-unit>
+   <trans-unit id="78" xml:space="preserve" approved="no" >
+      <source> Port se získává z objektu request.</source>
+   </trans-unit>
+   <trans-unit id="79" xml:space="preserve" approved="no" >
+      <source> Použití je v případě PHP příkazů include a require.</source>
+   </trans-unit>
+   <trans-unit id="80" xml:space="preserve" approved="no" >
+      <source> Např.:</source>
+   </trans-unit>
+   <trans-unit id="81" xml:space="preserve" approved="no" >
+      <source> include '[@URL requestedArea, localhost]'; </source>
+   </trans-unit>
+   <trans-unit id="82" xml:space="preserve" approved="no" >
+      <source> je převedeno na text </source>
+   </trans-unit>
+   <trans-unit id="83" xml:space="preserve" approved="no" >
+      <source> include 'http://localhost:8080/?area_id=9834&amp;lang_id=0'; </source>
+   </trans-unit>
+   <trans-unit id="84" xml:space="preserve" approved="no" >
+      <source> langAlias:</source>
+   </trans-unit>
+   <trans-unit id="85" xml:space="preserve" approved="no" >
+      <source> Tento parametr určuje jazyk oblasti pomocí jeho zkratky.</source>
+   </trans-unit>
+   <trans-unit id="86" xml:space="preserve" approved="no" >
+      <source> Relativní URL generovaná značkou s tímto parametrem odkazuje na odpovídající jazykovou mutaci oblasti.</source>
+   </trans-unit>
+   <trans-unit id="87" xml:space="preserve" approved="no" >
+      <source> Například následující příkaz:</source>
+   </trans-unit>
+   <trans-unit id="88" xml:space="preserve" approved="no" >
+      <source> [@URL homeArea, langAlias=#cz] </source>
+   </trans-unit>
+   <trans-unit id="89" xml:space="preserve" approved="no" >
+      <source> - vypíše do stránky text:</source>
+   </trans-unit>
+   <trans-unit id="90" xml:space="preserve" approved="no" >
+      <source> area279_6.htm </source>
+   </trans-unit>
+   <trans-unit id="91" xml:space="preserve" approved="no" >
+      <source> versionAlias:</source>
+   </trans-unit>
+   <trans-unit id="92" xml:space="preserve" approved="no" >
+      <source> Je-li uveden parametr versionAlias, vloží se do url odkaz na danou verzi stránky.</source>
+   </trans-unit>
+   <trans-unit id="93" xml:space="preserve" approved="no" >
+      <source> download:</source>
+   </trans-unit>
+   <trans-unit id="94" xml:space="preserve" approved="no" >
+      <source> Je-li uveden parametr download, vloží se do url parametr filename a odkaz provádí uložení souboru pod jeho názvem na disk.</source>
+   </trans-unit>
+   <trans-unit id="95" xml:space="preserve" approved="no" >
+      <source> file:</source>
+   </trans-unit>
+   <trans-unit id="96" xml:space="preserve" approved="no" >
+      <source> Tento parametr uvádí název souboru, který bude použit při jeho ukládání na lokální disk pomocí prohlížeče.</source>
+   </trans-unit>
+   <trans-unit id="97" xml:space="preserve" approved="no" >
+      <source> Například následující příkaz:</source>
+   </trans-unit>
+   <trans-unit id="98" xml:space="preserve" approved="no" >
+      <source> [@URL areaAlias=#documentation, res=#image1.png, file=#book.png] </source>
+   </trans-unit>
+   <trans-unit id="99" xml:space="preserve" approved="no" >
+      <source> - vloží na stránku text:</source>
+   </trans-unit>
+   <trans-unit id="100" xml:space="preserve" approved="no" >
+      <source> /book.png </source>
+   </trans-unit>
+</body>
+</file>
+</xliff>

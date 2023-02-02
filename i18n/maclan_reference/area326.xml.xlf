@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+<file original="C:\from_backup\multipage_books\cz\maclan_reference\transformation\maclan\area326.xml" source-language="cs-CZ" target-language="en-US" datatype="xml" tool-id="OpenXLIFF">
+<header>
+   <skl>
+      <external-file href="C:\from_backup\multipage_books\cz\maclan_reference\transformation\maclan\area326.xml.skl"/>
+   </skl>
+   <tool tool-version="3.0.0 20230109_0743" tool-id="OpenXLIFF" tool-name="OpenXLIFF Filters"/>
+</header>
+<?encoding UTF-8?>
+<body>
+   <trans-unit id="1" xml:space="preserve" approved="no" >
+      <source> [@IF] ...</source>
+   </trans-unit>
+   <trans-unit id="2" xml:space="preserve" approved="no" >
+      <source> [@ELSEIF] ...</source>
+   </trans-unit>
+   <trans-unit id="3" xml:space="preserve" approved="no" >
+      <source> [@ELSE] ...</source>
+   </trans-unit>
+   <trans-unit id="4" xml:space="preserve" approved="no" >
+      <source> [/@IF] </source>
+   </trans-unit>
+   <trans-unit id="5" xml:space="preserve" approved="no" >
+      <source> Tato značka představuje podmíněný příkaz ve tvaru [@IF cond = "..."] ...</source>
+   </trans-unit>
+   <trans-unit id="6" xml:space="preserve" approved="no" >
+      <source> [@ELSEIF cond = "..."] ...</source>
+   </trans-unit>
+   <trans-unit id="7" xml:space="preserve" approved="no" >
+      <source> [@ELSE] ...</source>
+   </trans-unit>
+   <trans-unit id="8" xml:space="preserve" approved="no" >
+      <source> [/@IF].</source>
+   </trans-unit>
+   <trans-unit id="9" xml:space="preserve" approved="no" >
+      <source> Je podobná složené značce, ale je rozdělena na více částí.</source>
+   </trans-unit>
+   <trans-unit id="10" xml:space="preserve" approved="no" >
+      <source> Vybere se ta část příkazu, jejíž odpovídající hodnota parametru cond je první rovná true.</source>
+   </trans-unit>
+   <trans-unit id="11" xml:space="preserve" approved="no" >
+      <source> Není-li žádná z hodnot rovna true, vloží se do textu část za značkou [@ELSE].</source>
+   </trans-unit>
+   <trans-unit id="12" xml:space="preserve" approved="no" >
+      <source> Pokud tato chybí, nevloží se do textu nic.</source>
+   </trans-unit>
+   <trans-unit id="13" xml:space="preserve" approved="no" >
+      <source> Podmíněné příkazy se také mohou vnořovat.</source>
+   </trans-unit>
+   <trans-unit id="14" xml:space="preserve" approved="no" >
+      <source> V následujícím příkladu je namísto celé značky vložen text pravda:</source>
+   </trans-unit>
+   <trans-unit id="15" xml:space="preserve" approved="no" >
+      <source> [@IF cond="2 &lt; 3"] pravda [@ELSE] nepravda [/@IF] Naproti tomu v dalším příkladu je do textu vložen text nepravda:</source>
+   </trans-unit>
+   <trans-unit id="16" xml:space="preserve" approved="no" >
+      <source> [@IF cond="7 = 8"] pravda [@ELSEIF cond="true"] nepravda [@ELSE] nic [/@IF] Poslední program ukazuje vnořování příkazů [@IF].</source>
+   </trans-unit>
+   <trans-unit id="17" xml:space="preserve" approved="no" >
+      <source> Například:</source>
+   </trans-unit>
+   <trans-unit id="18" xml:space="preserve" approved="no" >
+      <source> [@IF cond=false] Ahoj [@ELSE] [@IF cond=true] Dobrý den [@ELSE] Nazdar [/@IF] [/@IF] - vypíše text:</source>
+   </trans-unit>
+   <trans-unit id="19" xml:space="preserve" approved="no" >
+      <source> Dobrý den </source>
+   </trans-unit>
+   <trans-unit id="20" xml:space="preserve" approved="no" >
+      <source> [@IF] ...</source>
+   </trans-unit>
+   <trans-unit id="21" xml:space="preserve" approved="no" >
+      <source> [@ELSEIF] ...</source>
+   </trans-unit>
+   <trans-unit id="22" xml:space="preserve" approved="no" >
+      <source> [@ELSE] ...</source>
+   </trans-unit>
+   <trans-unit id="23" xml:space="preserve" approved="no" >
+      <source> [/@IF] Má následující parametry:</source>
+   </trans-unit>
+   <trans-unit id="24" xml:space="preserve" approved="no" >
+      <source> cond:</source>
+   </trans-unit>
+   <trans-unit id="25" xml:space="preserve" approved="no" >
+      <source> Parametry cond poskytují výrazy, jejichž hodnoty musí být typu Boolean.</source>
+   </trans-unit>
+   <trans-unit id="26" xml:space="preserve" approved="no" >
+      <source> Hodnoty těchto výrazů určují, která část podmíněného příkazu [@IF cond = "výraz1"] ...</source>
+   </trans-unit>
+   <trans-unit id="27" xml:space="preserve" approved="no" >
+      <source> [@ELSEIF cond = "výraz2"] ...</source>
+   </trans-unit>
+   <trans-unit id="28" xml:space="preserve" approved="no" >
+      <source> [@ELSE] ...</source>
+   </trans-unit>
+   <trans-unit id="29" xml:space="preserve" approved="no" >
+      <source> [/@IF] bude vložena do textu stránky.</source>
+   </trans-unit>
+   <trans-unit id="30" xml:space="preserve" approved="no" >
+      <source> Vždy první nalezená část s výrazem, jehož hodnota je true, bude vložena do textu stránky.</source>
+   </trans-unit>
+   <trans-unit id="31" xml:space="preserve" approved="no" >
+      <source> Pokud jsou všechny výrazy vyhodnoceny jako false, vloží se do textu část za značkou [@ELSE].</source>
+   </trans-unit>
+   <trans-unit id="32" xml:space="preserve" approved="no" >
+      <source> Není li v příkazu značka [@ELSE], nevloží se do textu nic.</source>
+   </trans-unit>
+   <trans-unit id="33" xml:space="preserve" approved="no" >
+      <source> Například následující program:</source>
+   </trans-unit>
+   <trans-unit id="34" xml:space="preserve" approved="no" >
+      <source> [@IF cond=1=2] Pondělí [@ELSEIF cond=false=true] Úterý [@ELSEIF cond=4/2=2] Středa [@ELSE] Čtvrtek [/@IF] </source>
+   </trans-unit>
+   <trans-unit id="35" xml:space="preserve" approved="no" >
+      <source> - vloží do stránky text:</source>
+   </trans-unit>
+   <trans-unit id="36" xml:space="preserve" approved="no" >
+      <source> Středa </source>
+   </trans-unit>
+   <trans-unit id="37" xml:space="preserve" approved="no" >
+      <source> Naproti tomu následující program:</source>
+   </trans-unit>
+   <trans-unit id="38" xml:space="preserve" approved="no" >
+      <source> [@IF cond="'a' = 'b'"] Vltava [@ELSEIF cond="3.14 = 3.15"] Odra [/@IF] </source>
+   </trans-unit>
+   <trans-unit id="39" xml:space="preserve" approved="no" >
+      <source> - nevloží do textu nic, protože ani jedna z podmínek není splněna a zároveň příkaz neobsahuje část [@ELSE].</source>
+   </trans-unit>
+</body>
+</file>
+</xliff>

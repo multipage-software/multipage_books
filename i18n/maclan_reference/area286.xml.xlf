@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+<file datatype="xml" original="C:\from_backup\multipage_books\cz\maclan_reference\transformation\maclan\area286.xml" source-language="cs-CZ" target-language="en-US" tool-id="OpenXLIFF">
+<header>
+   <skl>
+      <external-file href="C:\from_backup\multipage_books\cz\maclan_reference\transformation\maclan\area286.xml.skl"/>
+   </skl>
+   <tool tool-id="OpenXLIFF" tool-name="OpenXLIFF Filters" tool-version="3.0.0 20230109_0743"/>
+</header>
+<?encoding UTF-8?>
+<body>
+   <trans-unit approved="no" id="1" xml:space="preserve">
+      <source> Značky oblastí </source><target state="translated">Area markers</target>
+   </trans-unit>
+   <trans-unit approved="no" id="2" xml:space="preserve">
+      <source> Obsah:</source><target state="translated">Contents:</target>
+   </trans-unit>
+   <trans-unit approved="no" id="3" xml:space="preserve">
+      <source> [@AREA_NAME] - Vloží název oblasti.</source><target state="translated">[@AREA_NAME] - Inserts the name of the area.</target>
+   </trans-unit>
+   <trans-unit approved="no" id="4" xml:space="preserve">
+      <source> [@AREA_ID] - Vloží identifikátor oblasti.</source><target state="translated">[@AREA_ID] - Inserts the area identifier.</target>
+   </trans-unit>
+   <trans-unit approved="no" id="5" xml:space="preserve">
+      <source> [@AREA_ALIAS] - Vloží zkratku oblasti.</source><target state="translated">[@AREA_ALIAS] - Inserts the area abbreviation.</target>
+   </trans-unit>
+   <trans-unit approved="no" id="6" xml:space="preserve">
+      <source> [@SUBAREAS] - Zjistí podoblasti dané oblasti.</source><target state="translated">[@SUBAREAS] - Identifies the sub-areas of the given area.</target>
+   </trans-unit>
+   <trans-unit approved="no" id="7" xml:space="preserve">
+      <source> [@SUPERAREAS] - Zjistí nadoblasti dané oblasti.</source><target state="translated">[@SUPERAREAS] - Detects within the area.</target>
+   </trans-unit>
+   <trans-unit approved="no" id="8" xml:space="preserve">
+      <source> [@TAG] - Vloží hodnotu slotu.</source><target state="translated">[@TAG] - Inserts the slot value.</target>
+   </trans-unit>
+</body>
+</file>
+</xliff>

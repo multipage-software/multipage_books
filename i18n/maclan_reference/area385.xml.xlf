@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+<file original="C:\from_backup\multipage_books\cz\maclan_reference\transformation\maclan\area385.xml" source-language="cs-CZ" target-language="en-US" datatype="xml" tool-id="OpenXLIFF">
+<header>
+   <skl>
+      <external-file href="C:\from_backup\multipage_books\cz\maclan_reference\transformation\maclan\area385.xml.skl"/>
+   </skl>
+   <tool tool-version="3.0.0 20230109_0743" tool-id="OpenXLIFF" tool-name="OpenXLIFF Filters"/>
+</header>
+<?encoding UTF-8?>
+<body>
+   <trans-unit id="1" xml:space="preserve" approved="no" >
+      <source> regionMatches </source>
+   </trans-unit>
+   <trans-unit id="2" xml:space="preserve" approved="no" >
+      <source> regionMatches(toffset,other,oofset,len) Testuje, zda jsou dvě textové oblasti stejné.</source>
+   </trans-unit>
+   <trans-unit id="3" xml:space="preserve" approved="no" >
+      <source> Část tohoto řetězce je porovnána s částí řetězce argumentu other.</source>
+   </trans-unit>
+   <trans-unit id="4" xml:space="preserve" approved="no" >
+      <source> Výsledek je true, jestli-že tyto části jsou shodné.</source>
+   </trans-unit>
+   <trans-unit id="5" xml:space="preserve" approved="no" >
+      <source> Část tohoto řetězce pro porovnání začíná indexem toffset a má délku len.</source>
+   </trans-unit>
+   <trans-unit id="6" xml:space="preserve" approved="no" >
+      <source> Část řetězce argumentu začíná indexem ooffset a má délku len.</source>
+   </trans-unit>
+   <trans-unit id="7" xml:space="preserve" approved="no" >
+      <source> Výsledek je false, v následujících případech:</source>
+   </trans-unit>
+   <trans-unit id="8" xml:space="preserve" approved="no" >
+      <source> toffset je záporný oofset je záporný tofset+len je větší než délka tohoto řetězce nebo řetězce argumentu Existuje nezáporné celé číslo k menší než len takové, že this.charAt(toffset + k) != other.charAt(oofset + k) Parametry:</source>
+   </trans-unit>
+   <trans-unit id="9" xml:space="preserve" approved="no" >
+      <source> toffset (typu Long) - počáteční posun textového subregionu v tomto řetězci other (typu Text) - řetězec oofset (typu Long) - počáteční posun textového subregionu v řetězci argumentu len (typu Long) - počet znaků k porovnání Návratová hodnota:</source>
+   </trans-unit>
+   <trans-unit id="10" xml:space="preserve" approved="no" >
+      <source> typu Boolean - true, je-li část tohoto řetězce shodná s částí řetězce argumentu, jinak false </source>
+   </trans-unit>
+</body>
+</file>
+</xliff>

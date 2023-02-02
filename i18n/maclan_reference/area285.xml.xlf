@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+<file datatype="xml" original="C:\from_backup\multipage_books\cz\maclan_reference\transformation\maclan\area285.xml" source-language="cs-CZ" target-language="en-US" tool-id="OpenXLIFF">
+<header>
+   <skl>
+      <external-file href="C:\from_backup\multipage_books\cz\maclan_reference\transformation\maclan\area285.xml.skl"/>
+   </skl>
+   <tool tool-id="OpenXLIFF" tool-name="OpenXLIFF Filters" tool-version="3.0.0 20230109_0743"/>
+</header>
+<?encoding UTF-8?>
+<body>
+   <trans-unit approved="no" id="1" xml:space="preserve">
+      <source> Značky metajazyka </source><target state="translated">MetaLanguage Marks</target>
+   </trans-unit>
+   <trans-unit approved="no" id="2" xml:space="preserve">
+      <source> Metaprogramovací jazyk pro generování stránek nástrojem MultiPage© byl navržen tak, aby jeho jednoduchost umožňovala rychlý vývoj aplikací.</source><target state="translated">The Metaprogramming Language for generating target language application with the MultiPage IDE© tool was designed to enable rapid and more automatic development of the applications.</target>
+   </trans-unit>
+   <trans-unit approved="no" id="3" xml:space="preserve">
+      <source> Základním prvkem tohoto programovacího jazyka je značka.</source><target state="translated">The basic element of this programming language is the tag.</target>
+   </trans-unit>
+   <trans-unit approved="no" id="4" xml:space="preserve">
+      <source> Značky jsou buď jednoduché nebo složené podobně jako HTML značky.</source><target state="translated">The tags are either simple or compound similar to HTML tags.</target>
+   </trans-unit>
+   <trans-unit approved="no" id="5" xml:space="preserve">
+      <source> Jednoduchá značka je ve tvaru:</source><target state="translated">The simple mark is in the following form:</target>
+   </trans-unit>
+   <trans-unit approved="no" id="6" xml:space="preserve">
+      <source> [@NÁZEV parametr1="hodnota1", prametr2="hodnota2", ..., parametrN="hodnotaN"] Jednoduchá značka začíná vždy dvěma znaky [ a @ a končí znakem ].</source><target state="translated">[@NAME of parameter1="value1", parameter2="value2", ..., parameter N="valueN"] A simple tag always starts with the characters [  followed by a single or multiple @ signs and tag content ends with the ] character.</target>
+   </trans-unit>
+   <trans-unit approved="no" id="7" xml:space="preserve">
+      <source> Ihned za znaky [@ se nachází název značky a její parametry oddělené čárkou a mezerami nebo pouze mezerami.</source><target state="translated">Immediately after the [ and @ characters is the name of the tag followed by its parameters which are separated by commas and white spaces or just with white spaces.</target>
+   </trans-unit>
+   <trans-unit approved="no" id="8" xml:space="preserve">
+      <source> Zde je značka s názvem NÁZEV, která má parametry s názvy parametr1, parametr2 až parametrN s hodnotami za znaky rovnítka hodnota1, hodnota2 až hodnotaN.</source><target state="translated">Above is a tag named NAME that has parameters with names: parameter1, parameter2 to parameterN. They have values placed after the equals characters: value1, value2 to valueN.</target>
+   </trans-unit>
+   <trans-unit approved="no" id="9" xml:space="preserve">
+      <source> Hodnoty parametrů jsou uzavřeny uvozovkami.</source><target state="translated">Parameter values can be enclosed by quotation marks.</target>
+   </trans-unit>
+   <trans-unit approved="no" id="10" xml:space="preserve">
+      <source> V případě, že hodnoty neobsahují oddělovače, lze uvozovky vynechat:</source><target state="translated">If the values do not contain parameter separators, quotation marks can be omitted:</target>
+   </trans-unit>
+   <trans-unit approved="no" id="11" xml:space="preserve">
+      <source> [@NÁZEV parametr1=hodnota1, prametr2=hodnota2, ..., parametrN=hodnotaN] Pokud parametr nevyžaduje hodnotu, tehdy když se pouze testuje jeho přítomnost nebo nepřítomnost ve značce, hodnota se vůbec neuvádí:</source><target state="translated">[@NAME parameter1=value1, prametr2=value2, ..., parameter N=valueN] If the parameter does not require a value when only its presence or absence from the tag is tested, the value is not stated at all:</target>
+   </trans-unit>
+   <trans-unit approved="no" id="12" xml:space="preserve">
+      <source> [@NÁZEV parametr1, prametr2, ..., parametrN] Složená značka má naproti tomu na začátku jednoduchou značku a na konci ukončovací značku.</source><target state="translated">[@NAME of parameter1, parametre2, ..., parameterN] A compound mark, on the other hand, has a simple mark at the beginning and a termination mark at the end.</target>
+   </trans-unit>
+   <trans-unit approved="no" id="13" xml:space="preserve">
+      <source> Mezi počáteční a ukončovací značkou se může nacházet libovolný text (tento text může opět obsahovat jednoduché nebo složené značky podobně jako HTML).</source><target state="translated">Any text can be found between the start and end marks (this text can again contain simple or compound marks of the macrolanguage).</target>
+   </trans-unit>
+   <trans-unit approved="no" id="14" xml:space="preserve">
+      <source> Složená značka je tedy ve tvaru:</source><target state="translated">The compound mark is thus in the form:</target>
+   </trans-unit>
+   <trans-unit approved="no" id="15" xml:space="preserve">
+      <source> [@NÁZEV parametr1="hodnota1", prametr2="hodnota2", ..., parametrN="hodnotaN"] ...text...</source><target state="translated">[@NAME parameter1="value1", parameter2="value2", ..., parameterN="valueN"] ...text... [/@NAME]</target>
+   </trans-unit>
+   <trans-unit approved="no" id="16" xml:space="preserve">
+      <source> [/@NÁZEV] Vše co bylo zmíněno o jednoduché značce platí také pro počáteční značku této složené značky.</source><target state="translated">Everything that has been mentioned about a simple mark also applies to the initial mark of this compound mark.</target>
+   </trans-unit>
+   <trans-unit approved="no" id="17" xml:space="preserve">
+      <source> Ukončovací značka začíná znaky [ a / (zpětné lomítko) a @, za nimiž následuje název složené značky a koncový znak ].</source><target state="translated">The termination mark begins with the [ and / (backslash) and @ characters, followed by the compound mark name and the end character ].</target>
+   </trans-unit>
+   <trans-unit approved="no" id="18" xml:space="preserve">
+      <source> Text uvnitř složené značky je většinou zpracován serverem a tento zpracovaný text je pak vložen namísto značky.</source><target state="translated">Text inside the compound tag is usually processed by the server and this processed text is then inserted instead of the compound tag.</target>
+   </trans-unit>
+   <trans-unit approved="no" id="19" xml:space="preserve">
+      <source> Server vloží na místo jednoduché nebo složené značky výsledný zpracovaný text.</source><target state="translated">The server inserts the resulting processed text instead of a simple or compound tag.</target>
+   </trans-unit>
+   <trans-unit approved="no" id="20" xml:space="preserve">
+      <source> Avšak kurzor serveru se neposouvá a zůstává vždy na počátku zpracované značky.</source><target state="translated">However, the cursor of the server does not move and always remains at the beginning of the processed tag.</target>
+   </trans-unit>
+   <trans-unit approved="no" id="21" xml:space="preserve">
+      <source> Server tak má následně možnost zpracovat nové vložené značky.</source><target state="translated">The server then has the possibility to process new inserted tags.</target>
+   </trans-unit>
+   <trans-unit approved="no" id="22" xml:space="preserve">
+      <source> Server je nastaven tak, že nepředpokládá existenci značek v hodnotách paramerů jednoduchých nebo složených značek (tj. v textech "hodnota1", "hodnota2" až "hodnotaN").</source><target state="translated">The server default set does not assume the existence of tags in parameter values of simple or compound tags (i.e. "value1" cannot contain [@NAME] by default).</target>
+   </trans-unit>
+   <trans-unit approved="no" id="23" xml:space="preserve">
+      <source> Pokud se však toto předpokládá, stačí ve značce na kterémkoliv místě nastavit parametr pptext bez hodnoty.</source><target state="translated">However, if the above construction is assumed, it is enough to set the parameter pptext without value in the tag at any point.</target>
+   </trans-unit>
+   <trans-unit approved="no" id="24" xml:space="preserve">
+      <source> Následující značka pak zpracuje vnořené značky v parametru:</source><target state="translated">The following tag then processes the nested tags in the parameter:</target>
+   </trans-unit>
+   <trans-unit approved="no" id="25" xml:space="preserve">
+      <source> [@NÁZEV parametr1="začátek ...</source><target state="translated">[@NAME parameter1="start ... [@MARK parameter=\"value\"] ... end value", pptext]</target>
+   </trans-unit>
+   <trans-unit approved="no" id="26" xml:space="preserve">
+      <source> [@ZNAČKA parametr=\"hodnota\"] ... konec hodnoty", pptext] Červená textová hodnota parametru parametr1 je díky poslednímu parametru pptext (název je zkratkou process property text) nejprve zpracována serverem a pak dosazena do hodnoty paremetru parametr1.</source><target state="translated">The text value of the parameter1 is first processed by the area server thanks to stated pptext (which name is an abbreviation of the statement: process property text) and then substituted into the parameter1 value.</target>
+   </trans-unit>
+   <trans-unit approved="no" id="27" xml:space="preserve">
+      <source> Uvozovky uvnitř hodnoty parametru musí být uvozeny zpětným lomítkem aby nekolidovaly s vnějšími uvozovkami parametru parametr1 (viz. \"hodnota\").</source><target state="translated">The quotation marks inside the parameter value must be backslashed so that they do not coincide with the external quotation marks of the parameter parameter1 (see \"value\").</target>
+   </trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+<file original="C:\from_backup\multipage_books\cz\maclan_reference\transformation\maclan\area411.xml" source-language="cs-CZ" target-language="en-US" datatype="xml" tool-id="OpenXLIFF">
+<header>
+   <skl>
+      <external-file href="C:\from_backup\multipage_books\cz\maclan_reference\transformation\maclan\area411.xml.skl"/>
+   </skl>
+   <tool tool-version="3.0.0 20230109_0743" tool-id="OpenXLIFF" tool-name="OpenXLIFF Filters"/>
+</header>
+<?encoding UTF-8?>
+<body>
+   <trans-unit id="1" xml:space="preserve" approved="no" >
+      <source> evaluate() </source>
+   </trans-unit>
+   <trans-unit id="2" xml:space="preserve" approved="no" >
+      <source> Funkce evaluate(t) má jediný textový parametr typu Text.</source>
+   </trans-unit>
+   <trans-unit id="3" xml:space="preserve" approved="no" >
+      <source> Tato funkce vyhodnotí výraz, který je uveden v textu parametru t.</source>
+   </trans-unit>
+   <trans-unit id="4" xml:space="preserve" approved="no" >
+      <source> Následující příklad uvádí vyhodnocení výrazu '11 / 7' pomocí příkazu evaluate:</source>
+   </trans-unit>
+   <trans-unit id="5" xml:space="preserve" approved="no" >
+      <source> [@GET exp="evaluate('11 / 7')"] Výsledkem předchozího příkazu je text:</source>
+   </trans-unit>
+   <trans-unit id="6" xml:space="preserve" approved="no" >
+      <source> 1.5714285714285714 Nabízí se otázka, proč nepoužít přímo příkaz [@GET exp="11 / 7"].</source>
+   </trans-unit>
+   <trans-unit id="7" xml:space="preserve" approved="no" >
+      <source> Odpověď je následující:</source>
+   </trans-unit>
+   <trans-unit id="8" xml:space="preserve" approved="no" >
+      <source> neznáme-li předem celý výraz a musíme jej získat po předchozím zpracování jako text typu Text, je jediná možnost jak jej vyhodnotit, a to příkazem evaluate.</source>
+   </trans-unit>
+   <trans-unit id="9" xml:space="preserve" approved="no" >
+      <source> Následující příkaz nejprve sestaví textovou hodnotu 'math.PI / 2.6 + 0.87' a poté ji vyhodnotí příkazem evaluate:</source>
+   </trans-unit>
+   <trans-unit id="10" xml:space="preserve" approved="no" >
+      <source> [@GET exp="evaluate('math.PI' + ' / 2.6' + ' + 0.87')"] Předchozí příklad vrací text:</source>
+   </trans-unit>
+   <trans-unit id="11" xml:space="preserve" approved="no" >
+      <source> 2.078304866765305 </source>
+   </trans-unit>
+</body>
+</file>
+</xliff>

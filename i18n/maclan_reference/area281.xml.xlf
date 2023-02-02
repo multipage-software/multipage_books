@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+<file datatype="xml" original="C:\from_backup\multipage_books\cz\maclan_reference\transformation\maclan\area281.xml" source-language="cs-CZ" target-language="en-US" tool-id="OpenXLIFF">
+<header>
+   <skl>
+      <external-file href="C:\from_backup\multipage_books\cz\maclan_reference\transformation\maclan\area281.xml.skl"/>
+   </skl>
+   <tool tool-id="OpenXLIFF" tool-name="OpenXLIFF Filters" tool-version="3.0.0 20230109_0743"/>
+</header>
+<?encoding UTF-8?>
+<body>
+   <trans-unit approved="no" id="1" xml:space="preserve">
+      <source> Adresa oblasti </source><target state="translated">Area address</target>
+   </trans-unit>
+   <trans-unit approved="no" id="2" xml:space="preserve">
+      <source> Požadovanou oblast určuje parametr area_id.</source><target state="translated">Required area is specified by the area_id parameter.</target>
+   </trans-unit>
+   <trans-unit approved="no" id="3" xml:space="preserve">
+      <source> Jeho hodnotou je identifikátor oblasti.</source><target state="translated">Its value is the area identifier.</target>
+   </trans-unit>
+   <trans-unit approved="no" id="4" xml:space="preserve">
+      <source> Oblast s identifikačním číslem 0 je globální oblast.</source><target state="translated">The area with identification number 0 is a global area.</target>
+   </trans-unit>
+   <trans-unit approved="no" id="5" xml:space="preserve">
+      <source> Není-li parametr area_id uveden, bere se v úvahu domovská oblast.</source><target state="translated">If the area_id parameter is not specified, the home area is taken into account.</target>
+   </trans-unit>
+   <trans-unit approved="no" id="6" xml:space="preserve">
+      <source> Následující adresa odkazuje na domovskou oblast:</source><target state="translated">The following address refers to the home area:</target>
+   </trans-unit>
+   <trans-unit approved="no" id="7" xml:space="preserve">
+      <source> http://localhost:8080/?a Následující adresa odkazuje na oblast s identifikátorem 1:</source><target state="translated">http://localhost:8080/?a The following address refers to an area with identifier 1:</target>
+   </trans-unit>
+   <trans-unit approved="no" id="8" xml:space="preserve">
+      <source> http://localhost:8080/?area_id=1 V případě, že chcete zobrazit oblast s danou zkratkou oblasti, použijte parametr alias.</source><target state="translated">http://localhost:8080/?area_id=1 Use the alias parameter if you want to show an area with the given area alias.</target>
+   </trans-unit>
+   <trans-unit approved="no" id="9" xml:space="preserve">
+      <source> Následující adresa odkazuje na oblast se zkratkou moje_oblast1:</source><target state="translated">The following address refers to an area with the alias my_area1:</target>
+   </trans-unit>
+   <trans-unit approved="no" id="10" xml:space="preserve">
+      <source> http://localhost:8080/?alias=moje_oblast1 </source><target state="translated">http://localhost:8080/?alias=my_area1 </target>
+   </trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+<file original="C:\from_backup\multipage_books\cz\maclan_reference\transformation\maclan\area319.xml" source-language="cs-CZ" target-language="en-US" datatype="xml" tool-id="OpenXLIFF">
+<header>
+   <skl>
+      <external-file href="C:\from_backup\multipage_books\cz\maclan_reference\transformation\maclan\area319.xml.skl"/>
+   </skl>
+   <tool tool-version="3.0.0 20230109_0743" tool-id="OpenXLIFF" tool-name="OpenXLIFF Filters"/>
+</header>
+<?encoding UTF-8?>
+<body>
+   <trans-unit id="1" xml:space="preserve" approved="no" >
+      <source> [@SET] </source>
+   </trans-unit>
+   <trans-unit id="2" xml:space="preserve" approved="no" >
+      <source> Značka nastavuje hodnoty proměnných vytvořených například pomocí příkazu [@VAR ...</source>
+   </trans-unit>
+   <trans-unit id="3" xml:space="preserve" approved="no" >
+      <source> Na místo této značky je v textu vloženo prázdné místo.</source>
+   </trans-unit>
+   <trans-unit id="4" xml:space="preserve" approved="no" >
+      <source> Proměnné nesmí mít název unknown.</source>
+   </trans-unit>
+   <trans-unit id="5" xml:space="preserve" approved="no" >
+      <source> V následujícím příkladu jsou nastaveny hodnoty dvou proměnných.</source>
+   </trans-unit>
+   <trans-unit id="6" xml:space="preserve" approved="no" >
+      <source> Hodnota proměnné a je zvýšena výrazem a+1 o jedničku a proměnné b je přiřazena hodnota 0:</source>
+   </trans-unit>
+   <trans-unit id="7" xml:space="preserve" approved="no" >
+      <source> [@SET a=a+1, b=0] Je-li název proměnné unknown, výraz uvedený za rovnítkem se vyhodnotí, ale žádná proměnná se nenastavuje.</source>
+   </trans-unit>
+   <trans-unit id="8" xml:space="preserve" approved="no" >
+      <source> Toto je vhodné například při přidávání objektů do seznamů typu LinkedList.</source>
+   </trans-unit>
+   <trans-unit id="9" xml:space="preserve" approved="no" >
+      <source> V následujícím příkladu je přidán text "položka" do seznamu texty typu LinkedList:</source>
+   </trans-unit>
+   <trans-unit id="10" xml:space="preserve" approved="no" >
+      <source> [@SET unknown="texty.add('položka')"] Lze také vytvářet podobjekty již existujícího objektu následujícím způsobem, viz. příkaz [@VAR]:</source>
+   </trans-unit>
+   <trans-unit id="11" xml:space="preserve" approved="no" >
+      <source> [@SET objekt.podobjekt1.podobjekt2....promenna=hodnota] Například následující program vytvoří pro objekt autor nový podobjekt adresa a nastaví pro něj proměnnou ulice:</source>
+   </trans-unit>
+   <trans-unit id="12" xml:space="preserve" approved="no" >
+      <source> [@VAR autor.prijmeni=#Novák] [@SET autor.adresa.ulice=#Hlavní] Ulice:</source>
+   </trans-unit>
+   <trans-unit id="13" xml:space="preserve" approved="no" >
+      <source> [@GET autor.adresa.ulice] - vypíše následující text:</source>
+   </trans-unit>
+   <trans-unit id="14" xml:space="preserve" approved="no" >
+      <source> Ulice:</source>
+   </trans-unit>
+   <trans-unit id="15" xml:space="preserve" approved="no" >
+      <source> Hlavní </source>
+   </trans-unit>
+</body>
+</file>
+</xliff>

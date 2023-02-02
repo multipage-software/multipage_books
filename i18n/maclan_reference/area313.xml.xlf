@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+<file original="C:\from_backup\multipage_books\cz\maclan_reference\transformation\maclan\area313.xml" source-language="cs-CZ" target-language="en-US" datatype="xml" tool-id="OpenXLIFF">
+<header>
+   <skl>
+      <external-file href="C:\from_backup\multipage_books\cz\maclan_reference\transformation\maclan\area313.xml.skl"/>
+   </skl>
+   <tool tool-version="3.0.0 20230109_0743" tool-id="OpenXLIFF" tool-name="OpenXLIFF Filters"/>
+</header>
+<?encoding UTF-8?>
+<body>
+   <trans-unit id="1" xml:space="preserve" approved="no" >
+      <source> Ostatní značky </source>
+   </trans-unit>
+   <trans-unit id="2" xml:space="preserve" approved="no" >
+      <source> Obsah:</source>
+   </trans-unit>
+   <trans-unit id="3" xml:space="preserve" approved="no" >
+      <source> [@LIST] ...</source>
+   </trans-unit>
+   <trans-unit id="4" xml:space="preserve" approved="no" >
+      <source> [/@LIST] - Vkládá obsah seznamu.</source>
+   </trans-unit>
+   <trans-unit id="5" xml:space="preserve" approved="no" >
+      <source> [@LAST] - Ukončuje blok [@LIST]...[/@LIST].</source>
+   </trans-unit>
+   <trans-unit id="6" xml:space="preserve" approved="no" >
+      <source> [@LOOP] ...</source>
+   </trans-unit>
+   <trans-unit id="7" xml:space="preserve" approved="no" >
+      <source> [/@LOOP] - Vkládá daný počet textů.</source>
+   </trans-unit>
+   <trans-unit id="8" xml:space="preserve" approved="no" >
+      <source> [@IMAGE] - Vloží obrázek.</source>
+   </trans-unit>
+   <trans-unit id="9" xml:space="preserve" approved="no" >
+      <source> [@VAR] - Definuje proměnné.</source>
+   </trans-unit>
+   <trans-unit id="10" xml:space="preserve" approved="no" >
+      <source> [@SET] - Nastavuje proměnné na dané hodnoty.</source>
+   </trans-unit>
+   <trans-unit id="11" xml:space="preserve" approved="no" >
+      <source> [@GET] - Vypíše hodnotu proměnné nebo výrazu.</source>
+   </trans-unit>
+   <trans-unit id="12" xml:space="preserve" approved="no" >
+      <source> [@A] nebo [@ANCHOR] - Vloží odkaz.</source>
+   </trans-unit>
+   <trans-unit id="13" xml:space="preserve" approved="no" >
+      <source> [@REM] ...</source>
+   </trans-unit>
+   <trans-unit id="14" xml:space="preserve" approved="no" >
+      <source> [/@REM] - Vloží poznámku.</source>
+   </trans-unit>
+   <trans-unit id="15" xml:space="preserve" approved="no" >
+      <source> [@IF] ...</source>
+   </trans-unit>
+   <trans-unit id="16" xml:space="preserve" approved="no" >
+      <source> [@ELSEIF] ...</source>
+   </trans-unit>
+   <trans-unit id="17" xml:space="preserve" approved="no" >
+      <source> [@ELSE] ...</source>
+   </trans-unit>
+   <trans-unit id="18" xml:space="preserve" approved="no" >
+      <source> [/@IF] - Podmíněný příkaz.</source>
+   </trans-unit>
+   <trans-unit id="19" xml:space="preserve" approved="no" >
+      <source> [@PROCEDURE] ...</source>
+   </trans-unit>
+   <trans-unit id="20" xml:space="preserve" approved="no" >
+      <source> [/@PROCEDURE] - Definuje proceduru.</source>
+   </trans-unit>
+   <trans-unit id="21" xml:space="preserve" approved="no" >
+      <source> [@CALL] nebo [@MojeProcedura] - Volání procedury.</source>
+   </trans-unit>
+   <trans-unit id="22" xml:space="preserve" approved="no" >
+      <source> [@PACK]...[/@PACK] - Odstraní prázdné znaky.</source>
+   </trans-unit>
+   <trans-unit id="23" xml:space="preserve" approved="no" >
+      <source> [@BLOCK]...[/@BLOCK] - Vytváří blok pro lokální proměnné.</source>
+   </trans-unit>
+   <trans-unit id="24" xml:space="preserve" approved="no" >
+      <source> [@OUTPUT] ...</source>
+   </trans-unit>
+   <trans-unit id="25" xml:space="preserve" approved="no" >
+      <source> [/@OUTPUT] - Zapisuje výsledek do externího provideru.</source>
+   </trans-unit>
+   <trans-unit id="26" xml:space="preserve" approved="no" >
+      <source> [@TRACE] - Trasuje informace o daném místě v programu.</source>
+   </trans-unit>
+   <trans-unit id="27" xml:space="preserve" approved="no" >
+      <source> [@BREAK] - Přeruší provádění programu na daném místě.</source>
+   </trans-unit>
+   <trans-unit id="28" xml:space="preserve" approved="no" >
+      <source> [@PPTEXT] - Vlastnosti značek uvnitř příkazu mouhou obsahovat také značky (nerekurzivně).</source>
+   </trans-unit>
+   <trans-unit id="29" xml:space="preserve" approved="no" >
+      <source> [@URL] - Vloží URL adresu.</source>
+   </trans-unit>
+   <trans-unit id="30" xml:space="preserve" approved="no" >
+      <source> [@USING] - Deklaruje použití internetového souboru při renderování HTML stránek.</source>
+   </trans-unit>
+   <trans-unit id="31" xml:space="preserve" approved="no" >
+      <source> [@RENDER_CLASS] - Nastaví název a popis třídy aktuální generované stránky.</source>
+   </trans-unit>
+   <trans-unit id="32" xml:space="preserve" approved="no" >
+      <source> [@TIMOEOUT] - Nastaví timeout pro odezvu serveru v milisekundách.</source>
+   </trans-unit>
+   <trans-unit id="33" xml:space="preserve" approved="no" >
+      <source> [@BOOKMARK] - Určuje místo, kde bude vložen text definovaný v jiné části programu.</source>
+   </trans-unit>
+   <trans-unit id="34" xml:space="preserve" approved="no" >
+      <source> [@REPLACE_BOOKMARK] - Slouží k vložení textu do záložky s daným jménem.</source>
+   </trans-unit>
+   <trans-unit id="35" xml:space="preserve" approved="no" >
+      <source> [@INCLUDE_ONCE] - Vkládá obsah značky do textu pouze jednou.</source>
+   </trans-unit>
+   <trans-unit id="36" xml:space="preserve" approved="no" >
+      <source> [@LITERAL] - Zamezí zpracování příkazů uvnitř této složené značky.</source>
+   </trans-unit>
+   <trans-unit id="37" xml:space="preserve" approved="no" >
+      <source> [@PRAGMA] - Pomocná značka.</source>
+   </trans-unit>
+   <trans-unit id="38" xml:space="preserve" approved="no" >
+      <source> [@JAVASCRIPT] - Zpracovává program v JavaScriptu a generuje výstupní text. [@INDENT] ...</source>
+   </trans-unit>
+   <trans-unit id="39" xml:space="preserve" approved="no" >
+      <source> [/@INDENT] - Zpracuje obsah a přidá odsazení na každou řádku.</source>
+   </trans-unit>
+   <trans-unit id="40" xml:space="preserve" approved="no" >
+      <source> [@NOINDENT] ...</source>
+   </trans-unit>
+   <trans-unit id="41" xml:space="preserve" approved="no" >
+      <source> [/@NOINDENT] - Zpracuje obsah a odstraní odsazení.</source>
+   </trans-unit>
+   <trans-unit id="42" xml:space="preserve" approved="no" >
+      <source> [@CSS_LOOKUP_TABLE] - Definuje tabulku pro CSS oblast se sloty.</source>
+   </trans-unit>
+   <trans-unit id="43" xml:space="preserve" approved="no" >
+      <source> [@UNZIP] - Extrahuje internetový soubor do adresáře aplikace.</source>
+   </trans-unit>
+   <trans-unit id="44" xml:space="preserve" approved="no" >
+      <source> [@RUN] - Tato značka spouští příkaz operačního systému.</source>
+   </trans-unit>
+   <trans-unit id="45" xml:space="preserve" approved="no" >
+      <source> [@REDIRECT] - Tato značka po ukončení metaprogramu přesměruje server na jinou stránku.</source>
+   </trans-unit>
+   <trans-unit id="46" xml:space="preserve" approved="no" >
+      <source> @lb; - Vloží levou hranatou závorku.</source>
+   </trans-unit>
+   <trans-unit id="47" xml:space="preserve" approved="no" >
+      <source> @rb; - Vloží pravou hranatou závorku.</source>
+   </trans-unit>
+   <trans-unit id="48" xml:space="preserve" approved="no" >
+      <source> @at; - Vloží znak @.</source>
+   </trans-unit>
+   <trans-unit id="49" xml:space="preserve" approved="no" >
+      <source> @l; - Vloží levou HTML závorku &lt;.</source>
+   </trans-unit>
+   <trans-unit id="50" xml:space="preserve" approved="no" >
+      <source> @r; - Vloží pravou HTML závorku &gt;. [@TRAY_MENU] - Tato značka nastavuje menu na liště Windows.</source>
+   </trans-unit>
+</body>
+</file>
+</xliff>

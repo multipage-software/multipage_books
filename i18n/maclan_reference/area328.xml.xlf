@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+<file original="C:\from_backup\multipage_books\cz\maclan_reference\transformation\maclan\area328.xml" source-language="cs-CZ" target-language="en-US" datatype="xml" tool-id="OpenXLIFF">
+<header>
+   <skl>
+      <external-file href="C:\from_backup\multipage_books\cz\maclan_reference\transformation\maclan\area328.xml.skl"/>
+   </skl>
+   <tool tool-version="3.0.0 20230109_0743" tool-id="OpenXLIFF" tool-name="OpenXLIFF Filters"/>
+</header>
+<?encoding UTF-8?>
+<body>
+   <trans-unit id="1" xml:space="preserve" approved="no" >
+      <source> [@PROCEDURE] ...</source>
+   </trans-unit>
+   <trans-unit id="2" xml:space="preserve" approved="no" >
+      <source> [/@PROCEDURE] </source>
+   </trans-unit>
+   <trans-unit id="3" xml:space="preserve" approved="no" >
+      <source> Tato značka definuje proceduru, která umožňuje vícenásobné použítí textu uvnitř značky a zároveň umožňuje tento text modifikovat pomocí parametrů.</source>
+   </trans-unit>
+   <trans-unit id="4" xml:space="preserve" approved="no" >
+      <source> Každá procedura má svůj název, který se nastavuje pomocí parametru name nebo $name.</source>
+   </trans-unit>
+   <trans-unit id="5" xml:space="preserve" approved="no" >
+      <source> Vnitřní text značky, který tvoří tělo procedury, spolu se vstupními a výstupními parametry, je uložen do paměti a může být následně vložen do textu pomocí volání [@CALL name=#MojeProcedura ...parametry...] nebo zkráceně [@MojeProcedura ...parametry...], kde MojeProcedura je název procedury.</source>
+   </trans-unit>
+   <trans-unit id="6" xml:space="preserve" approved="no" >
+      <source> Platnost procedury se předpokládá v aktuálním bloku programu a jeho podblocích, a to v částech stránky následujících po její definici.</source>
+   </trans-unit>
+   <trans-unit id="7" xml:space="preserve" approved="no" >
+      <source> Procedury mohou být rekurzivní, tzn. že mohou volat samy sebe uvnitř těla pomocí příkazu [@CALL ...] nebo [@MojeProcedura ...].</source>
+   </trans-unit>
+   <trans-unit id="8" xml:space="preserve" approved="no" >
+      <source> Na místo definice procedury se v textu na stránce vloží vždy prázdný řetězec.</source>
+   </trans-unit>
+   <trans-unit id="9" xml:space="preserve" approved="no" >
+      <source> Například následující program:</source>
+   </trans-unit>
+   <trans-unit id="10" xml:space="preserve" approved="no" >
+      <source> [@PROCEDURE $name=#Print, firstName, name] Jméno:</source>
+   </trans-unit>
+   <trans-unit id="11" xml:space="preserve" approved="no" >
+      <source> [@GET firstName], Příjmení:</source>
+   </trans-unit>
+<trans-unit approved="no" id="12" xml:space="preserve">
+      <source> [@GET name] [/@PROCEDURE] <ph id="0">&amp;amp;nbsp;</ph> [@Print firstName=#Jan, name=#Novák] - vypíše na stránku text:</source>
+   </trans-unit>   <trans-unit id="13" xml:space="preserve" approved="no" >
+      <source> Jméno:</source>
+   </trans-unit>
+   <trans-unit id="14" xml:space="preserve" approved="no" >
+      <source> Jan, Příjmení:</source>
+   </trans-unit>
+   <trans-unit id="15" xml:space="preserve" approved="no" >
+      <source> Novák Procedura může být také volána ve výrazu pomocí příkazu MojeProcedura(parametr1:hodnota1, ..., parametrN:hodnotaN).</source>
+   </trans-unit>
+   <trans-unit id="16" xml:space="preserve" approved="no" >
+      <source> Parametry jsou pojmenované a jsou vždy ve tvaru parametr:hodnota, kde parametr udává název parametru a hodnota udává hodnotu parametru nebo výraz.</source>
+   </trans-unit>
+   <trans-unit id="17" xml:space="preserve" approved="no" >
+      <source> Například:</source>
+   </trans-unit>
+<trans-unit approved="no" id="18" xml:space="preserve">
+      <source> [@VAR myGlobaTimeVariable] <ph id="0">&amp;amp;nbsp;</ph> [@PROCEDURE name=#SetTime, value] [@SET myGlobaTimeVariable=value] [/@PROCEDURE] <ph id="1">&amp;amp;nbsp;</ph> [@SET unknown=setTime(value:'12:35')] [@GET myGlobaTimeVariable] - vloží do stránky text:</source>
+   </trans-unit>   <trans-unit id="19" xml:space="preserve" approved="no" >
+      <source> 12:35 Parametry procedury nesmí mít názvy $name nebo $useLast nebo $global nebo $areaId, $areaAlias, $area, $startArea, $homeArea, $requestedArea a $thisArea.</source>
+   </trans-unit>
+   <trans-unit id="20" xml:space="preserve" approved="no" >
+      <source> Parametry se uvádějí buď bez hodnoty, jako v předchozích příkladech, nebo s hodnotou out, ret nebo txt.</source>
+   </trans-unit>
+   <trans-unit id="21" xml:space="preserve" approved="no" >
+      <source> Uvede-li se u parametru hodnota out, znamená to, že parametr při volání [@CALL] nebo [@MojeProcedura] očekává název proměnné jejíž hodnota bude nastavena při ukončení procedury (slouží pro výstup dat z procedury).</source>
+   </trans-unit>
+   <trans-unit id="22" xml:space="preserve" approved="no" >
+      <source> Například následující program:</source>
+   </trans-unit>
+<trans-unit approved="no" id="23" xml:space="preserve">
+      <source> [@PROCEDURE $name=#GetPi, output=out] [@SET output=math.PI] [/@PROCEDURE] <ph id="0">&amp;amp;nbsp;</ph> [@VAR pi] [@GetPi output=pi] [@GET pi] - vypíše na stránku hodnotu pí vrácenou procedurou GetPi, tj.:</source>
+   </trans-unit>   <trans-unit id="24" xml:space="preserve" approved="no" >
+      <source> 3.141592653589793 Uvede-li se u parametru hodnota ret, pak slouží tento parametr k nastavení návratové hodnoty procedury pomocí příkazu [@SET].</source>
+   </trans-unit>
+   <trans-unit id="25" xml:space="preserve" approved="no" >
+      <source> Návratovou hodnotu vrací procedura v případě, že je použita ve výrazu.</source>
+   </trans-unit>
+   <trans-unit id="26" xml:space="preserve" approved="no" >
+      <source> Parametr s hodnotou ret může být uveden maximálně jednou.</source>
+   </trans-unit>
+   <trans-unit id="27" xml:space="preserve" approved="no" >
+      <source> Například následující program:</source>
+   </trans-unit>
+<trans-unit approved="no" id="28" xml:space="preserve">
+      <source> [@PROCEDURE $name=#GetEuler, returned=ret] [@SET returned=math.E] [/@PROCEDURE] <ph id="0">&amp;amp;nbsp;</ph> [@GET exp=GetEuler()] - vypíše na stránku hodnotou Eulerova čísla, kterou vrací ve výrazu procedura GetEuler, tj.:</source>
+   </trans-unit>   <trans-unit id="29" xml:space="preserve" approved="no" >
+      <source> 2.718281828459045 Uvede-li se u parametru hodnota txt, pak při volání procedury ve výrazu uvádí tento parametr název proměnné, do které bude po ukončení procedury vložen výsledný zpracovaný text těla procedury.</source>
+   </trans-unit>
+   <trans-unit id="30" xml:space="preserve" approved="no" >
+      <source> Například následující program:</source>
+   </trans-unit>
+<trans-unit approved="no" id="31" xml:space="preserve">
+      <source> [@VAR myText] [@PROCEDURE name=#GetMessage, innerText=txt] Vítejte na stránkách [/@PROCEDURE] <ph id="0">&amp;amp;nbsp;</ph> [@SET unknown=GetMessage(innerText:myText)] [@GET myText] - vypíše na stránku pomocí příkazu [@GET] text:</source>
+   </trans-unit>   <trans-unit id="32" xml:space="preserve" approved="no" >
+      <source> Vítejte na stránkách Je-li při volání procedury ve výrazu uvedeno více parametrů, pak nezáleží, díky jejich pojmenování, na jejich pořadí.</source>
+   </trans-unit>
+   <trans-unit id="33" xml:space="preserve" approved="no" >
+      <source> Například následující program:</source>
+   </trans-unit>
+   <trans-unit id="34" xml:space="preserve" approved="no" >
+      <source> [@PROCEDURE $name=#PrintAddress, $returnText, state, city, street] Stát:</source>
+   </trans-unit>
+   <trans-unit id="35" xml:space="preserve" approved="no" >
+      <source> [@GET state], Město:</source>
+   </trans-unit>
+   <trans-unit id="36" xml:space="preserve" approved="no" >
+      <source> [@GET city], Ulice:</source>
+   </trans-unit>
+<trans-unit approved="no" id="37" xml:space="preserve">
+      <source> [@GET street] [/@PROCEDURE] <ph id="0">&amp;amp;nbsp;</ph> [@GET exp="PrintAddress(state:'CZ', city:'Praha', street:'Národní')"] | [@GET exp="PrintAddress(street:'Madison Ave', city:'New York', state:'US')"] - vypíše na stránku text:</source>
+   </trans-unit>   <trans-unit id="38" xml:space="preserve" approved="no" >
+      <source> Stát:</source>
+   </trans-unit>
+   <trans-unit id="39" xml:space="preserve" approved="no" >
+      <source> CZ, Město:</source>
+   </trans-unit>
+   <trans-unit id="40" xml:space="preserve" approved="no" >
+      <source> Praha, Ulice:</source>
+   </trans-unit>
+   <trans-unit id="41" xml:space="preserve" approved="no" >
+      <source> Národní | Stát:</source>
+   </trans-unit>
+   <trans-unit id="42" xml:space="preserve" approved="no" >
+      <source> US, Město:</source>
+   </trans-unit>
+   <trans-unit id="43" xml:space="preserve" approved="no" >
+      <source> New York, Ulice:</source>
+   </trans-unit>
+   <trans-unit id="44" xml:space="preserve" approved="no" >
+      <source> Madison Ave </source>
+   </trans-unit>
+   <trans-unit id="45" xml:space="preserve" approved="no" >
+      <source> [@PROCEDURE] ...</source>
+   </trans-unit>
+   <trans-unit id="46" xml:space="preserve" approved="no" >
+      <source> [/@PROCEDURE] Má následující parametry:</source>
+   </trans-unit>
+   <trans-unit id="47" xml:space="preserve" approved="no" >
+      <source>MojeProcedura</source>
+   </trans-unit>
+   <trans-unit id="48" xml:space="preserve" approved="no" >
+      <source>[@CALL name=#MojeProcedura]</source>
+   </trans-unit>
+   <trans-unit id="49" xml:space="preserve" approved="no" >
+      <source>[@MojeProcedura]</source>
+   </trans-unit>
+<trans-unit approved="no" id="50" xml:space="preserve">
+      <source> [@PROCEDURE name=#PrintHello] Přeji dobrý den. [/@PROCEDURE] <ph id="0">&amp;amp;nbsp;</ph> [@CALL name=#PrintHello] | [@PrintHello] </source>
+   </trans-unit>   <trans-unit id="51" xml:space="preserve" approved="no" >
+      <source>$useLast</source>
+   </trans-unit>
+   <trans-unit id="52" xml:space="preserve" approved="no" >
+      <source> [@PROCEDURE name=#DoSomething] Something...</source>
+   </trans-unit>
+<trans-unit approved="no" id="53" xml:space="preserve">
+      <source> [/@PROCEDURE] <ph id="0">&amp;amp;nbsp;</ph> [@PROCEDURE name=#DoSomething] Do something else...</source>
+   </trans-unit>   <trans-unit id="54" xml:space="preserve" approved="no" >
+      <source> [/@PROCEDURE] </source>
+   </trans-unit>
+   <trans-unit id="55" xml:space="preserve" approved="no" >
+      <source>$useLast</source>
+   </trans-unit>
+   <trans-unit id="56" xml:space="preserve" approved="no" >
+      <source> [@PROCEDURE name=#DoSomething] Something...</source>
+   </trans-unit>
+   <trans-unit id="57" xml:space="preserve" approved="no" >
+      <source> [/@PROCEDURE] [@PROCEDURE name=#DoSomething, $useLast] Do something else...</source>
+   </trans-unit>
+   <trans-unit id="58" xml:space="preserve" approved="no" >
+      <source> [/@PROCEDURE] [@DoSomething] </source>
+   </trans-unit>
+<trans-unit approved="no" id="59" xml:space="preserve">
+      <source> [@BLOCK] [@PROCEDURE name=#SayHello] Ahoj [/@PROCEDURE] [/@BLOCK] <ph id="0">&amp;amp;nbsp;</ph> [@SayHello] </source>
+   </trans-unit>   <trans-unit id="60" xml:space="preserve" approved="no" >
+      <source>$global</source>
+   </trans-unit>
+<trans-unit approved="no" id="61" xml:space="preserve">
+      <source> [@BLOCK] [@PROCEDURE name=#SayHello, $global] Ahoj [/@PROCEDURE] [/@BLOCK] <ph id="0">&amp;amp;nbsp;</ph> [@SayHello] </source>
+   </trans-unit>   <trans-unit id="62" xml:space="preserve" approved="no" >
+      <source>ret</source>
+   </trans-unit>
+<trans-unit approved="no" id="63" xml:space="preserve">
+      <source> [@PROCEDURE name=#GetSampleText, $returnText] Lorem ipsum dolor sit amet [/@PROCEDURE] <ph id="0">&amp;amp;nbsp;</ph> [@GET exp=GetSampleText()] </source>
+   </trans-unit>   <trans-unit id="64" xml:space="preserve" approved="no" >
+      <source>$inner</source>
+   </trans-unit>
+   <trans-unit id="65" xml:space="preserve" approved="no" >
+      <source> [@PROCEDURE name=#DoSomething, $inner] Something...</source>
+   </trans-unit>
+   <trans-unit id="66" xml:space="preserve" approved="no" >
+      <source> [@GET $inner] or [@INNER] Somthing else...</source>
+   </trans-unit>
+<trans-unit approved="no" id="67" xml:space="preserve">
+      <source> [/@PROCEDURE] <ph id="0">&amp;amp;nbsp;</ph> [@CALL name=#DoSomething] Inner text...</source>
+   </trans-unit><trans-unit approved="no" id="68" xml:space="preserve">
+      <source> [/@CALL] <ph id="0">&amp;amp;nbsp;</ph> [@DoSomething] Inner text...</source>
+   </trans-unit>   <trans-unit id="69" xml:space="preserve" approved="no" >
+      <source> [/@DoSomething] </source>
+   </trans-unit>
+   <trans-unit id="70" xml:space="preserve" approved="no" >
+      <source>$transparent</source>
+   </trans-unit>
+</body>
+</file>
+</xliff>

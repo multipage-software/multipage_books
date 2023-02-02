@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+<file original="C:\from_backup\multipage_books\cz\maclan_reference\transformation\maclan\area408.xml" source-language="cs-CZ" target-language="en-US" datatype="xml" tool-id="OpenXLIFF">
+<header>
+   <skl>
+      <external-file href="C:\from_backup\multipage_books\cz\maclan_reference\transformation\maclan\area408.xml.skl"/>
+   </skl>
+   <tool tool-version="3.0.0 20230109_0743" tool-id="OpenXLIFF" tool-name="OpenXLIFF Filters"/>
+</header>
+<?encoding UTF-8?>
+<body>
+   <trans-unit id="1" xml:space="preserve" approved="no" >
+      <source> if() </source>
+   </trans-unit>
+   <trans-unit id="2" xml:space="preserve" approved="no" >
+      <source> Funkce if(cond, valueT, valueF) má tři argumenty.</source>
+   </trans-unit>
+   <trans-unit id="3" xml:space="preserve" approved="no" >
+      <source> První argument cond je podmínka jejíž hodnota musí být buď true nebo false, tedy typu Boolean.</source>
+   </trans-unit>
+   <trans-unit id="4" xml:space="preserve" approved="no" >
+      <source> Druhý argument valueT je výraz, který bude vyhodnocen, je-li první argument true, a jehož hodnotu funkce if vrátí.</source>
+   </trans-unit>
+   <trans-unit id="5" xml:space="preserve" approved="no" >
+      <source> Třetí argument valueF je výraz, který bude vyhodnocen, je-li první argument false, a jehož hodnotu funkce if vrátí.</source>
+   </trans-unit>
+   <trans-unit id="6" xml:space="preserve" approved="no" >
+      <source> Funkce tedy vrací hodnotu výrazu valueT nebo valueF určeného podmínkou cond.</source>
+   </trans-unit>
+   <trans-unit id="7" xml:space="preserve" approved="no" >
+      <source> V následujícím příkladu vyhodnotí funkce if podmínku 2 = 2 jako platnou a vrátí textovou hodnotu 'platí':</source>
+   </trans-unit>
+   <trans-unit id="8" xml:space="preserve" approved="no" >
+      <source> [@GET exp="if ( 2 = 2, 'platí', 'neplatí')"] Výsledkem předchozího příkazu je text:</source>
+   </trans-unit>
+   <trans-unit id="9" xml:space="preserve" approved="no" >
+      <source> platí V následujícím příkladu vyhodnotí funkce if podmínku not true jako neplatnou a vrátí číselnou hodnotu -3:</source>
+   </trans-unit>
+   <trans-unit id="10" xml:space="preserve" approved="no" >
+      <source> [@GET exp="if ( not true, 'T', -3)"] Výsledkem předchozího příkazu je text:</source>
+   </trans-unit>
+   <trans-unit id="11" xml:space="preserve" approved="no" >
+      <source> -3 </source>
+   </trans-unit>
+</body>
+</file>
+</xliff>

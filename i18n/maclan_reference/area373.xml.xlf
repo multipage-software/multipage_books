@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+<file original="C:\from_backup\multipage_books\cz\maclan_reference\transformation\maclan\area373.xml" source-language="cs-CZ" target-language="en-US" datatype="xml" tool-id="OpenXLIFF">
+<header>
+   <skl>
+      <external-file href="C:\from_backup\multipage_books\cz\maclan_reference\transformation\maclan\area373.xml.skl"/>
+   </skl>
+   <tool tool-version="3.0.0 20230109_0743" tool-id="OpenXLIFF" tool-name="OpenXLIFF Filters"/>
+</header>
+<?encoding UTF-8?>
+<body>
+   <trans-unit id="1" xml:space="preserve" approved="no" >
+      <source> Knihovna text </source>
+   </trans-unit>
+   <trans-unit id="2" xml:space="preserve" approved="no" >
+      <source> Knihovna text obsahuje funkce pro práci s textem.</source>
+   </trans-unit>
+   <trans-unit id="3" xml:space="preserve" approved="no" >
+      <source> Prvky knihovny:</source>
+   </trans-unit>
+   <trans-unit id="4" xml:space="preserve" approved="no" >
+      <source> text.format - Formátuje text. length - Vrací délku textu. isEmpty - Vrací true je-li text prázdný. charAt - Vrací znak na pozici argumentu. codePointAt - Vrací znak Unicode na místě argumentu. codePointBefore - Vrací znak Unicode před místem argumentu. codePointCount - Vrací počet Unicode bodů v části textu. offsetByCodePoints - Vrací index v řetězci vzdálen daný počet Unicode bodů. equalsIgnoreCase - Porovnává text a ignoruje velká a malá písmena. compareTo - Porovnává text. compareToIgnoreCase - Porovnává text a ignoruje velká a malá písmena. regionMatches - Určuje zda jsou dvě textové oblasti shodné. regionMatches - Určuje zda jsou dvě textové oblasti shodné.</source>
+   </trans-unit>
+   <trans-unit id="5" xml:space="preserve" approved="no" >
+      <source> Ignoruje velká a malá písmena. startsWith - Testuje začíná-li text prefixem. startsWith - Testuje začíná-li text prefixem. endsWith - Testuje končí-li text sufixem. hashCode - Vrací hash kód textu. indexOf - Vrací index prvního výskytu znaku v textu. indexOf - Vrací index prvního výskytu znaku v textu od dané pozice. lastIndexOf - Vrací index posledního výskytu znaku. lastIndexOf - Vrací index posledního výskytu znaku zpětně od dané pozice. indexOf - Vrací index prvního výskytu podtextu v textu. indexOf - Vrací index prvního výskytu podtextu v textu od dané pozice. lastIndexOf - Vrací index posledního výskytu podtextu. lastIndexOf - Vrací index posledního výskytu podtextu zpětně od dané pozice. substring - Vrací koncovou část textu. substring - Vrací část textu. concat - Přidá text na konec. matches - Zjistí zda text odpovídá regulárnímu výrazu. replaceFirst - Nahradí první podtext daného textu novým textem. replaceAll - Nahradí všechny podtexty daným textem. toLowerCase - Převede text na malá písmena. toUpperCase - Převede text na velká písmena. trim - Odstraní počáteční a koncové mezery.</source>
+   </trans-unit>
+</body>
+</file>
+</xliff>

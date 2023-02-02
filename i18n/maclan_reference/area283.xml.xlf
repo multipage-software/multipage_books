@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+<file datatype="xml" original="C:\from_backup\multipage_books\cz\maclan_reference\transformation\maclan\area283.xml" source-language="cs-CZ" target-language="en-US" tool-id="OpenXLIFF">
+<header>
+   <skl>
+      <external-file href="C:\from_backup\multipage_books\cz\maclan_reference\transformation\maclan\area283.xml.skl"/>
+   </skl>
+   <tool tool-id="OpenXLIFF" tool-name="OpenXLIFF Filters" tool-version="3.0.0 20230109_0743"/>
+</header>
+<?encoding UTF-8?>
+<body>
+   <trans-unit approved="no" id="1" xml:space="preserve">
+      <source> Adresa internetového souboru </source><target state="translated">Resource address</target>
+   </trans-unit>
+   <trans-unit approved="no" id="2" xml:space="preserve">
+      <source> Mezi internetové soubory zahrnujeme textové nebo binární soubory (například obrázky), které jsou zasílány internetovému prohlížeči.</source><target state="translated">Resources include text or binary files (such as images) that are processed with area server.</target>
+   </trans-unit>
+   <trans-unit approved="no" id="3" xml:space="preserve">
+      <source> Dotaz na internetový soubor obsahuje jediný parametr s názvem res_id, jehož hodnota je identifikátorem tohoto souboru.</source><target state="translated">The query for the resource contains a single parameter called res_id, whose value is the identifier of this resource.</target>
+   </trans-unit>
+   <trans-unit approved="no" id="4" xml:space="preserve">
+      <source> Následující dotaz odkazuje na internetový soubor s identifkátorem 3:</source><target state="translated">The following query refers to a resource with Identifier 3:</target>
+   </trans-unit>
+   <trans-unit approved="no" id="5" xml:space="preserve">
+      <source> http://localhost:8080/?res_id=3 Pro dotaz sloužící k následnému uložení souboru uveďte parametr filename s názvem souboru pro uložení.</source><target state="translated">http://localhost:8080/?res_id=3 A query must specify a filename parameter to save the resource on local machine with the browser.</target>
+   </trans-unit>
+   <trans-unit approved="no" id="6" xml:space="preserve">
+      <source> Následující odkaz inicializuje uložení souboru s identifikátorem 3 pod názvem readme.txt. http://localhost:8080/?res_id=3&amp;filename=readme.txt </source><target state="translated">The following link saves content of a resource with identifier 3 into the readme.txt file. http://localhost:8080/?res_id=3&amp;filename=readme.txt</target>
+   </trans-unit>
+</body>
+</file>
+</xliff>

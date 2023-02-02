@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+<file original="C:\from_backup\multipage_books\cz\maclan_reference\transformation\maclan\area334.xml" source-language="cs-CZ" target-language="en-US" datatype="xml" tool-id="OpenXLIFF">
+<header>
+   <skl>
+      <external-file href="C:\from_backup\multipage_books\cz\maclan_reference\transformation\maclan\area334.xml.skl"/>
+   </skl>
+   <tool tool-version="3.0.0 20230109_0743" tool-id="OpenXLIFF" tool-name="OpenXLIFF Filters"/>
+</header>
+<?encoding UTF-8?>
+<body>
+   <trans-unit id="1" xml:space="preserve" approved="no" >
+      <source> Knihovna math </source>
+   </trans-unit>
+   <trans-unit id="2" xml:space="preserve" approved="no" >
+      <source> Knihovna math obsahuje funkce pro číselné výpočty.</source>
+   </trans-unit>
+   <trans-unit id="3" xml:space="preserve" approved="no" >
+      <source> Prvky knihovny:</source>
+   </trans-unit>
+   <trans-unit id="4" xml:space="preserve" approved="no" >
+      <source> sin - Vrací sinus argumentu. cos - Vrací kosinus argumentu. tan - Vrací tangens argumentu. asin - Arkus sinus parametru. acos - Arkus kosinus argumentu. atan - Arkus tangens argumentu. toRadians - Převádí stupně na radiány.</source>
+   </trans-unit>
+   <trans-unit id="5" xml:space="preserve" approved="no" >
+      <source> E - Základ přirozeného logaritmu.</source>
+   </trans-unit>
+   <trans-unit id="6" xml:space="preserve" approved="no" >
+      <source> PI - Číslo π. toDegrees - Převádí radiány na stupně. exp - Vrací e umocněno na argument. log - Přirozený logaritmus argumentu. log10 - Desítkový logaritmus parametru. sqrt - Odmocnina argumentu. cbrt - Třetí odmocnina argumentu.</source>
+   </trans-unit>
+   <trans-unit id="7" xml:space="preserve" approved="no" >
+      <source> IEEEremainder - Zbytek po dělení. ceil - Vrací nejmenší celé číslo větší nebo rovno argumentu. floor - Vrací největší celé číslo menší nebo rovno argumentu rint - Vrací celé číslo nejbližší argumentu. atan2 - Vrací úhel v polárních souřadnicích. pow - Umocňuje první argument na druhý argument. round - Zaokrouhluje argument. random - Vrací náhodné číslo od 0.0 do 1.0. abs - Vrací absolutní hodnotu. max - Vrací maximum ze dvou argumentů. min - Vrací minimum ze dvou argumentů. ulp - Vrací ulp argumentu. signum - Vrací znaménko argumentu. sinh - Vrací hyperbolický sinus argumentu. cosh - Vrací hyperbolický kosinus argumentu. tanh - Vrací hyperbolický tangens argumentu. hypot - Vrací sqrt(x2+y2). expm1 - Vrací ex - 1. log1p - Vrací ln(1 + x). copySign - Vrací první argument se znaménkem druhého argumentu. getExponent - Vrací exponent argumentu. nextAfter - Vrací desetinné číslo sousedící s prvním argumentem ve směru druhého argumentu. nextUp - Vrací desetinné číslo sousedící s argumentem ve směru plus nekonečna.</source>
+   </trans-unit>
+</body>
+</file>
+</xliff>

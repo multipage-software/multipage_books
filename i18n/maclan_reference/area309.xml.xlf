@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+<file original="C:\from_backup\multipage_books\cz\maclan_reference\transformation\maclan\area309.xml" source-language="cs-CZ" target-language="en-US" datatype="xml" tool-id="OpenXLIFF">
+<header>
+   <skl>
+      <external-file href="C:\from_backup\multipage_books\cz\maclan_reference\transformation\maclan\area309.xml.skl"/>
+   </skl>
+   <tool tool-version="3.0.0 20230109_0743" tool-id="OpenXLIFF" tool-name="OpenXLIFF Filters"/>
+</header>
+<?encoding UTF-8?>
+<body>
+   <trans-unit id="1" xml:space="preserve" approved="no" >
+      <source> [@LIST] ...</source>
+   </trans-unit>
+   <trans-unit id="2" xml:space="preserve" approved="no" >
+      <source> [/@LIST] </source>
+   </trans-unit>
+   <trans-unit id="3" xml:space="preserve" approved="no" >
+      <source> Tato složená značka prochází prvky vstupního seznamu a sestavuje výsledný text postupným připojováním zpracovaného vnitřního textu značky po každé iteraci.</source>
+   </trans-unit>
+   <trans-unit id="4" xml:space="preserve" approved="no" >
+      <source> Výsledný text je pak vložen na stránku namísto této značky.</source>
+   </trans-unit>
+   <trans-unit id="5" xml:space="preserve" approved="no" >
+      <source> Použitý vstupní seznam typu LinkedList nebo Map určuje parametr s názvem list.</source>
+   </trans-unit>
+   <trans-unit id="6" xml:space="preserve" approved="no" >
+      <source> Značka se používá zejména pro seznamy jejichž prvky jsou oblasti typu Area.</source>
+   </trans-unit>
+   <trans-unit id="7" xml:space="preserve" approved="no" >
+      <source> Například následující program prochází všechny podoblasti domovské oblasti:</source>
+   </trans-unit>
+   <trans-unit id="8" xml:space="preserve" approved="no" >
+      <source> [@LIST list=subareas(server.homeArea), local] {[@AREA_NAME]} [/@LIST] - vypíše na místo původní složené značky následující text:</source>
+   </trans-unit>
+   <trans-unit id="9" xml:space="preserve" approved="no" >
+      <source> {URL adresy} {Značky metajazyka} {Výrazy, funkce a knihovny} {Objekty a funkce, typy} {Poznámka k renderování} </source>
+   </trans-unit>
+   <trans-unit id="10" xml:space="preserve" approved="no" >
+      <source> [@LIST] ...</source>
+   </trans-unit>
+   <trans-unit id="11" xml:space="preserve" approved="no" >
+      <source> [/@LIST] Má následující parametry:</source>
+   </trans-unit>
+   <trans-unit id="12" xml:space="preserve" approved="no" >
+      <source> list:</source>
+   </trans-unit>
+   <trans-unit id="13" xml:space="preserve" approved="no" >
+      <source> Parametr odkazuje na hodnotu typu LinkedList nebo Map, která představuje vstupní seznam pro značku [@LIST].</source>
+   </trans-unit>
+   <trans-unit id="14" xml:space="preserve" approved="no" >
+      <source> Tato hodnota může být určena také výrazem jehož výsledek je typu LinkedList nebo Map.</source>
+   </trans-unit>
+   <trans-unit id="15" xml:space="preserve" approved="no" >
+      <source> Následující příklad použije pro seznam hodnotu proměnné myAreas:</source>
+   </trans-unit>
+   <trans-unit id="16" xml:space="preserve" approved="no" >
+      <source> [@LIST list=myAreas] ...</source>
+   </trans-unit>
+   <trans-unit id="17" xml:space="preserve" approved="no" >
+      <source> [/@LIST] </source>
+   </trans-unit>
+   <trans-unit id="18" xml:space="preserve" approved="no" >
+      <source> Použije-li se proměnná typu Map, jsou položky seznamu typu Entry.</source>
+   </trans-unit>
+   <trans-unit id="19" xml:space="preserve" approved="no" >
+      <source> Například:</source>
+   </trans-unit>
+<trans-unit approved="no" id="20" xml:space="preserve">
+      <source> [@LIST list=myMap, item=entry] <ph id="0">&amp;amp;nbsp;</ph> [@GET entry.key] [@GET entry.value] <ph id="1">&amp;amp;nbsp;</ph> [/@LIST] </source>
+   </trans-unit>   <trans-unit id="21" xml:space="preserve" approved="no" >
+      <source> iterator:</source>
+   </trans-unit>
+   <trans-unit id="22" xml:space="preserve" approved="no" >
+      <source> Tento parametr definuje název proměnné, kterou značka [@LIST] vytvoří a jejíž hodnotou je objekt představující aktuální iteraci.</source>
+   </trans-unit>
+   <trans-unit id="23" xml:space="preserve" approved="no" >
+      <source> Proměnná je typu ListBlockDescriptor a umožňuje přistupovat k aktuální položce seznamu a k aktuálnímu indexu iterace.</source>
+   </trans-unit>
+   <trans-unit id="24" xml:space="preserve" approved="no" >
+      <source> Například následující program postupně vypíše indexy jednotlivých položek seznamu:</source>
+   </trans-unit>
+   <trans-unit id="25" xml:space="preserve" approved="no" >
+      <source> [@LIST list=myAreas, iterator=myIter] [@GET myIter.index] [/@LIST] </source>
+   </trans-unit>
+   <trans-unit id="26" xml:space="preserve" approved="no" >
+      <source> item:</source>
+   </trans-unit>
+   <trans-unit id="27" xml:space="preserve" approved="no" >
+      <source> Určuje název proměnné, kterou vytváří značka [@LIST], a která obsahuje jako hodnotu aktuální položku seznamu při dané iteraci.</source>
+   </trans-unit>
+   <trans-unit id="28" xml:space="preserve" approved="no" >
+      <source> Následující příklad vypisuje názvy všech oblastí typu Area, které jsou uloženy v seznamu v proměnné myAreas:</source>
+   </trans-unit>
+   <trans-unit id="29" xml:space="preserve" approved="no" >
+      <source> [@LIST list=myAreas, item=area] [@GET area.name] [/@LIST] </source>
+   </trans-unit>
+   <trans-unit id="30" xml:space="preserve" approved="no" >
+      <source> divider:</source>
+   </trans-unit>
+   <trans-unit id="31" xml:space="preserve" approved="no" >
+      <source> Tento parametr určuje řetězec, kterým budou odděleny jednotlivé části textu sestavovaného pomocí příkazu [@LIST].</source>
+   </trans-unit>
+   <trans-unit id="32" xml:space="preserve" approved="no" >
+      <source> Například:</source>
+   </trans-unit>
+   <trans-unit id="33" xml:space="preserve" approved="no" >
+      <source> [@LIST ..., divider = "# - "] TEXT [/@LIST] </source>
+   </trans-unit>
+   <trans-unit id="34" xml:space="preserve" approved="no" >
+      <source> bude pro tři cykly nahrazen textem:</source>
+   </trans-unit>
+   <trans-unit id="35" xml:space="preserve" approved="no" >
+      <source> TEXT - TEXT - TEXT.</source>
+   </trans-unit>
+   <trans-unit id="36" xml:space="preserve" approved="no" >
+      <source> local:</source>
+   </trans-unit>
+   <trans-unit id="37" xml:space="preserve" approved="no" >
+      <source> Tento parametr se uvádí bez hodnoty.</source>
+   </trans-unit>
+   <trans-unit id="38" xml:space="preserve" approved="no" >
+      <source> Je-li uveden, je text uvnitř značky zpracován klonem serveru s aktuální oblastí nastavenou na aktuální položku seznamu, která musí být typu Area.</source>
+   </trans-unit>
+   <trans-unit id="39" xml:space="preserve" approved="no" >
+      <source> Pokud není aktuální položka seznamu typu Area, pak se tento parametr nebere v úvahu.</source>
+   </trans-unit>
+   <trans-unit id="40" xml:space="preserve" approved="no" >
+      <source> Například následující program vypíše názvy podoblastí domovské oblasti uzavřené v hranatých závorkách:</source>
+   </trans-unit>
+   <trans-unit id="41" xml:space="preserve" approved="no" >
+      <source> [@LIST list=subareas(server.homeArea), local] [ [@AREA_NAME] ] [/@LIST] </source>
+   </trans-unit>
+   <trans-unit id="42" xml:space="preserve" approved="no" >
+      <source> - výsledný text předchozích příkazů je:</source>
+   </trans-unit>
+   <trans-unit id="43" xml:space="preserve" approved="no" >
+      <source> [ URL adresy ] [ Značky metajazyka ] [ Výrazy, funkce a knihovny ] [ Objekty a funkce, typy ] [ Poznámka k renderování ] </source>
+   </trans-unit>
+   <trans-unit id="44" xml:space="preserve" approved="no" >
+      <source> break:</source>
+   </trans-unit>
+   <trans-unit id="45" xml:space="preserve" approved="no" >
+      <source> Tento parametr určuje název proměnné, kterou vytvoří značka [@LIST] za účelem ukončování smyčky.</source>
+   </trans-unit>
+   <trans-unit id="46" xml:space="preserve" approved="no" >
+      <source> Vytvořená proměnná je typu Boolean a její počáteční hodnota je nastavena na false.</source>
+   </trans-unit>
+   <trans-unit id="47" xml:space="preserve" approved="no" >
+      <source> Ukončení smyčky, tj. poslední iterace příkazu [@LIST], se provede nastavením této proměnné na hodnotu true.</source>
+   </trans-unit>
+   <trans-unit id="48" xml:space="preserve" approved="no" >
+      <source> Například následující příkaz se provede pouze pro prvních deset položek seznamu a pak je ukončen:</source>
+   </trans-unit>
+   <trans-unit id="49" xml:space="preserve" approved="no" >
+      <source> [@LIST list=myAreas, iterator=iter, break=breakLoop] [@IF cond=iter.index=10] [@SET breakLoop=true] [/@IF] ...</source>
+   </trans-unit>
+   <trans-unit id="50" xml:space="preserve" approved="no" >
+      <source> [/@LIST] </source>
+   </trans-unit>
+   <trans-unit id="51" xml:space="preserve" approved="no" >
+      <source> Všimněte si, že nastavení breakLoop na hodnotu true pouze oznámí příkazu [@LIST], že má provést poslední iteraci, vypsat složený text a skončit.</source>
+   </trans-unit>
+   <trans-unit id="52" xml:space="preserve" approved="no" >
+      <source> Vnitřní příkazy za značkou [@IF] se samozřejmě vždy provedou.</source>
+   </trans-unit>
+   <trans-unit id="53" xml:space="preserve" approved="no" >
+      <source> Pokud je ale nechcete provést, stačí použít další podmínku [@IF].</source>
+   </trans-unit>
+   <trans-unit id="54" xml:space="preserve" approved="no" >
+      <source> discard:</source>
+   </trans-unit>
+   <trans-unit id="55" xml:space="preserve" approved="no" >
+      <source> Tento parametr určuje proměnnou typu Boolean, která se vytvoří za účelem skartování poslední iterace při ukončování smyčky.</source>
+   </trans-unit>
+   <trans-unit id="56" xml:space="preserve" approved="no" >
+      <source> Počáteční hodnota proměnné je nastavena na hodnotu false.</source>
+   </trans-unit>
+   <trans-unit id="57" xml:space="preserve" approved="no" >
+      <source> Skartování poslední iterace při ukončení smyčky se provede nastavením této proměnné na hodnotu true.</source>
+   </trans-unit>
+   <trans-unit id="58" xml:space="preserve" approved="no" >
+      <source> Například následující program se provede pouze pro prvních devět položek:</source>
+   </trans-unit>
+   <trans-unit id="59" xml:space="preserve" approved="no" >
+      <source> [@LIST list=myAreas, iterator=iter, break=breakLoop, discard=discardLast] [@IF cond=iter.index=10] [@SET breakLoop=true, discardLast=true] [/@IF] ...</source>
+   </trans-unit>
+   <trans-unit id="60" xml:space="preserve" approved="no" >
+      <source> [/@LIST] </source>
+   </trans-unit>
+   <trans-unit id="61" xml:space="preserve" approved="no" >
+      <source> transparent:</source>
+   </trans-unit>
+   <trans-unit id="62" xml:space="preserve" approved="no" >
+      <source> Je-li nastavený parametr transparent, pak všechny procedury nadefinované v tomto příkazu jsou viditelné v makro příkazech.</source>
+   </trans-unit>
+</body>
+</file>
+</xliff>
