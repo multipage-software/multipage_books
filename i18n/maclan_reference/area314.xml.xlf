@@ -22,7 +22,7 @@
       <source> Vnitřní text se nachází mezi počáteční a koncovou značkou.</source>
    </trans-unit>
    <trans-unit id="5" xml:space="preserve" approved="no" >
-      <source> Uvnitř cyklu lze také použít příkaz [@LAST] pro jeho předčasné ukončení.</source>
+      <source> Uvnitř cyklu lze také použít příkaz [@LITERAL][@LAST][/@LITERAL] pro jeho předčasné ukončení.</source>
    </trans-unit>
    <trans-unit id="6" xml:space="preserve" approved="no" >
       <source> Pokud je značka bez parametrů určujících počet cyklů, neprovede se žádný cyklus.</source>

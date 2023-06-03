@@ -10,25 +10,25 @@
 <?encoding UTF-8?>
 <body>
    <trans-unit id="1" xml:space="preserve" approved="no" >
-      <source> [@LAST] </source>
+      <source> [@LITERAL][@LAST][/@LITERAL] </source>
    </trans-unit>
    <trans-unit id="2" xml:space="preserve" approved="no" >
       <source> Tato jednoduchá značka ukončuje smyčku, kterou provádí značka [@LIST].</source>
    </trans-unit>
    <trans-unit id="3" xml:space="preserve" approved="no" >
-      <source> Jakmile server narazí uvnitř značky [@LIST] na značku [@LAST], provede se aktuální iterace a příkaz [@LIST] se ukončí.</source>
+      <source> Jakmile server narazí uvnitř značky [@LIST] na značku [@LITERAL][@LAST][/@LITERAL], provede se aktuální iterace a příkaz [@LIST] se ukončí.</source>
    </trans-unit>
    <trans-unit id="4" xml:space="preserve" approved="no" >
       <source> Následující program provede prvních deset iterací, pokud proměnná myAreas obsahuje deset a více prvků v seznamu:</source>
    </trans-unit>
    <trans-unit id="5" xml:space="preserve" approved="no" >
-      <source> [@LIST list=myAreas, iterator=myIter] [@IF cond=myIter.index=10] [@LAST] [/@IF] ...</source>
+      <source> [@LIST list=myAreas, iterator=myIter] [@IF cond=myIter.index=10] [@LITERAL][@LAST][/@LITERAL] [/@IF] ...</source>
    </trans-unit>
    <trans-unit id="6" xml:space="preserve" approved="no" >
-      <source> [/@LIST] Značku [@LAST] lze použít také ve žnačce [@LOOP].</source>
+      <source> [/@LIST] Značku [@LITERAL][@LAST][/@LITERAL] lze použít také ve žnačce [@LOOP].</source>
    </trans-unit>
    <trans-unit id="7" xml:space="preserve" approved="no" >
-      <source> [@LAST] Má následující parametry:</source>
+      <source> [@LITERAL][@LAST][/@LITERAL] Má následující parametry:</source>
    </trans-unit>
    <trans-unit id="8" xml:space="preserve" approved="no" >
       <source> discard:</source>
