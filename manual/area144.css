@@ -1,0 +1,126 @@
+/* Cascading Style Sheets */ 
+/* Cascading Style Sheets */
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    text-align: center;
+}
+#body_content {
+    display: inline-block;
+    text-align: left;
+    margin-top: 16px;
+}
+ul {
+    list-style: none;
+}
+h2 {
+    padding: 16px 6px;
+    display: inline-block;
+}
+p {
+    text-align: justify !important;
+}
+#languages {
+    display: inline-block;
+    float: right;
+    margin: 16px 6px 0 0;
+}
+#home_link {
+    display: inline-block;
+    padding: 5px;
+    border-radius: 5.0px 5.0px 5.0px 5.0px;
+    margin-left: 10px;
+}
+#help_path {
+    display: inline-block;
+    padding: 5px 5px 1px 5px;
+    border-radius: 5.0px 5.0px 5.0px 5.0px;
+    margin: 5px 0 0 10px;
+}
+#help_path a {
+    display: inline-block;
+    max-width: 100px;
+    white-space: nowrap;
+    overflow-x: hidden;
+    position: relative;
+    top; 2px;
+    text-overflow: ellipsis;
+}
+#help_path img {
+    height: 12px;
+    position: relative;
+    top: -2px;
+}
+h1 {
+    margin: 10px;
+}
+#tree {
+    float: left;
+    padding: 10px 16px 16px 10px;
+    margin: 0 16px 16px 0;
+    max-width: 200px;
+    max-height: 500px;
+    overflow: hidden;
+    width: 16px;
+    height: 16px;
+}
+#tree ul {
+    margin-left: 27px;
+    list-style-type: lower-roman;
+    display: none;
+}
+#tree > ul {
+    margin-left: 0px;
+    list-style-type: none;
+}
+#tree a {
+    padding: 1px 3px;
+    white-space: nowrap;
+}
+#tree li.current a {
+    color: white;
+    border-radius: 3.0px 3.0px 3.0px 3.0px;
+}
+#controls a, #controls span {
+    padding: 5px;
+    border-radius: 5.0px 5.0px 5.0px 5.0px;
+}
+#controls span {
+    cursor: default;
+}
+#copyright {
+    color: grey;
+    margin-top: 20px;
+    font: normal normal 12.0px normal Times New Roman, serif;
+}
+div.image {
+    padding: 10px;
+    text-align: center;
+}
+div.image .description {
+    font: normal normal 12.0px normal Times New Roman, serif;
+}
+#summary_wrapper {
+    text-align: center;
+    margin-top: 30px;
+}
+#summary {
+    display: inline-block;
+    margin-left: 50px;
+    text-align: left;
+}
+#summary ul {
+    margin-left: 40px;
+    list-style-type: lower-roman;
+}
+#summary > ul {
+    margin-left: 0px;
+    list-style-type: none;
+}
+#summary a {
+    padding: 1px 3px;
+    white-space: nowrap;
+    font: normal normal 12.0px normal Arial, sans-serif;
+}
